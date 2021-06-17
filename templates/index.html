@@ -12,23 +12,25 @@
 <div class='content'>
     <h1>UserTable</h1>
 
-    <table border="5">
+    <table border="1">
         <tr>
             <th>nickname</th>
             <th>fullname</th>
             <th>register date</th>
             <th>Actions</th>
         </tr>
+        {% for usuar in usuarios %}
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>{{usuar.nickname}}</td>
+            <td>{{usuar.fullname}}</td>
+            <td>{{usuar.time_regist}}</td>
             <td>
                 <a href="">Delete</a>
                 <br>
                 <a href="">Upadate</a>
             </td>
         </tr>
+        {% endfor %}
     </table>
 
     <form action="/" method="POST">
