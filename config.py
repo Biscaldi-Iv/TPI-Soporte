@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-class config:
+class Config:
     SERVER_NAME = "http://127.0.0.1.5000/"
     DEBUG = True
 
