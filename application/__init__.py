@@ -1,29 +1,12 @@
+from application.databese.user_db import set_data_base
 from flask import Flask, render_template, url_for, request
-from flask_sqlalchemy import SQLAlchemy
 from werkzeug.utils import redirect
-"""
-from sqlalchemy import create_engine
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy import Column, Integer, String, Sequence
-from sqlalchemy.orm import sessionmaker, relationship
-"""
-from datetime import datetime
+import databese.user_db as user_db
+from databese.user_db import set_data_base, set_data_base.Users
+
 
 app = Flask(__name__)
-
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
-db = SQLAlchemy(app)
-
-
-class Users(db.Model):
-    nickname = db.Column(db.String(50), primary_key=True)
-    pasword = db.Column(db.String(16), nullable=False)
-    fullname = db.Column(db.String(50))
-    email = db.Column(db.String(50))
-    time_regist = db.Column(db.DateTime, default=datetime.utcnow)
-
-    def __repr__(self):
-        return "User: nick={} name={} time={}".format(self.nickname, self.fullname, self.time_regist)
+set_data_base(app)
 
 
 @app.route('/', methods=['POST', 'GET'])
