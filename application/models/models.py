@@ -17,11 +17,12 @@ class Users(db.Model):
 
 
 class Users(NamedTuple):
+    id: Optional[int] = None
     nickname: Optional[int] = None
-    pasword: Optional[str] = None
+    password: Optional[str] = None
     fullname: Optional[str] = None
     email: Optional[str] = None
-    time_regist: Optional[datetime] = None
+    time_regist: Optional[datetime] = datetime.utcnow
 
     def __repr__(self):
         return "User: nick={} name={} time={}".format(self.nickname, self.fullname, self.time_regist)
