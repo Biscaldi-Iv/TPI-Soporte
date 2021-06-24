@@ -49,6 +49,7 @@ def _fetch_none(query: str, parameters: Optional[List[str]] = None) -> None:
 
 
 def _fetch_lastrow_id(query: str, parameters: Optional[List[str]] = None) -> int:
+    "Get last user id to create a new user"
     if parameters is None:
         parameters = []
 

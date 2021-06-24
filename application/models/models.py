@@ -1,3 +1,4 @@
+"Clases"
 #from flask_sqlalchemy import SQLAlchemy
 from typing import NamedTuple, Optional
 from datetime import datetime

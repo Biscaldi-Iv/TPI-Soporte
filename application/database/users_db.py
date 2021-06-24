@@ -1,16 +1,18 @@
+"Functions to CRUD an user, table-> users"
 from application.models.models import Users
 from typing import List, Tuple
 
 from connection import _fetch_all, _fetch_lastrow_id, _fetch_none, _fetch_one
-from ..models.exceptions import InvalidMail, NicknameExists
+from ..models.exceptions import NicknameExists, UsedMail
 from ..models.models import Users
 
 
 def create_user(user_: Users):
     if user_exists("email", user_.email):
-        raise InvalidMail("Email is already registered")
+        raise UsedMail(f"Email:{user_.email} is already registered")
     if user_exists("nickname", user_.nickname):
-        raise NicknameExists("Nickname is already registered")
+        raise NicknameExists(
+            f"Nickname:{user_.nickname} is already registered")
 
     query = """INSERT INTO users VALUES (:nickname, :password,
                                             :fullname, :email, :time_regist)"""
@@ -24,7 +26,8 @@ def create_user(user_: Users):
 
 
 def user_exists(field: str, value: str) -> bool:
-    query = f"SELECT id, nickname, email FROM users WHERE {field}=? OR {field}=?"
+    "field: field to check, value:value inserted by web user"
+    query = f"SELECT id, nickname, email FROM users WHERE {field}=?"
     parameters = [value]
     record = _fetch_one(query, parameters)
 
@@ -40,3 +43,8 @@ def create_table():
     query = f"CREATE TABLE IF NOT EXISTS users {fields}"
 
     _fetch_none(query)
+
+
+def list_all() -> List[Users]:
+    query = "SELECT * FROM users"
+    records = _fetch_all(query)
