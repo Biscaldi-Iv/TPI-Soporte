@@ -51,5 +51,5 @@ def index():
 
 if __name__ == "__main__":
     app.run(debug=True)
-
+##
 # video guia: https://www.youtube.com/watch?v=Z1RJmh_OqeA&t=554s
