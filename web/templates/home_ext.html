@@ -1,0 +1,37 @@
+{% extends 'home.html' %}
+
+{% block head %}
+<h1>Sabes cuanto?</h1>
+{% endblock %}
+
+{% block mainpanel %}
+<div class="container">
+    <form method="POST" action="">
+        <div class="cont-head">
+            <h3>Iniciar Sesion</h3>
+        </div>
+        <div class="form-one">
+            
+                <a>Nickname</a>
+                <input class="text" name="Nickname"> 
+            
+        </div>
+        <div class="form-two">
+            <a>Password</a>
+            <input class="password" type="password" name="Password"> 
+            <br>
+        </div>
+        <input class="button" type="submit" name="join" value="Join">
+    </form>
+</div>
+
+
+{% endblock %}
+
+
+
+{% block registerb %}
+<br>
+    <br>
+    <input class="button" type="submit" name="registerbutton" value="Registrarse" onclick="location.href='register'">
+{% endblock %}

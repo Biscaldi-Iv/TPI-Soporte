@@ -1,38 +1,12 @@
-{% extends 'base.html' %}
+{% extends 'register.html' %}
 
 {% block head %}
-<h1>HomePage</h1>
-{% endblock %}
+    <h1>Registrar Usuario</h1>
 
-{% block body %}
-<em>Body</em>
 {% endblock %}
 
 {% block userpanel %}
 <div class='content'>
-    <h1>UserTable</h1>
-
-    <table border="1">
-        <tr>
-            <th>nickname</th>
-            <th>fullname</th>
-            <th>register date</th>
-            <th>Actions</th>
-        </tr>
-        {% for usuar in usuarios %}
-        <tr>
-            <td>{{usuar.nickname}}</td>
-            <td>{{usuar.fullname}}</td>
-            <td>{{usuar.time_regist}}</td>
-            <td>
-                <a href="">Delete</a>
-                <br>
-                <a href="">Upadate</a>
-            </td>
-        </tr>
-        {% endfor %}
-    </table>
-
     <form action="/" method="POST">
         <table>
             <tr>
@@ -62,4 +36,3 @@
     </form>
 </div>
 {% endblock %}
-

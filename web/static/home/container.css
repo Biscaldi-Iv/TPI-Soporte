@@ -1,0 +1,22 @@
+.cont-head{
+    margin-bottom: 15px;
+    }
+
+.form-one{
+    margin-bottom: 15px;
+    }
+
+.form-two{
+        margin-bottom: 15px;
+}
+
+.container{
+    max-width: 400px;
+    background-color: blue;
+    padding: 50px;
+    border-right-width: 10px;
+    border-left-width: 10px;
+    border-radius: 2px;
+    border-top-color: blueviolet;
+    box-shadow: cyan;
+}
