@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1 style="text-align: center; color: MediumSeaGreen;">Just In Time</h1>
+</head>
+<script>
+    var music= document.getElementById("sound")
+
+    function playSound(){
+        sound.play();
+    }
+
+    function pauseSound(){
+        sound.pause();
+    }
+
+    function switchAudio(){
+        if(sound.paused){
+            playSound();
+        }
+        else{
+            pauseSound();
+        }
+    }
+</script>
+<body>
+    <div class="music" id="music">
+        <audio id="sound">
+            <source src="home_music.mp3" type="audio/mpeg">
+        </audio>
+        <p>Audio</p>
+        <br><button onclick="switchAudio()" type="button" id="btnMusic">Switch</button><br> 
+    </div>
+    <div class="high-scores">
+        <table id="t01" style="width: 25%;">
+            <tr>
+                <th>Player</th>
+                <th>Score</th>
+                <th>Date</th>
+            </tr>
+            <tr>
+                <td>Ivan</td>
+                <td>99999</td>
+                <td>9/08/2021</td>
+            </tr>
+            <tr>
+                <td>Mati</td>
+                <td>99998</td>
+                <td>10/08/2021</td>
+            </tr>
+        </table>
+        <style>
+        #t01 tr:nth-child(even) {
+        background-color: #eee;
+        }
+        #t01 tr:nth-child(odd) {
+        background-color: white;
+        }
+        #t01 th {
+        color: black;
+        background-color: white;
+        }
+        #t01 table, th {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        #t01 th,td{
+            padding: 15px;
+        }
+        #music {
+            align-items:flex-end;
+        }
+        #btnMusic {
+            background-color: mediumblue;
+            color: white;
+        }
+        </style>
+    </div>
+    
+</body>
+</html>
