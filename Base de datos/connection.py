@@ -8,7 +8,11 @@ class DataBase:
                                           password='4716650',
                                           db='just_in_time')
 
-        self.cursor = self.connection.cursor(pymysql.cursors.DictCursor)
+        self.close()
 
     def close(self):
         self.connection.close()
+
+    def open(self):
+        self.connection.connect()
+        self.cursor = self.connection.cursor(pymysql.cursors.DictCursor)

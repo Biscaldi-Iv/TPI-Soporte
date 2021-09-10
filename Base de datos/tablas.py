@@ -1,31 +1,41 @@
 # aqui guardaremos todas las tablas de la base de datos
 import pymysql
 from connection import DataBase
-
-class Users():
-    def __init__(self, username: str, nombre: str, apellido: str, password: str, email: str) -> None:
-        self.username = username
-        self.nombre = nombre
-        self.apellido = apellido
-        self.password = password
-        self.email = email
-
-    def __repr__(self):
-        return f"Users({self.username},{self.nombre},{self.apellido},{self.password},{self.email})"
+from entities.models import Users
 
 class UsuarioData(DataBase):
-    def GetOne(self,username):
-        self.cursor.execute("select username,nombre,apellido,password,email from usuario where username=%s",(username,))
-        return self.cursor.fetchone()
+    def GetOne(self,username)->Users:
+        self.open()
+        try:
+            self.cursor.execute("select username,nombre,apellido,password,email from usuario where username=%s",(username,))
+            return Users(*self.cursor.fetchone().values())
+        except:
+            print("excepcion ocurrida bro")
+            self.connection.rollback()
+        finally:
+            self.cursor.close()
+            self.close()
 
-    def GetAll(self):
-        self.cursor.execute("select * from usuario",)
-        return self.cursor.fetchall()
+    def GetAll(self)->list[Users]:
+        self.open()
+        listaUsuarios=list()
+        try:
+            self.cursor.execute("select * from usuario",)
+            for usu in self.cursor.fetchall():
+                u=Users(*usu.values())
+                listaUsuarios.append(u)
+            return listaUsuarios
+
+        except:
+            print("excepcion ocurrida bro")
+            self.connection.rollback()
+        finally:
+            self.cursor.close()
+            self.close()
+
+u=UsuarioData()
+print(u.GetOne(username="blitz"))
+print("-----------")
+print(u.GetAll())
 
 
-
-
-usuario=UsuarioData()
-print(usuario.GetOne("pepito"))
-u=Users(*usuario.GetOne("pepito").values())
-print(u)

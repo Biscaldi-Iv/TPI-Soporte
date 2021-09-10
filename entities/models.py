@@ -3,16 +3,15 @@ from werkzeug.security import generate_password_hash, check_password_hash
 
 
 class Users():
-    def __init__(self, id: int, nickname: str, password: str, fullname: str, email: str, register: datetime = datetime.utcnow) -> None:
-        self.id = id
-        self.nickname = nickname
+    def __init__(self, username: str, nombre: str, apellido: str, password: str, email: str) -> None:
+        self.username = username
+        self.nombre = nombre
+        self.apellido = apellido
         self.set_password(password)
-        self.fullname = fullname
         self.email = email
-        self.time_regist = register
 
     def __repr__(self):
-        return f"Users({self.id},{self.nickname},{self.password},{self.fullname},{self.email, self.time_regist})"
+        return f"Users({self.username},{self.nombre},{self.apellido},{self.password},{self.email})"
 
     def set_password(self, password):
         self.password = generate_password_hash(password)
