@@ -35,25 +35,37 @@
         <p>Audio</p>
         <br><button onclick="switchAudio()" type="button" id="btnMusic">Switch</button><br> 
     </div>
-    <div class="high-scores">
-        <table id="t01" style="width: 25%;">
-            <tr>
-                <th>Player</th>
-                <th>Score</th>
-                <th>Date</th>
-            </tr>
-            <tr>
-                <td>Ivan</td>
-                <td>99999</td>
-                <td>9/08/2021</td>
-            </tr>
-            <tr>
-                <td>Mati</td>
-                <td>99998</td>
-                <td>10/08/2021</td>
-            </tr>
-        </table>
+    <form >
+        <div class="high-scores">
+            <table id="t01" style="width: 25%;">
+                <tr>
+                    <th>Player</th>
+                    <th>Score</th>
+                    <th>Date</th>
+                </tr>
+                <tr>
+                    <td>Ivan</td>
+                    <td>99999</td>
+                    <td>9/08/2021</td>
+                </tr>
+                <tr>
+                    <td>Mati</td>
+                    <td>99998</td>
+                    <td>10/08/2021</td>
+                </tr>
+            </table>
+            </div>
+        </form>
         <style>
+        body {
+            background-image: linear-gradient(to left, rgb(247, 247, 247), rgb(255, 255, 131));
+        }
+        form {
+            margin: auto;
+            padding: 10px;
+            width: 35%;
+        }
+        
         #t01 tr:nth-child(even) {
         background-color: #eee;
         }
@@ -69,17 +81,27 @@
             border-collapse: collapse;
         }
         #t01 th,td{
-            padding: 15px;
+            padding: 10px 70px;
         }
         #music {
             align-items:flex-end;
         }
         #btnMusic {
-            background-color: mediumblue;
+            background-color: white; /* Green */
+            border: none;
+            color: #4CAF50;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+        #btnMusic:hover {
+            background-color: #4CAF50; /* Green */
             color: white;
         }
         </style>
-    </div>
+    
     
 </body>
 </html>
