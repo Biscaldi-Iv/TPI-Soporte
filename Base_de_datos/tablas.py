@@ -1,6 +1,6 @@
 # aqui guardaremos todas las tablas de la base de datos
 import pymysql
-from connection import DataBase
+from .connection import DataBase
 from entities.models import Users
 
 class UsuarioData(DataBase):
