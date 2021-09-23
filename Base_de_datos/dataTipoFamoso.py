@@ -3,7 +3,7 @@ import pymysql
 from .connection import DataBase
 from entities.models import KindOfUser
 
-class UsuarioData(DataBase):
+class TipoUsuarioData(DataBase):
     def GetOne(self,idTipoFamoso)->KindOfUser:
         self.open()
         try:
