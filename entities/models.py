@@ -19,7 +19,6 @@ class Users():
     def check_password(self, password):
         return check_password_hash(self.password, password)
 
-
 """
     @staticmethod
     def get_by_id(id):
@@ -29,3 +28,14 @@ class Users():
     def get_by_email(email):
         return Users.query.filter_by(email=email).first()
 """
+
+class KindOfUser():
+    def __init__(self, idTipoFamoso: int, detalle: str) -> None:
+        self.idTipoFamoso = idTipoFamoso
+        self.detallle = detalle
+
+    def __repr__(self):
+        return f"KindOfUser({self.idTipoFamoso},{self.detallle})"
+
+
+
