@@ -5,7 +5,7 @@ from werkzeug.utils import redirect
 
 from entities.models import Users
 
-from Base_de_datos.tablas import UsuarioData
+from Base_de_datos.dataUsuarios import UsuarioData
 
 app = Flask(__name__)
 
