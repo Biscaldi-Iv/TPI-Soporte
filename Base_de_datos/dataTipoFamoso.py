@@ -3,7 +3,7 @@ import pymysql
 from .connection import DataBase
 from entities.models import KindOfUser
 
-class TipoUsuarioData(DataBase):
+class TipoFamosoData(DataBase):
     def GetOne(self,idTipoFamoso)->KindOfUser:
         self.open()
         try:
@@ -33,8 +33,8 @@ class TipoUsuarioData(DataBase):
             self.cursor.close()
             self.close()
 
-u=UsuarioData()
-print(u.GetOne(idTipoFamoso="2"))
+u=TipoFamosoData()
+print(u.GetOne(idTipoFamoso=2))
 print("-----------")
 print(u.GetAll())
 
