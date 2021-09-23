@@ -23,7 +23,7 @@ class TipoFamosoData(DataBase):
             self.cursor.execute("select * from tipofamoso",)
             for tf in self.cursor.fetchall():
                 t=KindOfUser(*tf.values())
-                listaTipoFamosos.append(u)
+                listaTipoFamosos.append(t)
             return listaTipoFamosos
 
         except:
