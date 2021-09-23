@@ -9,15 +9,15 @@ from Base_de_datos.tablas import UsuarioData
 
 app = Flask(__name__)
 
+
 @app.route('/', methods=['POST', 'GET'])
 def home():
 
     if request.method == 'POST':
         pass
     else:
-        parametros={"usuario":None}
-        return render_template('logIn.html',**parametros)
-
+        parametros = {"usuario": None}
+        return render_template('logIn.html', **parametros)
 
 
 @app.route('/register', methods=['POST', 'GET'])
