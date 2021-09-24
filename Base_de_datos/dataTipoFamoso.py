@@ -1,14 +1,14 @@
 # aqui guardaremos todas las tablas de la base de datos
 import pymysql
 from .connection import DataBase
-from entities.models import KindOfUser
+from entities.models import KindOfFamous
 
 class TipoFamosoData(DataBase):
-    def GetOne(self,idTipoFamoso)->KindOfUser:
+    def GetOne(self,idTipoFamoso)->KindOfFamous:
         self.open()
         try:
             self.cursor.execute("select idtipofamoso,detalle from tipofamoso where idtipofamoso=%s",(idTipoFamoso,))
-            return KindOfUser(*self.cursor.fetchone().values())
+            return KindOfFamous(*self.cursor.fetchone().values())
         except:
             print("excepcion ocurrida bro")
             self.connection.rollback()
@@ -16,13 +16,13 @@ class TipoFamosoData(DataBase):
             self.cursor.close()
             self.close()
 
-    def GetAll(self)->list[KindOfUser]:
+    def GetAll(self)->list[KindOfFamous]:
         self.open()
         listaTipoFamosos=list()
         try:
             self.cursor.execute("select * from tipofamoso",)
             for tf in self.cursor.fetchall():
-                t=KindOfUser(*tf.values())
+                t=KindOfFamous(*tf.values())
                 listaTipoFamosos.append(t)
             return listaTipoFamosos
 

@@ -29,13 +29,13 @@ class Users():
         return Users.query.filter_by(email=email).first()
 """
 
-class KindOfUser():
+class KindOfFamous():
     def __init__(self, idTipoFamoso: int, detalle: str) -> None:
         self.idTipoFamoso = idTipoFamoso
         self.detallle = detalle
 
     def __repr__(self):
-        return f"KindOfUser({self.idTipoFamoso},{self.detallle})"
+        return f"KindOfFamous({self.idTipoFamoso},{self.detallle})"
 
 
 

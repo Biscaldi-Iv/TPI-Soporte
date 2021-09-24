@@ -5,7 +5,7 @@ from werkzeug.utils import redirect
 
 from entities.models import Users
 
-from Base_de_datos.dataTipoFamoso import KindOfUser
+from Base_de_datos.dataTipoFamoso import KindOfFamous
 from Base_de_datos.dataUsuarios import UsuarioData
 
 
