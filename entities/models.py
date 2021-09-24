@@ -38,4 +38,16 @@ class KindOfFamous():
         return f"KindOfFamous({self.idTipoFamoso},{self.detallle})"
 
 
+class Famous():
+    def __init__(self, idFamoso: int, nombreCompleto: str, altura: float, fechaNacimiento: datetime, foto: str, idTipoFamoso: int) -> None:
+        self.idFamoso = idFamoso
+        self.nombreCompleto = nombreCompleto
+        self.altura = altura
+        self.fechaNacimiento = fechaNacimiento
+        self.foto = foto
+        self.idTipoFamoso = idTipoFamoso
+
+    def __repr__(self):
+        return f"Users({self.idFamoso},{self.nombreCompleto},{self.altura},{self.fechaNacimiento},{self.foto},{self.idTipoFamoso})"
+
 
