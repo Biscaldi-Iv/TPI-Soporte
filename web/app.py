@@ -11,13 +11,13 @@ app = Flask(__name__)
 
 
 @app.route('/', methods=['POST', 'GET'])
-def home():
+def login():
 
     if request.method == 'POST':
         pass
     else:
         parametros = {"usuario": None}
-        return render_template('logIn.html', **parametros)
+        return render_template('log_in/logIn.html', **parametros)
 
 
 @app.route('/register', methods=['POST', 'GET'])
@@ -25,7 +25,15 @@ def register():
     if request.method == 'POST':
         pass
     else:
-        return render_template('signUp.html')
+        return render_template('sign_up/signUp.html')
+
+
+@app.route('/home', methods=['POST', 'GET'])
+def home():
+    if request.method == 'POST':
+        pass
+    else:
+        return render_template('home/home.html')
 
 
 if __name__ == '__main__':

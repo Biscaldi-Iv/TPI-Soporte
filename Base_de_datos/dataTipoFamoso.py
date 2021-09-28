@@ -1,10 +1,10 @@
 # aqui guardaremos todas las tablas de la base de datos
 import pymysql
-from .connection import DataBase
+from connection import DataBase
 from entities.models import KindOfUser
 
 class TipoUsuarioData(DataBase):
-    def GetOne(self,idTipoFamoso)->KindOfUser:
+    def GetOne(self,idTipoFamoso:int)->KindOfUser:
         self.open()
         try:
             self.cursor.execute("select idtipofamoso,detalle from tipofamoso where idtipofamoso=%s",(idTipoFamoso,))
@@ -33,8 +33,8 @@ class TipoUsuarioData(DataBase):
             self.cursor.close()
             self.close()
 
-u=UsuarioData()
-print(u.GetOne(idTipoFamoso="2"))
+u=TipoUsuarioData()
+print(u.GetOne(idTipoFamoso=2))
 print("-----------")
 print(u.GetAll())
 
