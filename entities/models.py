@@ -50,4 +50,14 @@ class Famous():
     def __repr__(self):
         return f"Users({self.idFamoso},{self.nombreCompleto},{self.altura},{self.fechaNacimiento},{self.foto},{self.idTipoFamoso})"
 
+class Score():
+    def __init__(self, idPuntuacion: int, score: int, fechaPuntuacion: datetime, tiempoPuntuacion: datetime, username: str) -> None:
+        self.idPuntuacion = idPuntuacion
+        self.score = score
+        self.fechaPuntuacion = fechaPuntuacion
+        self.tiempoPuntuacion = tiempoPuntuacion
+        self.username = username
+
+    def __repr__(self):
+        return f"Users({self.idPuntuacion},{self.score},{self.fechaPuntuacion},{self.tiempoPuntuacion},{self.username})"
 
