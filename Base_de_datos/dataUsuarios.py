@@ -8,8 +8,9 @@ class UsuarioData(DataBase):
     def GetOne(self, username) -> Users:
         self.open()
         try:
+            print("empiza")
             self.cursor.execute(
-                "select username,nombre,apellido,password,email from usuario where username=%s", (username,))
+                "select username,nombre,apellido,password,email from usuario where username=%s", username)
             return Users(*self.cursor.fetchone().values())
         except:
             print("excepcion ocurrida bro")
@@ -18,7 +19,7 @@ class UsuarioData(DataBase):
             self.cursor.close()
             self.close()
 
-    def GetAll(self) -> list[Users]:
+    def GetAll(self):
         self.open()
         listaUsuarios = list()
         try:
@@ -37,6 +38,6 @@ class UsuarioData(DataBase):
 
 
 u = UsuarioData()
-print(u.GetOne(username="blitz"))
+print(u.GetOne(username="pepito"))
 print("-----------")
 print(u.GetAll())

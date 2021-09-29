@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="804be4a5-fd2f-44ca-acd4-7a3c5bab1d9e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Base_de_datos/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TPI-Soporte.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TPI-Soporte.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base_de_datos/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base_de_datos/connection.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Base_de_datos/dataTipoFamoso.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base_de_datos/dataTipoFamoso.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Base_de_datos/dataUsuarios.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base_de_datos/dataUsuarios.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/assets/dist/css/logIn.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/assets/dist/css/logIn.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/assets/dist/css/signUp.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/assets/dist/css/signUp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/common/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/common/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/log_in/logIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/log_in/logIn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/sign_up/signUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/sign_up/signUp.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.dataUsuarios">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -121,5 +133,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

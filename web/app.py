@@ -3,11 +3,6 @@ from flask import Flask, request, url_for, render_template
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.utils import redirect
 
-from entities.models import Users
-
-from Base_de_datos.dataTipoFamoso import KindOfFamous
-from Base_de_datos.dataUsuarios import UsuarioData
-
 
 app = Flask(__name__)
 
