@@ -5,25 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="804be4a5-fd2f-44ca-acd4-7a3c5bab1d9e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Base_de_datos/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entities/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/controllers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/controllers/home_controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/controllers/login_controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvc/controllers/register_controller.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/TPI-Soporte.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TPI-Soporte.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Base_de_datos/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base_de_datos/connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Base_de_datos/dataTipoFamoso.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base_de_datos/dataTipoFamoso.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Base_de_datos/dataUsuarios.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base_de_datos/dataUsuarios.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/static/assets/dist/css/logIn.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/assets/dist/css/logIn.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/static/assets/dist/css/signUp.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/assets/dist/css/signUp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/common/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/common/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/log_in/logIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/log_in/logIn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/sign_up/signUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/sign_up/signUp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/entities/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/assets/dist/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/static/assets/dist/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/assets/dist/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/static/assets/dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/assets/dist/css/bootstrap.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/static/assets/dist/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/assets/dist/css/bootstrap.rtl.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/static/assets/dist/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/assets/dist/css/logIn.css" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/static/assets/dist/css/logIn.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/assets/dist/css/signUp.css" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/static/assets/dist/css/signUp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/assets/dist/css/sticky-footer-navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/static/assets/dist/css/sticky-footer-navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/assets/dist/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/static/assets/dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/assets/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/static/assets/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/assets/dist/js/cheatsheet.js" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/static/assets/dist/js/cheatsheet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/common/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/templates/common/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/home/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/templates/home/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/log_in/logIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/templates/log_in/logIn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/sign_up/signUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/templates/sign_up/signUp.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,10 +56,31 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../prueba_flask" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.dataUsuarios">
+  <component name="RunManager" selected="Python.app (1)">
+    <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TPI-Soporte" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mvc" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mvc/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TPI-Soporte" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,8 +146,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.dataUsuarios" />
+        <item itemvalue="Python.app (1)" />
         <item itemvalue="Python.app" />
+        <item itemvalue="Python.dataUsuarios" />
         <item itemvalue="Python.dataTipoFamoso" />
       </list>
     </recent_temporary>

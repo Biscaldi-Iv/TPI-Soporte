@@ -1,4 +1,5 @@
 from datetime import datetime
+from typing import Tuple
 from werkzeug.security import generate_password_hash, check_password_hash
 
 
@@ -10,6 +11,10 @@ class Users():
         self.set_password(password)
         self.email = email
 
+    def lst(self) -> Tuple:
+        """returns ('username', 'password', 'nombre', 'apellido', 'mail')"""
+        return self.username, self.password, self.nombre, self.apellido, self.email
+
     def __repr__(self):
         return f"Users({self.username},{self.nombre},{self.apellido},{self.password},{self.email})"
 
@@ -18,6 +23,7 @@ class Users():
 
     def check_password(self, password):
         return check_password_hash(self.password, password)
+
 
 """
     @staticmethod
@@ -28,6 +34,7 @@ class Users():
     def get_by_email(email):
         return Users.query.filter_by(email=email).first()
 """
+
 
 class KindOfFamous():
     def __init__(self, idTipoFamoso: int, detalle: str) -> None:
@@ -50,6 +57,7 @@ class Famous():
     def __repr__(self):
         return f"Users({self.idFamoso},{self.nombreCompleto},{self.altura},{self.fechaNacimiento},{self.foto},{self.idTipoFamoso})"
 
+
 class Score():
     def __init__(self, idPuntuacion: int, score: int, fechaPuntuacion: datetime, tiempoPuntuacion: datetime, username: str) -> None:
         self.idPuntuacion = idPuntuacion
@@ -60,4 +68,3 @@ class Score():
 
     def __repr__(self):
         return f"Users({self.idPuntuacion},{self.score},{self.fechaPuntuacion},{self.tiempoPuntuacion},{self.username})"
-
