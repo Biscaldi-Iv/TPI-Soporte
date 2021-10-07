@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="h-100">
+<html lang="es" class="h-100">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -47,15 +47,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="{{url_for('home.home')}}">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">User</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
-          </li>
+          {% block navbarbtns %}{% endblock %}
         </ul>
       </div>
     </div>
@@ -67,7 +59,7 @@
 
     <br>
     <br>
-  
+    <br>
   </body>
   <!-- contenido a insertar -->
 

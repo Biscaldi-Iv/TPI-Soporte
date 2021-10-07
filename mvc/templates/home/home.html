@@ -4,6 +4,21 @@
 <title>Home -Just in Time</title>
 {% endblock %}
 
+{% block navbarbtns %}
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="{{url_for('justintime.home')}}">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">User</a>
+          </li>
+          <li class="nav-item">
+            <form method="get" id="logoutfrm">
+              <button id="btnLogOut" class="btn btn-danger btn-md center-block" type="submit" formaction="{{url_for('justintime.logout')}}">Cerrar Sesion</button>
+            </form>
+          </li>
+{% endblock %}
+
+
 {% block index %}
 
 <body>
@@ -40,7 +55,7 @@
 </style>
 
 
-<label title="Usuario">{{user.username}}</label>
+<h1>Bienvenido {{user.username}}</h1>
 
 <div id="top10">
         <table>

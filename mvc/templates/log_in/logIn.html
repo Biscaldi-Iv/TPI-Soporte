@@ -3,6 +3,12 @@
 <title>Login -Just in Time</title>
 {% endblock %}
 
+{% block navbarbtns %}
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="register">Registrarse</a>
+          </li>
+{% endblock %}
+
 {% block index %}
 
   <body class="text-center">
@@ -17,24 +23,24 @@
     
     <img class="mb-4" src="https://image.flaticon.com/icons/png/512/16/16235.png" alt="" width="72" height="57">
     
-    <h1 class="h3 mb-3 fw-normal">Please Log in</h1>
+    <h1 class="h3 mb-3 fw-normal">Inicie sesion</h1>
     <div class="form-floating">
       <input type="text" class="form-control" id="floatingInput" name="floatingInput" placeholder="name@example.com" required>
-      <label for="floatingInput">Username</label>
+      <label for="floatingInput">Nombre de Usuario</label>
     </div>
     
     <div class="form-floating">
       <input type="password" class="form-control" id="floatingPassword" name="floatingPassword" placeholder="Password" required>
-      <label for="floatingPassword">Password</label>
+      <label for="floatingPassword">Contraseña</label>
     </div>
     <p style="color:red;">{{error}}</p>
     
-    <button id="btnCancel" class="btn btn-danger btn-md center-block" type="reset" >Cancel</button>
-    <button id="btnLogIn" class="btn btn-primary btn-md center-block" type="submit" formaction="{{url_for('home.home')}}">Log in</button>
+    <button id="btnCancel" class="btn btn-danger btn-md center-block" type="reset" >Cancelar</button>
+    <button id="btnLogIn" class="btn btn-primary btn-md center-block" type="submit" formaction="{{url_for('justintime.login')}}">Iniciar Sesion</button>
     
     <div class="clearfix"></div>
     
-    <a href='register' methods="GET">Create your account</a>
+    <a href='register' methods="GET">Crear una cuenta</a>
   </form>
 </main>
 
