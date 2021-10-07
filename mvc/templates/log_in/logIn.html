@@ -1,4 +1,8 @@
 {% extends 'common/base.html' %}
+{% block title %}
+<title>Login -Just in Time</title>
+{% endblock %}
+
 {% block index %}
 
   <body class="text-center">
@@ -23,14 +27,14 @@
       <input type="password" class="form-control" id="floatingPassword" name="floatingPassword" placeholder="Password" required>
       <label for="floatingPassword">Password</label>
     </div>
-    <p>{{error}}</p>
+    <p style="color:red;">{{error}}</p>
     
-    <button id="btnCancel" class="btn btn-danger btn-md center-block" type="submit">Cancel</button>
-    <button id="btnLogIn" class="btn btn-primary btn-md center-block" type="submit">Log in</button>
+    <button id="btnCancel" class="btn btn-danger btn-md center-block" type="reset" >Cancel</button>
+    <button id="btnLogIn" class="btn btn-primary btn-md center-block" type="submit" formaction="{{url_for('home.home')}}">Log in</button>
     
     <div class="clearfix"></div>
     
-    <a href='register'>Create your account</a>
+    <a href='register' methods="GET">Create your account</a>
   </form>
 </main>
 

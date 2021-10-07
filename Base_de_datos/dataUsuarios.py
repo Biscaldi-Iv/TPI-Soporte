@@ -2,27 +2,31 @@
 import pymysql
 from .connection import DataBase
 from entities.models import Users
-from typing import List
+from typing import List, Optional
 
 
 class UsuarioData(DataBase):
     def __init__(self):
         super().__init__()
-
-    def GetOne(self, username) -> Users:
+#=====================================================================================================================#
+    def GetOne(self, username) -> Optional[Users]:
+        """:return: User-->Exists|| None-->Not found"""
         self.open()
         try:
-            print("empiza")
             self.cursor.execute(
                 "select username,nombre,apellido,password,email from usuario where username=%s", username)
-            return Users(*self.cursor.fetchone().values())
+            u=Users(*self.cursor.fetchone().values())
+            return u
         except:
             print("excepcion ocurrida bro")
             self.connection.rollback()
+            return None
+
         finally:
             self.cursor.close()
             self.close()
 
+#=====================================================================================================================#
     def GetAll(self) -> List[Users]:
         self.open()
         listaUsuarios = list()
@@ -40,6 +44,7 @@ class UsuarioData(DataBase):
             self.cursor.close()
             self.close()
 
+#=====================================================================================================================#
     def register(self, usuario: Users) -> bool:
         """returns if stored in bd"""
         insertcmd = "insert into usuario(username, password, nombre, apellido, email) values (%s, %s, %s, %s, %s)"
@@ -55,6 +60,7 @@ class UsuarioData(DataBase):
             self.cursor.close()
             self.close()
 
+#=====================================================================================================================#
     def update(self, user: Users) -> bool:
         """:returns: if saved changes"""
         updt = "update usuario set password= %s, nombre= %s, apellido= %s, email= %s where username= %s"
@@ -71,7 +77,3 @@ class UsuarioData(DataBase):
         finally:
             self.cursor.close()
             self.connection.close()
-
-
-um = UsuarioData()
-print(um.update(um.GetOne("pepito")))

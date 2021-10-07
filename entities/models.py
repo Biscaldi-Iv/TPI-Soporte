@@ -8,7 +8,10 @@ class Users():
         self.username = username
         self.nombre = nombre
         self.apellido = apellido
-        self.set_password(password)
+        if "pbkdf2" in password:
+            self.password=password
+        else:
+            self.set_password(password)
         self.email = email
 
     def lst(self) -> Tuple:
@@ -23,6 +26,8 @@ class Users():
 
     def check_password(self, password):
         return check_password_hash(self.password, password)
+
+
 
 
 """

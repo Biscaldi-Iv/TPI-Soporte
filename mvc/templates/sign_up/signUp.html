@@ -1,4 +1,9 @@
 {% extends 'common/base.html' %}
+
+{% block title %}
+<title>Register- Just in Time</title>
+{% endblock %}
+
 {% block index %}
 
   <body class="text-center">
@@ -9,31 +14,31 @@
 <main class="form-signup">
   <form>
     <img class="mb-4" src="https://image.flaticon.com/icons/png/512/16/16235.png" alt="" width="72" height="57">
-    <h1 class="h3 mb-3 fw-normal">Please Sign Up</h1>
+    <h1 class="h3 mb-3 fw-normal">Register</h1>
 
     <div class="form-floating">
-      <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
-      <label for="floatingInput">Full Name</label>
+      <input type="text" class="form-control" id="fullname" placeholder="name@example.com">
+      <label for="fullname">Full Name</label>
     </div>
 
     <div class="form-floating">
-      <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
-      <label for="floatingInput">Username</label>
+      <input type="text" class="form-control" id="username" placeholder="name@example.com">
+      <label for="username">Username</label>
     </div>
 
     <div class="form-floating">
-      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-      <label for="floatingInput">Email</label>
+      <input type="email" class="form-control" id="email" placeholder="name@example.com">
+      <label for="email">Email</label>
     </div>
 
     <div class="form-floating">
-      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-      <label for="floatingPassword">Password</label>
+      <input type="password" class="form-control" id="password" placeholder="Password">
+      <label for="password">Password</label>
     </div>
 
     <div class="form-floating">
-      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-      <label for="floatingPassword">Confirm Password</label>
+      <input type="password" class="form-control" id="passconfirm" placeholder="Password">
+      <label for="passconfirm">Confirm Password</label>
     </div>
 
     <div class="checkbox mb-3">
@@ -43,7 +48,7 @@
     </div>
     
     <button id="btnCancel" class="btn btn-danger btn-md center-block" type="submit">Cancel</button>
-    <button id="btnSignUp" class="btn btn-primary btn-md center-block" type="submit">Sign Up</button>
+    <button id="btnSumbit" class="btn btn-primary btn-md center-block" type="submit">Confirm</button>
     
     <div class="clearfix"></div>
     
