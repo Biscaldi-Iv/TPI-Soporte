@@ -60,7 +60,7 @@ class Famous():
         self.idTipoFamoso = idTipoFamoso
 
     def __repr__(self):
-        return f"Users({self.idFamoso},{self.nombreCompleto},{self.altura},{self.fechaNacimiento},{self.foto},{self.idTipoFamoso})"
+        return f"Famous({self.idFamoso},{self.nombreCompleto},{self.altura},{self.fechaNacimiento},{self.foto},{self.idTipoFamoso})"
 
 
 class Score():
@@ -72,4 +72,21 @@ class Score():
         self.username = username
 
     def __repr__(self):
-        return f"Users({self.idPuntuacion},{self.score},{self.fechaPuntuacion},{self.tiempoPuntuacion},{self.username})"
+        return f"Score({self.idPuntuacion},{self.score},{self.fechaPuntuacion},{self.tiempoPuntuacion},{self.username})"
+
+    def lst(self) -> Tuple:
+        """returns ('idpuntuacion', 'score', 'fechapuntuacion', 'tiempopuntuacion', 'username')"""
+        return self.idPuntuacion, self.score, self.fechaPuntuacion, self.tiempoPuntuacion, self.username
+
+class Question():
+    def __init__(self, idPregunta: int, descripcion: str, idTipoFamoso: int) -> None:
+        self.idPregunta = idPregunta
+        self.descripcion = descripcion
+        self.idTipoFamoso = idTipoFamoso
+
+    def __repr__(self):
+        return f"Question({self.idPregunta},{self.descripcion},{self.idTipoFamoso})"
+
+    def lst(self) -> Tuple:
+        """returns ('idpregunta', 'descripcion', 'idTipoFamoso')"""
+        return self.idPregunta, self.descripcion, self.idTipoFamoso

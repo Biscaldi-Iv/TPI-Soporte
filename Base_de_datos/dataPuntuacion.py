@@ -2,6 +2,7 @@
 import pymysql
 from .connection import DataBase
 from entities.models import Score
+from typing import List
 
 class PuntuacionData(DataBase):
     def GetOne(self,idPuntuacion)->Score:
@@ -16,6 +17,7 @@ class PuntuacionData(DataBase):
             self.cursor.close()
             self.close()
 
+# =====================================================================================================================#
     def GetAll(self)->list[Score]:
         self.open()
         listaPuntuaciones=list()
@@ -32,6 +34,26 @@ class PuntuacionData(DataBase):
         finally:
             self.cursor.close()
             self.close()
+
+# =====================================================================================================================#
+    def register(self, puntuacion: Score) -> bool:
+        """returns if stored in bd"""
+        insertcmd = "insert into puntuacion(idpuntuacion, score, fechapuntuacion, tiempopuntuacion, username) values (%s, %s, %s, %s, %s)"
+        self.open()
+        try:
+            self.cursor.execute(insertcmd, puntuacion.lst())
+            self.connection.commit()
+            return True
+        except Exception as e:
+            print(e)
+            return False
+        finally:
+            self.cursor.close()
+            self.close()
+
+#=====================================================================================================================#
+
+
 
 p=PuntuacionData()
 print(p.GetOne(idPuntuacion=1)) #NO TENGO NADA EN LA BASE DE DATOS TODAVIA ASI QUE VA A DAR ERROR

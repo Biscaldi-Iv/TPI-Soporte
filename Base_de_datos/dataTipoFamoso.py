@@ -1,6 +1,6 @@
 # aqui guardaremos el manejo de la tabla tipofamoso de la base de datos
 import pymysql
-from connection import DataBase
+from .connection import DataBase
 from entities.models import KindOfFamous
 
 

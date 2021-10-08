@@ -2,3 +2,5 @@ env
 .vscode
 test.db
 .pyc
+Base_de_datos.connection.py
+.idea
