@@ -12,6 +12,11 @@
             <a class="nav-link" href="#">User</a>
           </li>
           <li class="nav-item">
+              <form method="get" id="frmplay">
+              <button id="btnplay" class="btn btn-success btn-md center-block" type="submit" formaction="{{url_for('justintime.rules')}}">Jugar</button>
+            </form>
+          </li>
+          <li class="nav-item">
             <form method="get" id="logoutfrm">
               <button id="btnLogOut" class="btn btn-danger btn-md center-block" type="submit" formaction="{{url_for('justintime.logout')}}">Cerrar Sesion</button>
             </form>
