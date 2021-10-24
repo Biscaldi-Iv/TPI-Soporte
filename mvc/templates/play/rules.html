@@ -1,0 +1,54 @@
+{% extends 'common/base.html' %}
+
+{% block title %}
+<title>Rules -Just in Time</title>
+{% endblock %}
+
+{% block navbarbtns %}
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="{{url_for('justintime.home')}}">Home</a>
+          </li>
+          <li class="nav-item">
+            <form method="get" id="logoutfrm">
+              <button id="btnLogOut" class="btn btn-danger btn-md center-block" type="submit" formaction="{{url_for('justintime.logout')}}">Cerrar Sesion</button>
+            </form>
+          </li>
+{% endblock %}
+
+{% block index %}
+<div class="container-fluid p-5 bg-primary text-white text-center">
+  <h1>Reglamento</h1>
+  <p>Aquí puedes leer como es la modalidad del juego</p>
+</div>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Preguntas fáciles</h3>
+      <p>Se ofrecerán 4 opciones, de las cuales solamente una será correcta</p>
+      <p>Tendrás x segundos para elegir tu respuesta</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Preguntas medias</h3>
+      <p>Se ofrecerán 8 opciones, de las cuales solamente una será correcta</p>
+      <p>Tendrás x segundos para elegir tu respuesta</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Preguntas difíciles</h3>
+      <p>Se ofrecerán 8 opciones, de las cuales solamente una será correcta</p>
+      <p>Tendrás x-1 segundos para elegir tu respuesta</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Preguntas extremas</h3>
+      <p>No se ofrecerán opciones, deberás ingresar tu respuesta usando el teclado</p>
+      <p>Tendrás x-1 segundos para elegir tu respuesta</p>
+    </div>
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+      <form method="get" id="frmstart">
+        <button id="btnstart" class="btn btn-primary btn-md center-block" type="submit" formaction="{{url_for('justintime.questions')}}">Jugar</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

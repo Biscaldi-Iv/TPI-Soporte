@@ -1,0 +1,61 @@
+{% extends 'common/base.html' %}
+
+{% block title %}
+<title>Game -Just in Time</title>
+{% endblock %}
+
+{% block navbarbtns %}
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="{{url_for('justintime.home')}}">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Salir del juego</a>
+          </li>
+          <li class="nav-item">
+            <form method="get" id="logoutfrm">
+              <button id="btnLogOut" class="btn btn-danger btn-md center-block" type="submit" formaction="{{url_for('justintime.logout')}}">Cerrar Sesion</button>
+            </form>
+          </li>
+{% endblock %}
+
+{% block index %}
+<div class="container-fluid p-5 bg-primary text-white text-center">
+  <h1>Pregunta</h1>
+  <p>Pregunta fácil</p>
+</div>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="col">
+                <button class="btn btn-primary btn-block" type="button" style="width:100%; height:120px;">Opcion 1</button>
+            </div>
+            <br>
+            <div class="col">
+                <button class="btn btn-primary btn-block" style="width:100%; height:120px;">Opcion 2</button>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="col">
+                <button class="btn btn-primary btn-block" style="width:100%; height:120px;">Opcion 3</button>
+            </div>
+            <br>
+            <div class="col">
+                <button class="btn btn-primary btn-block" style="width:100%; height:120px;">Opcion 4</button>
+            </div>
+    </div>
+    </div>
+</div>
+
+{% endblock %}

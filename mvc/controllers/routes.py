@@ -99,3 +99,11 @@ def logout():
     session['auth']=0
     return redirect('/')
 
+@global_scope.route('/rules', methods=['POST', 'GET'])
+def rules():
+    return render_template('play/rules.html')
+
+@global_scope.route('/questions', methods=['POST','GET'])
+def questions():
+    return render_template('play/easyQ.html')
+
