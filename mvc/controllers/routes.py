@@ -1,10 +1,27 @@
+import datetime
+
 from  flask import request, url_for, Blueprint, session, render_template, redirect
 from entities.models import Users
 from bussiness.usuarios_logic import UserLogic
 from typing import Dict
 
-
 global_scope= Blueprint('justintime', __name__, template_folder='templates')
+
+@global_scope.before_request
+def SessionCheck():
+    _, endp=request.endpoint.split('.')
+    if endp!='login' and endp!='register' and endp!='logout':
+        try:
+            lastinteraction = session['lastinteraction'].replace(tzinfo=None)
+            sincelast = (datetime.datetime.now() - lastinteraction).seconds/60
+            #hay 10 minutos de sesion maximo hasta pedir login nuevamente
+            if session['user'] is None or session['auth'] != 1 or sincelast > 10:
+                return redirect('/logout')
+        except:
+            return redirect('/logout')
+        # se renueva la sesion
+        lastinteraction = datetime.datetime.now()
+        session['lastinteraction'] = lastinteraction
 
 @global_scope.route('/home', methods=['POST', 'GET'])
 def home():
@@ -32,7 +49,7 @@ def login(contex:Dict=None):
             session.clear()
             session['user'] = user.username
             session['auth'] = 1
-            context = {'user': user}
+            session['lastinteraction']=datetime.datetime.now()
             return redirect('/home')
 
         if user is None:
