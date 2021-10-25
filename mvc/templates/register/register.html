@@ -2,6 +2,7 @@
 
 {% block title %}
 <title>Register- Just in Time</title>
+<script src="https://www.google.com/recaptcha/api.js"></script>
 {% endblock %}
 
 {% block index %}
@@ -46,14 +47,9 @@
       <label for="passconfirm">Confirmar contraseña</label>
     </div>
 
-    <div class="checkbox mb-3">
-      <label>
-        <input type="checkbox" value="Validacion-robot"> I'm not a robot
-      </label>
-    </div>
 
     <p style="color:red">{{error}}</p>
-
+    <div class="g-recaptcha" data-sitekey="{{captcha}}"></div>
     <button id="btnCancel" class="btn btn-danger btn-md center-block" type="submit">Cancelar</button>
     <button id="btnSumbit" class="btn btn-primary btn-md center-block" type="submit">Confirmar</button>
     
