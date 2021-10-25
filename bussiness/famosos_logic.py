@@ -4,7 +4,7 @@ from typing import List
 import random
 
 
-class UserLogic:
+class FamousLogic:
     def __init__(self):
         self.datasource = FamosoData()
 

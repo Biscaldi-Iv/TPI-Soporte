@@ -1,7 +1,7 @@
 from Base_de_datos.dataPregunta import PreguntaData
 from entities.models import Question, KindOfFamous, Famous
 from typing import List
-import famosos_logic
+import famosos_logic,tiposFamosos_logic
 import random
 
 
@@ -22,9 +22,20 @@ class PreguntasLogic:
         preguntaArmada = preg.descripcion + " " + fam.nombreCompleto + " ?"
         return preguntaArmada
 
-    def devolverPregunta(self, tipoFamoso: KindOfFamous):
+    def devolverPregunta(self):
+        #creo lista de todos los tipos de famosos
+        listaTipoFamosos=tiposFamosos_logic.KindOfFamousLogic.all()
+
+        #elijo aleatoriamente un tipo de famoso
+        tipoFamoso = random.choice(listaTipoFamosos)
+
+        #selecciono una pregunta para ese tipo de famoso
         preg = self.getRandomQuestion(tipoFamoso)
-        fam = famosos_logic.UserLogic.getRandomFamous(tipoFamoso)
+
+        #selecciono tambien un famoso acorde a ese tipo de famoso
+        fam = famosos_logic.FamousLogic.getRandomFamous(tipoFamoso)
+
+        #devuelvo la pregunta armada con el famoso y la pregunta seleccionada
         return self.armarPregunta(preg,fam)
 
 
