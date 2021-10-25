@@ -13,8 +13,6 @@ from werkzeug.utils import redirect
 app = Flask(__name__)
 
 app.secret_key = 'www123456www'
-#app.config["RECAPTCHA_PUBLIC_KEY"]="6Ld4EvMcAAAAAFViKVMuKA5OiPYIK48mbvjG9sea"
-#app.config["RECAPTCHA_PRIVATE_KEY"]="6Ld4EvMcAAAAAEPvzFIBDuYgW69dDlsVrWx64b9T"
 
 
 

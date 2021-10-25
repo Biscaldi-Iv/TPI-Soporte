@@ -5,6 +5,7 @@ import requests
 from entities.models import Users
 from bussiness.usuarios_logic import UserLogic
 from typing import Dict
+from keys import secret_key, public_key
 
 global_scope= Blueprint('justintime', __name__, template_folder='templates')
 
@@ -12,7 +13,7 @@ def is_human(captcha_response):
     """ Validating recaptcha response from google server
         Returns True captcha test passed for submitted form else returns False.
     """
-    secret = "6Lf1OfMcAAAAAB4GZ2FfuMoGxla1-mKBO9plTYQ1"
+    secret = secret_key
     payload = {'response':captcha_response, 'secret':secret}
     response = requests.post("https://www.google.com/recaptcha/api/siteverify", payload)
     response_text = json.loads(response.text)
@@ -87,7 +88,7 @@ def register():
     if request.method == 'POST':
         """la unica forma de llegar a register con POST es registrando una cuenta-
         esta pagina registrara la cuenta y enviara a home"""
-        context={'captcha':'6Lf1OfMcAAAAAP2rSnX8Q4D35Lv6f1R0gC_JrEZ-'}
+        context={'captcha':public_key}
         user_logic=UserLogic()
         newuser=Users(request.form['username'], request.form['name'],
                   request.form['lastname'], request.form['password'],
@@ -121,7 +122,7 @@ def register():
     else:
         """method=get"""
         u=Users('','','','','')
-        context={'error':'', 'lastdata':u, 'captcha':'6Lf1OfMcAAAAAP2rSnX8Q4D35Lv6f1R0gC_JrEZ-'}
+        context={'error':'', 'lastdata':u, 'captcha':public_key}
         return render_template('register/register.html',**context)
 
 @global_scope.route('/logout', methods=['POST','GET'])
