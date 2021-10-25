@@ -21,7 +21,7 @@
 {% block index %}
 <div class="container-fluid p-5 bg-primary text-white text-center" id="ctrPregunta">
   <h1>Pregunta</h1>
-  <p>Pregunta fácil</p>
+  <p>Pregunta difícil</p>
     <h2 id="countdown"></h2>
 </div>
 <div class="container mt-5">
@@ -46,6 +46,14 @@
             <div class="col">
                 <button id="opc2" class="btn btn-primary btn-block" style="width:100%; height:120px; font-size: 16px;">Opcion 2</button>
             </div>
+            <br>
+            <div class="col">
+                <button id="opc5" class="btn btn-primary btn-block" style="width:100%; height:120px; font-size: 16px;">Opcion 5</button>
+            </div>
+            <br>
+            <div class="col">
+                <button id="opc6" class="btn btn-primary btn-block" style="width:100%; height:120px; font-size: 16px;">Opcion 6</button>
+            </div>
         </div>
         <div class="col-sm-4">
             <div class="col">
@@ -55,12 +63,20 @@
             <div class="col">
                 <button id="opc4" class="btn btn-primary btn-block" style="width:100%; height:120px; font-size: 16px;">Opcion 4</button>
             </div>
+            <br>
+            <div class="col">
+                <button id="opc7" class="btn btn-primary btn-block" style="width:100%; height:120px; font-size: 16px;">Opcion 7</button>
+            </div>
+            <br>
+            <div class="col">
+                <button id="opc8" class="btn btn-primary btn-block" style="width:100%; height:120px; font-size: 16px;">Opcion 8</button>
+            </div>
     </div>
     </div>
 </div>
 
 <script>
-    var countdowndate=new Date().getTime()+20000;//agregar 20 segundos
+    var countdowndate=new Date().getTime()+10000;//agregar 10 segundos
 
     //devuelve el tiempo restante cada segundo
     var x = setInterval(function() {

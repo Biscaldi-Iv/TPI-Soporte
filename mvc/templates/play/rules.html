@@ -25,27 +25,31 @@
     <div class="col-sm-4">
       <h3>Preguntas fáciles</h3>
       <p>Se ofrecerán 4 opciones, de las cuales solamente una será correcta</p>
-      <p>Tendrás x segundos para elegir tu respuesta</p>
+      <p>Tendrás 20 segundos para elegir tu respuesta</p>
     </div>
     <div class="col-sm-4">
       <h3>Preguntas medias</h3>
       <p>Se ofrecerán 8 opciones, de las cuales solamente una será correcta</p>
-      <p>Tendrás x segundos para elegir tu respuesta</p>
+      <p>Tendrás 20 segundos para elegir tu respuesta</p>
     </div>
     <div class="col-sm-4">
       <h3>Preguntas difíciles</h3>
       <p>Se ofrecerán 8 opciones, de las cuales solamente una será correcta</p>
-      <p>Tendrás x-1 segundos para elegir tu respuesta</p>
+      <p>Tendrás 10 segundos para elegir tu respuesta</p>
     </div>
     <div class="col-sm-4">
       <h3>Preguntas extremas</h3>
       <p>No se ofrecerán opciones, deberás ingresar tu respuesta usando el teclado</p>
-      <p>Tendrás x-1 segundos para elegir tu respuesta</p>
+      <p>Tendrás 20 segundos para ingresar tu respuesta</p>
+      <p>Si se te acaba el tiempo se revisara la respuesta ingresada hasta ese momento</p>
     </div>
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4"></div>
     <div class="col-sm-4"></div>
     <div class="col-sm-4">
       <form method="get" id="frmstart">
-        <button id="btnstart" class="btn btn-primary btn-md center-block" type="submit" formaction="{{url_for('justintime.questions')}}">Jugar</button>
+        <button id="btnstart" class="btn btn-primary btn-md center-block" type="submit" formaction="{{url_for('justintime.questions')}}" style="width:25%; height:60px;">Jugar</button>
       </form>
     </div>
   </div>

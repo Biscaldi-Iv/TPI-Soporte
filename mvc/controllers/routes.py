@@ -105,5 +105,5 @@ def rules():
 
 @global_scope.route('/questions', methods=['POST','GET'])
 def questions():
-    return render_template('play/easyQ.html')
+    return render_template('play/xtremeQ.html')
 
