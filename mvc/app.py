@@ -10,6 +10,7 @@ from controllers.routes import global_scope
 from werkzeug.utils import redirect
 
 
+
 app = Flask(__name__)
 
 app.secret_key = 'www123456www'
