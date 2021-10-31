@@ -1,0 +1,74 @@
+{% extends 'common/base.html' %}
+
+{% block title %}
+    <title>Herramientas Extra -Just in Time</title>
+{% endblock %}
+
+
+
+{% block index %}
+<body>
+
+    <div class="container-fluid p-5 bg-primary text-white text-center" id="ctrHerramientas">
+        <h1>Bienvenido jugador</h1>
+        <p>Aqui se encuentran algunas herramientas que podrian ser de tu agrado</p>
+          <h2 id="countdown"></h2>
+      </div>
+
+    <div class="container mt-5">
+
+        <div class="col-sm-6 offset-md-3">
+            <div class="row">
+
+                    <div class="card shadow-sm">
+                        <img class="card-img-top" src="https://image.freepik.com/vector-gratis/ilustracion-concepto-cascos-musica_114360-2222.jpg">
+
+                        <div class="card-body">
+                        <p class="card-text">El sonido es demasiado epico para tus oidos? no hay problema puedes mutearlo y activarlo las veces que desees desde aqui.</p>
+                        <button id="music" class="btn btn-primary btn-block" type="button" style="width:100%; height:80px; font-size: 16px;">Musica</button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 offset-md-3">
+            <div class="row">
+                    <div class="card shadow-sm">
+                        <img class="card-img-top" src="https://image.freepik.com/vector-gratis/concepto-do-you-speak-english_23-2147864772.jpg">
+
+                        <div class="card-body">
+                        <p class="card-text">Te gusta presumir que hablas otros idiomas? Seguro por que no! con esta opcion podras cubrir esa necesidad y si no sabias tanto como pensabas siempre puedes volver al confiable espanish</p>
+                        <div class="dropdown">
+                            <button class="btn btn-primary btn-lg  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width:100%; height:80px; font-size: 16px;">
+                            Seleccionar Idioma
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Español</a>
+                            <a class="dropdown-item" href="#">Ingles</a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+        <div class="col-sm-6 offset-md-3">
+            <div class="row">
+                <div class="card shadow-sm">
+                    <img class="card-img-top" src="https://image.freepik.com/vector-gratis/chicos-jovenes-premio-estrella_74855-6139.jpg">
+
+                    <div class="card-body">
+                    <p class="card-text">Aqui podras ver las mayores puntuaciones hechas por la comunidad, diviertete y alcanza la gloria</p>
+                    <button id="ranking" class="btn btn-primary btn-block" type="button" style="width:100%; height:80px; font-size: 16px;">Ranking Global</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+{% endblock %}
