@@ -139,3 +139,6 @@ def rules():
 def questions():
     return render_template('play/xtremeQ.html')
 
+@global_scope.route('/menuTools', methods=['POST', 'GET'])
+def menu_tools():
+    return render_template('tools/menuTools.html')
