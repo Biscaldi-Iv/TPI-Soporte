@@ -6,6 +6,8 @@ from entities.models import Users
 from bussiness.usuarios_logic import UserLogic
 from typing import Dict
 from keys import secret_key, public_key
+from flask_babel import gettext as _
+
 
 global_scope= Blueprint('justintime', __name__, template_folder='templates')
 
@@ -34,6 +36,8 @@ def SessionCheck():
         # se renueva la sesion
         lastinteraction = datetime.datetime.now()
         session['lastinteraction'] = lastinteraction
+    if 'lang' not in session.keys():
+        session['lang']='en'
 
 @global_scope.route('/home', methods=['POST', 'GET'])
 def home():

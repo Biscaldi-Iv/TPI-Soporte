@@ -1,0 +1,242 @@
+# English translations for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-11-01 19:00-0300\n"
+"PO-Revision-Date: 2021-11-01 19:03-0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: mvc/templates/home/home.html:13 mvc/templates/tools/menuTools.html:13
+msgid "Usuario"
+msgstr "User"
+
+#: mvc/templates/home/home.html:26 mvc/templates/log_in/logIn.html:21
+#: mvc/templates/tools/menuTools.html:69
+msgid "Aleman"
+msgstr "German"
+
+#: mvc/templates/home/home.html:29 mvc/templates/log_in/logIn.html:24
+#: mvc/templates/tools/menuTools.html:66
+msgid "Español"
+msgstr "Spanish"
+
+#: mvc/templates/home/home.html:32 mvc/templates/log_in/logIn.html:27
+msgid "Ingles"
+msgstr "English"
+
+#: mvc/templates/home/home.html:35 mvc/templates/log_in/logIn.html:30
+#: mvc/templates/tools/menuTools.html:68
+msgid "Italiano"
+msgstr "Italian"
+
+#: mvc/templates/home/home.html:42 mvc/templates/play/rules.html:54
+#: mvc/templates/tools/menuTools.html:17
+msgid "Jugar"
+msgstr "Play"
+
+#: mvc/templates/home/home.html:49 mvc/templates/play/easyQ.html:18
+#: mvc/templates/play/hardQ.html:18 mvc/templates/play/middQ.html:18
+#: mvc/templates/play/rules.html:15 mvc/templates/play/xtremeQ.html:18
+#: mvc/templates/tools/menuTools.html:23
+msgid "Cerrar Sesión"
+msgstr "Close"
+
+#: mvc/templates/home/home.html:91
+msgid "Bienvenido"
+msgstr "Welcome"
+
+#: mvc/templates/log_in/logIn.html:8 mvc/templates/register/register.html:18
+msgid "Registrarse"
+msgstr "Register"
+
+#: mvc/templates/log_in/logIn.html:51
+msgid "Inicie sesión"
+msgstr "Log-in"
+
+#: mvc/templates/log_in/logIn.html:54
+msgid "Nombre de Usuario"
+msgstr "Username"
+
+#: mvc/templates/log_in/logIn.html:59 mvc/templates/register/register.html:42
+msgid "Contraseña"
+msgstr "Password"
+
+#: mvc/templates/log_in/logIn.html:63 mvc/templates/register/register.html:53
+msgid "Cancelar"
+msgstr "Cancel"
+
+#: mvc/templates/log_in/logIn.html:64
+msgid "Iniciar Sesión"
+msgstr "Login"
+
+#: mvc/templates/log_in/logIn.html:68
+msgid "Crear una cuenta"
+msgstr "Create an account"
+
+#: mvc/templates/play/easyQ.html:13 mvc/templates/play/hardQ.html:13
+#: mvc/templates/play/middQ.html:13
+msgid "Salir del juego"
+msgstr "Exit"
+
+#: mvc/templates/play/easyQ.html:25 mvc/templates/play/hardQ.html:25
+#: mvc/templates/play/middQ.html:25 mvc/templates/play/xtremeQ.html:25
+msgid "Pregunta"
+msgstr "Question"
+
+#: mvc/templates/play/easyQ.html:26
+msgid "Pregunta fácil"
+msgstr "Easy question"
+
+#: mvc/templates/play/hardQ.html:26
+msgid "Pregunta difícil"
+msgstr "Hard question"
+
+#: mvc/templates/play/middQ.html:26
+msgid "Pregunta media"
+msgstr "Mid question"
+
+#: mvc/templates/play/rules.html:22
+msgid "Reglamento"
+msgstr "Rules"
+
+#: mvc/templates/play/rules.html:23
+msgid "Aquí puedes leer como es la modalidad del juego"
+msgstr "Here you can read how to play"
+
+#: mvc/templates/play/rules.html:28
+msgid "Preguntas fáciles"
+msgstr "Easy questions"
+
+#: mvc/templates/play/rules.html:29
+msgid "Se ofrecerán 4 opciones, de las cuales solamente una será correcta"
+msgstr "You will have 4 options and only one is right"
+
+#: mvc/templates/play/rules.html:30 mvc/templates/play/rules.html:35
+msgid "Tendrás 20 segundos para elegir tu respuesta"
+msgstr "You will have 20 seconds to select your answer"
+
+#: mvc/templates/play/rules.html:33
+msgid "Preguntas medias"
+msgstr "Mid questions"
+
+#: mvc/templates/play/rules.html:34 mvc/templates/play/rules.html:39
+msgid "Se ofrecerán 8 opciones, de las cuales solamente una será correcta"
+msgstr "You will have 8 option and only one is right"
+
+#: mvc/templates/play/rules.html:38
+msgid "Preguntas difíciles"
+msgstr "Hard questions"
+
+#: mvc/templates/play/rules.html:40
+msgid "Tendrás 10 segundos para elegir tu respuesta"
+msgstr "You will have 10 seconds to select your answer"
+
+#: mvc/templates/play/rules.html:43
+msgid "Preguntas extremas"
+msgstr "Xtreme questions"
+
+#: mvc/templates/play/rules.html:44
+msgid "No se ofrecerán opciones, deberás ingresar tu respuesta usando el teclado"
+msgstr "You wont have options, you will have to write your answer"
+
+#: mvc/templates/play/rules.html:45
+msgid "Tendrás 20 segundos para ingresar tu respuesta"
+msgstr "You will have 20 seconds to write your answer"
+
+#: mvc/templates/play/rules.html:46
+msgid ""
+"Si se te acaba el tiempo se revisara la respuesta ingresada hasta ese "
+"momento"
+msgstr "When times up we will check what you just write down"
+
+#: mvc/templates/play/xtremeQ.html:26
+msgid "Pregunta extrema"
+msgstr "Xtreme question"
+
+#: mvc/templates/play/xtremeQ.html:48
+msgid "Ingresa tu respuesta"
+msgstr "Enter your answer"
+
+#: mvc/templates/play/xtremeQ.html:52
+msgid "Responder"
+msgstr "Reply"
+
+#: mvc/templates/register/register.html:22
+msgid "Nombre"
+msgstr "Firstname"
+
+#: mvc/templates/register/register.html:27
+msgid "Apellido"
+msgstr "Lastname"
+
+#: mvc/templates/register/register.html:32
+msgid "Nombre de usuario"
+msgstr "Username"
+
+#: mvc/templates/register/register.html:47
+msgid "Confirmar contraseña"
+msgstr "Confirm password"
+
+#: mvc/templates/register/register.html:54
+msgid "Confirmar"
+msgstr "Confirm"
+
+#: mvc/templates/register/register.html:58
+msgid "Ya tengo una cuenta"
+msgstr "I have already an account"
+
+#: mvc/templates/tools/menuTools.html:33
+msgid "Bienvenido jugador"
+msgstr "Welcome player"
+
+#: mvc/templates/tools/menuTools.html:34
+msgid "Aqui se encuentran algunas herramientas que podrían ser de tu agrado"
+msgstr "Here you have some tips"
+
+#: mvc/templates/tools/menuTools.html:47
+msgid ""
+"El sonido es demasiado épico para tus oidos? no hay problema puedes "
+"mutearlo y activarlo las veces que desees desde aquí."
+msgstr "If sound is high you can in/off whenever you want"
+
+#: mvc/templates/tools/menuTools.html:48
+msgid "Música"
+msgstr "Music"
+
+#: mvc/templates/tools/menuTools.html:60
+msgid ""
+"Te gusta presumir que hablas otros idiomas? Seguro por que no! con esta "
+"opcion podras cubrir esa necesidad y si no sabias tanto como pensabas "
+"siempre puedes volver al confiable espanish"
+msgstr "You can change the language of the page"
+
+#: mvc/templates/tools/menuTools.html:63
+msgid "Seleccionar idioma"
+msgstr "Select language"
+
+#: mvc/templates/tools/menuTools.html:67
+msgid "Inglés"
+msgstr "English"
+
+#: mvc/templates/tools/menuTools.html:83
+msgid ""
+"Aquí podrás ver las mayores puntuaciones hechas por la comunidad, "
+"diviértete y alcanza la gloria"
+msgstr "Here you can find community high-scores"
+
+#: mvc/templates/tools/menuTools.html:84
+msgid "Ranking global"
+msgstr "Global rank"
+

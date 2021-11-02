@@ -15,21 +15,21 @@
 <main class="form-signup">
   <form method="post">
     <img class="mb-4" src="https://image.flaticon.com/icons/png/512/16/16235.png" alt="" width="72" height="57">
-    <h1 class="h3 mb-3 fw-normal">Register</h1>
+    <h1 class="h3 mb-3 fw-normal">{{ _('Registrarse') }}</h1>
 
     <div class="form-floating">
       <input type="text" class="form-control" id="name" name="name" placeholder="Guido" required value="{{lastdata.nombre}}">
-      <label for="name">Nombre</label>
+      <label for="name">{{ _('Nombre') }}</label>
     </div>
 
     <div class="form-floating">
       <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Van Rosum" required value="{{lastdata.apellido}}">
-      <label for="lastname">Apellido</label>
+      <label for="lastname">{{ _('Apellido') }}</label>
     </div>
 
     <div class="form-floating">
       <input type="text" class="form-control" id="username" name="username" placeholder="name123" required value="{{lastdata.username}}">
-      <label for="username">Nombre de Usuario</label>
+      <label for="username">{{ _('Nombre de usuario') }}</label>
     </div>
 
     <div class="form-floating">
@@ -39,23 +39,23 @@
 
     <div class="form-floating">
       <input type="password" class="form-control" id="password" name="password" placeholder="Password">
-      <label for="password">Contraseña</label>
+      <label for="password">{{ _('Contraseña') }}</label>
     </div>
 
     <div class="form-floating">
       <input type="password" class="form-control" id="passconfirm" name="passconfirm" placeholder="Password">
-      <label for="passconfirm">Confirmar contraseña</label>
+      <label for="passconfirm">{{ _('Confirmar contraseña') }}</label>
     </div>
 
 
     <p style="color:red">{{error}}</p>
     <div class="g-recaptcha" data-sitekey="{{captcha}}"></div>
-    <button id="btnCancel" class="btn btn-danger btn-md center-block" type="submit">Cancelar</button>
-    <button id="btnSumbit" class="btn btn-primary btn-md center-block" type="submit">Confirmar</button>
+    <button id="btnCancel" class="btn btn-danger btn-md center-block" type="submit">{{ _('Cancelar') }}</button>
+    <button id="btnSumbit" class="btn btn-primary btn-md center-block" type="submit">{{ _('Confirmar') }}</button>
     
     <div class="clearfix"></div>
     
-    <a href='{{url_for("justintime.login")}}'>Ya tengo una cuenta</a>
+    <a href='{{url_for("justintime.login")}}'>{{ _('Ya tengo una cuenta') }}</a>
 
     <footer class="mt-5 mb-3 text-muted">&copy; JustInTime @INC</footer>
 

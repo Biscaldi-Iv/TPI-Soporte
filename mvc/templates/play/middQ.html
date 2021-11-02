@@ -5,23 +5,25 @@
 {% endblock %}
 
 {% block navbarbtns %}
+<ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="{{url_for('justintime.home')}}">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Salir del juego</a>
+            <a class="nav-link" href="#">{{ _('Salir del juego') }}</a>
           </li>
+</ul>
           <li class="nav-item">
             <form method="get" id="logoutfrm">
-              <button id="btnLogOut" class="btn btn-danger btn-md center-block" type="submit" formaction="{{url_for('justintime.logout')}}">Cerrar Sesion</button>
+              <button id="btnLogOut" class="btn btn-danger btn-md center-block" type="submit" formaction="{{url_for('justintime.logout')}}">{{ _('Cerrar Sesión') }}</button>
             </form>
           </li>
 {% endblock %}
 
 {% block index %}
 <div class="container-fluid p-5 bg-primary text-white text-center" id="ctrPregunta">
-  <h1>Pregunta</h1>
-  <p>Pregunta media</p>
+  <h1>{{ _('Pregunta') }}</h1>
+  <p>{{ _('Pregunta media') }}</p>
     <h2 id="countdown"></h2>
 </div>
 <div class="container mt-5">

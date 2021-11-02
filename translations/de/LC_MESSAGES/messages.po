@@ -1,0 +1,242 @@
+# German translations for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-11-01 19:00-0300\n"
+"PO-Revision-Date: 2021-11-01 19:04-0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: mvc/templates/home/home.html:13 mvc/templates/tools/menuTools.html:13
+msgid "Usuario"
+msgstr "Benutzer"
+
+#: mvc/templates/home/home.html:26 mvc/templates/log_in/logIn.html:21
+#: mvc/templates/tools/menuTools.html:69
+msgid "Aleman"
+msgstr "Deutsch"
+
+#: mvc/templates/home/home.html:29 mvc/templates/log_in/logIn.html:24
+#: mvc/templates/tools/menuTools.html:66
+msgid "Español"
+msgstr "Spanisch"
+
+#: mvc/templates/home/home.html:32 mvc/templates/log_in/logIn.html:27
+msgid "Ingles"
+msgstr "Englisch"
+
+#: mvc/templates/home/home.html:35 mvc/templates/log_in/logIn.html:30
+#: mvc/templates/tools/menuTools.html:68
+msgid "Italiano"
+msgstr "Italianisch"
+
+#: mvc/templates/home/home.html:42 mvc/templates/play/rules.html:54
+#: mvc/templates/tools/menuTools.html:17
+msgid "Jugar"
+msgstr "Spiel"
+
+#: mvc/templates/home/home.html:49 mvc/templates/play/easyQ.html:18
+#: mvc/templates/play/hardQ.html:18 mvc/templates/play/middQ.html:18
+#: mvc/templates/play/rules.html:15 mvc/templates/play/xtremeQ.html:18
+#: mvc/templates/tools/menuTools.html:23
+msgid "Cerrar Sesión"
+msgstr "Sitzung schließen"
+
+#: mvc/templates/home/home.html:91
+msgid "Bienvenido"
+msgstr "Wilkommen"
+
+#: mvc/templates/log_in/logIn.html:8 mvc/templates/register/register.html:18
+msgid "Registrarse"
+msgstr "Registrieren"
+
+#: mvc/templates/log_in/logIn.html:51
+msgid "Inicie sesión"
+msgstr "Einloggen"
+
+#: mvc/templates/log_in/logIn.html:54
+msgid "Nombre de Usuario"
+msgstr "Benutzername"
+
+#: mvc/templates/log_in/logIn.html:59 mvc/templates/register/register.html:42
+msgid "Contraseña"
+msgstr "Passwort"
+
+#: mvc/templates/log_in/logIn.html:63 mvc/templates/register/register.html:53
+msgid "Cancelar"
+msgstr "Abbrechen"
+
+#: mvc/templates/log_in/logIn.html:64
+msgid "Iniciar Sesión"
+msgstr "Einloggen"
+
+#: mvc/templates/log_in/logIn.html:68
+msgid "Crear una cuenta"
+msgstr "Ein Konto erstellen"
+
+#: mvc/templates/play/easyQ.html:13 mvc/templates/play/hardQ.html:13
+#: mvc/templates/play/middQ.html:13
+msgid "Salir del juego"
+msgstr "Spiel verlassen"
+
+#: mvc/templates/play/easyQ.html:25 mvc/templates/play/hardQ.html:25
+#: mvc/templates/play/middQ.html:25 mvc/templates/play/xtremeQ.html:25
+msgid "Pregunta"
+msgstr "Frage"
+
+#: mvc/templates/play/easyQ.html:26
+msgid "Pregunta fácil"
+msgstr "Einfache Frage"
+
+#: mvc/templates/play/hardQ.html:26
+msgid "Pregunta difícil"
+msgstr "Schwierige Frage"
+
+#: mvc/templates/play/middQ.html:26
+msgid "Pregunta media"
+msgstr "Mittlere Frage"
+
+#: mvc/templates/play/rules.html:22
+msgid "Reglamento"
+msgstr "Verordnung"
+
+#: mvc/templates/play/rules.html:23
+msgid "Aquí puedes leer como es la modalidad del juego"
+msgstr "Hier können Sie lesen, wie man spielt"
+
+#: mvc/templates/play/rules.html:28
+msgid "Preguntas fáciles"
+msgstr "Einfache Fragen"
+
+#: mvc/templates/play/rules.html:29
+msgid "Se ofrecerán 4 opciones, de las cuales solamente una será correcta"
+msgstr "Sie haben 4 Möglichkeiten und nur eine ist richtig"
+
+#: mvc/templates/play/rules.html:30 mvc/templates/play/rules.html:35
+msgid "Tendrás 20 segundos para elegir tu respuesta"
+msgstr "Sie haben 20 Sekunden Zeit, um zu antworten"
+
+#: mvc/templates/play/rules.html:33
+msgid "Preguntas medias"
+msgstr "Mittlere Fragen"
+
+#: mvc/templates/play/rules.html:34 mvc/templates/play/rules.html:39
+msgid "Se ofrecerán 8 opciones, de las cuales solamente una será correcta"
+msgstr "Sie haben 8 Möglichkeiten und nur eine ist richtig"
+
+#: mvc/templates/play/rules.html:38
+msgid "Preguntas difíciles"
+msgstr "Schwere Fragen"
+
+#: mvc/templates/play/rules.html:40
+msgid "Tendrás 10 segundos para elegir tu respuesta"
+msgstr "Sie haben 10 Sekunden Zeit, um zu antworten"
+
+#: mvc/templates/play/rules.html:43
+msgid "Preguntas extremas"
+msgstr "Extreme Fragen"
+
+#: mvc/templates/play/rules.html:44
+msgid "No se ofrecerán opciones, deberás ingresar tu respuesta usando el teclado"
+msgstr "Sie müssen Ihre Antwort manuell eingeben"
+
+#: mvc/templates/play/rules.html:45
+msgid "Tendrás 20 segundos para ingresar tu respuesta"
+msgstr "Sie haben 20 Sekunden Zeit, um Ihre Antwort einzugeben"
+
+#: mvc/templates/play/rules.html:46
+msgid ""
+"Si se te acaba el tiempo se revisara la respuesta ingresada hasta ese "
+"momento"
+msgstr "Wenn Ihre Zeit knapp wird, wird die bis dahin eingegebene Antwort überprüft"
+
+#: mvc/templates/play/xtremeQ.html:26
+msgid "Pregunta extrema"
+msgstr "Extreme Fragen"
+
+#: mvc/templates/play/xtremeQ.html:48
+msgid "Ingresa tu respuesta"
+msgstr "Antworten sie"
+
+#: mvc/templates/play/xtremeQ.html:52
+msgid "Responder"
+msgstr "Antwort uns"
+
+#: mvc/templates/register/register.html:22
+msgid "Nombre"
+msgstr "Vorname"
+
+#: mvc/templates/register/register.html:27
+msgid "Apellido"
+msgstr "Familienname"
+
+#: mvc/templates/register/register.html:32
+msgid "Nombre de usuario"
+msgstr "Benutzername"
+
+#: mvc/templates/register/register.html:47
+msgid "Confirmar contraseña"
+msgstr "Passwort bestätigen"
+
+#: mvc/templates/register/register.html:54
+msgid "Confirmar"
+msgstr "Bestätigen"
+
+#: mvc/templates/register/register.html:58
+msgid "Ya tengo una cuenta"
+msgstr "Ich habe einen Account"
+
+#: mvc/templates/tools/menuTools.html:33
+msgid "Bienvenido jugador"
+msgstr "Wilkommen sie"
+
+#: mvc/templates/tools/menuTools.html:34
+msgid "Aqui se encuentran algunas herramientas que podrían ser de tu agrado"
+msgstr "Hier sind einige Tipps"
+
+#: mvc/templates/tools/menuTools.html:47
+msgid ""
+"El sonido es demasiado épico para tus oidos? no hay problema puedes "
+"mutearlo y activarlo las veces que desees desde aquí."
+msgstr "Sie können die Musik ein- und ausschalten"
+
+#: mvc/templates/tools/menuTools.html:48
+msgid "Música"
+msgstr "Musik"
+
+#: mvc/templates/tools/menuTools.html:60
+msgid ""
+"Te gusta presumir que hablas otros idiomas? Seguro por que no! con esta "
+"opcion podras cubrir esa necesidad y si no sabias tanto como pensabas "
+"siempre puedes volver al confiable espanish"
+msgstr "Sie können die Sprache ändern"
+
+#: mvc/templates/tools/menuTools.html:63
+msgid "Seleccionar idioma"
+msgstr "Sprache auswählen"
+
+#: mvc/templates/tools/menuTools.html:67
+msgid "Inglés"
+msgstr "Englisch"
+
+#: mvc/templates/tools/menuTools.html:83
+msgid ""
+"Aquí podrás ver las mayores puntuaciones hechas por la comunidad, "
+"diviértete y alcanza la gloria"
+msgstr "Hier seht ihr die besten ergebnisse"
+
+#: mvc/templates/tools/menuTools.html:84
+msgid "Ranking global"
+msgstr "Globales Ranking"
+

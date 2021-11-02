@@ -1,0 +1,241 @@
+# Translations template for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-11-01 19:00-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: mvc/templates/home/home.html:13 mvc/templates/tools/menuTools.html:13
+msgid "Usuario"
+msgstr ""
+
+#: mvc/templates/home/home.html:26 mvc/templates/log_in/logIn.html:21
+#: mvc/templates/tools/menuTools.html:69
+msgid "Aleman"
+msgstr ""
+
+#: mvc/templates/home/home.html:29 mvc/templates/log_in/logIn.html:24
+#: mvc/templates/tools/menuTools.html:66
+msgid "Español"
+msgstr ""
+
+#: mvc/templates/home/home.html:32 mvc/templates/log_in/logIn.html:27
+msgid "Ingles"
+msgstr ""
+
+#: mvc/templates/home/home.html:35 mvc/templates/log_in/logIn.html:30
+#: mvc/templates/tools/menuTools.html:68
+msgid "Italiano"
+msgstr ""
+
+#: mvc/templates/home/home.html:42 mvc/templates/play/rules.html:54
+#: mvc/templates/tools/menuTools.html:17
+msgid "Jugar"
+msgstr ""
+
+#: mvc/templates/home/home.html:49 mvc/templates/play/easyQ.html:18
+#: mvc/templates/play/hardQ.html:18 mvc/templates/play/middQ.html:18
+#: mvc/templates/play/rules.html:15 mvc/templates/play/xtremeQ.html:18
+#: mvc/templates/tools/menuTools.html:23
+msgid "Cerrar Sesión"
+msgstr ""
+
+#: mvc/templates/home/home.html:91
+msgid "Bienvenido"
+msgstr ""
+
+#: mvc/templates/log_in/logIn.html:8 mvc/templates/register/register.html:18
+msgid "Registrarse"
+msgstr ""
+
+#: mvc/templates/log_in/logIn.html:51
+msgid "Inicie sesión"
+msgstr ""
+
+#: mvc/templates/log_in/logIn.html:54
+msgid "Nombre de Usuario"
+msgstr ""
+
+#: mvc/templates/log_in/logIn.html:59 mvc/templates/register/register.html:42
+msgid "Contraseña"
+msgstr ""
+
+#: mvc/templates/log_in/logIn.html:63 mvc/templates/register/register.html:53
+msgid "Cancelar"
+msgstr ""
+
+#: mvc/templates/log_in/logIn.html:64
+msgid "Iniciar Sesión"
+msgstr ""
+
+#: mvc/templates/log_in/logIn.html:68
+msgid "Crear una cuenta"
+msgstr ""
+
+#: mvc/templates/play/easyQ.html:13 mvc/templates/play/hardQ.html:13
+#: mvc/templates/play/middQ.html:13
+msgid "Salir del juego"
+msgstr ""
+
+#: mvc/templates/play/easyQ.html:25 mvc/templates/play/hardQ.html:25
+#: mvc/templates/play/middQ.html:25 mvc/templates/play/xtremeQ.html:25
+msgid "Pregunta"
+msgstr ""
+
+#: mvc/templates/play/easyQ.html:26
+msgid "Pregunta fácil"
+msgstr ""
+
+#: mvc/templates/play/hardQ.html:26
+msgid "Pregunta difícil"
+msgstr ""
+
+#: mvc/templates/play/middQ.html:26
+msgid "Pregunta media"
+msgstr ""
+
+#: mvc/templates/play/rules.html:22
+msgid "Reglamento"
+msgstr ""
+
+#: mvc/templates/play/rules.html:23
+msgid "Aquí puedes leer como es la modalidad del juego"
+msgstr ""
+
+#: mvc/templates/play/rules.html:28
+msgid "Preguntas fáciles"
+msgstr ""
+
+#: mvc/templates/play/rules.html:29
+msgid "Se ofrecerán 4 opciones, de las cuales solamente una será correcta"
+msgstr ""
+
+#: mvc/templates/play/rules.html:30 mvc/templates/play/rules.html:35
+msgid "Tendrás 20 segundos para elegir tu respuesta"
+msgstr ""
+
+#: mvc/templates/play/rules.html:33
+msgid "Preguntas medias"
+msgstr ""
+
+#: mvc/templates/play/rules.html:34 mvc/templates/play/rules.html:39
+msgid "Se ofrecerán 8 opciones, de las cuales solamente una será correcta"
+msgstr ""
+
+#: mvc/templates/play/rules.html:38
+msgid "Preguntas difíciles"
+msgstr ""
+
+#: mvc/templates/play/rules.html:40
+msgid "Tendrás 10 segundos para elegir tu respuesta"
+msgstr ""
+
+#: mvc/templates/play/rules.html:43
+msgid "Preguntas extremas"
+msgstr ""
+
+#: mvc/templates/play/rules.html:44
+msgid "No se ofrecerán opciones, deberás ingresar tu respuesta usando el teclado"
+msgstr ""
+
+#: mvc/templates/play/rules.html:45
+msgid "Tendrás 20 segundos para ingresar tu respuesta"
+msgstr ""
+
+#: mvc/templates/play/rules.html:46
+msgid ""
+"Si se te acaba el tiempo se revisara la respuesta ingresada hasta ese "
+"momento"
+msgstr ""
+
+#: mvc/templates/play/xtremeQ.html:26
+msgid "Pregunta extrema"
+msgstr ""
+
+#: mvc/templates/play/xtremeQ.html:48
+msgid "Ingresa tu respuesta"
+msgstr ""
+
+#: mvc/templates/play/xtremeQ.html:52
+msgid "Responder"
+msgstr ""
+
+#: mvc/templates/register/register.html:22
+msgid "Nombre"
+msgstr ""
+
+#: mvc/templates/register/register.html:27
+msgid "Apellido"
+msgstr ""
+
+#: mvc/templates/register/register.html:32
+msgid "Nombre de usuario"
+msgstr ""
+
+#: mvc/templates/register/register.html:47
+msgid "Confirmar contraseña"
+msgstr ""
+
+#: mvc/templates/register/register.html:54
+msgid "Confirmar"
+msgstr ""
+
+#: mvc/templates/register/register.html:58
+msgid "Ya tengo una cuenta"
+msgstr ""
+
+#: mvc/templates/tools/menuTools.html:33
+msgid "Bienvenido jugador"
+msgstr ""
+
+#: mvc/templates/tools/menuTools.html:34
+msgid "Aqui se encuentran algunas herramientas que podrían ser de tu agrado"
+msgstr ""
+
+#: mvc/templates/tools/menuTools.html:47
+msgid ""
+"El sonido es demasiado épico para tus oidos? no hay problema puedes "
+"mutearlo y activarlo las veces que desees desde aquí."
+msgstr ""
+
+#: mvc/templates/tools/menuTools.html:48
+msgid "Música"
+msgstr ""
+
+#: mvc/templates/tools/menuTools.html:60
+msgid ""
+"Te gusta presumir que hablas otros idiomas? Seguro por que no! con esta "
+"opcion podras cubrir esa necesidad y si no sabias tanto como pensabas "
+"siempre puedes volver al confiable espanish"
+msgstr ""
+
+#: mvc/templates/tools/menuTools.html:63
+msgid "Seleccionar idioma"
+msgstr ""
+
+#: mvc/templates/tools/menuTools.html:67
+msgid "Inglés"
+msgstr ""
+
+#: mvc/templates/tools/menuTools.html:83
+msgid ""
+"Aquí podrás ver las mayores puntuaciones hechas por la comunidad, "
+"diviértete y alcanza la gloria"
+msgstr ""
+
+#: mvc/templates/tools/menuTools.html:84
+msgid "Ranking global"
+msgstr ""
+

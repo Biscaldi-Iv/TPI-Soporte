@@ -5,20 +5,22 @@
 {% endblock %}
 
 {% block navbarbtns %}
+<ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="{{url_for('justintime.home')}}">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">User</a>
+            <a class="nav-link" href="#">{{ _('Usuario') }}</a>
           </li>
           <li class="nav-item">
               <form method="get" id="frmplay">
-              <button id="btnplay" class="btn btn-success btn-md center-block" type="submit" formaction="{{url_for('justintime.rules')}}">Jugar</button>
+              <button id="btnplay" class="btn btn-success btn-md center-block" type="submit" formaction="{{url_for('justintime.rules')}}">{{ _('Jugar') }}</button>
             </form>
           </li>
+</ul>
           <li class="nav-item">
             <form method="get" id="logoutfrm">
-              <button id="btnLogOut" class="btn btn-danger btn-md center-block" type="submit" formaction="{{url_for('justintime.logout')}}">Cerrar Sesion</button>
+              <button id="btnLogOut" class="btn btn-danger btn-md center-block" type="submit" formaction="{{url_for('justintime.logout')}}">{{ _('Cerrar Sesión') }}</button>
             </form>
           </li>
 {% endblock %}
@@ -28,8 +30,8 @@
 <body>
 
     <div class="container-fluid p-5 bg-primary text-white text-center" id="ctrHerramientas">
-        <h1>Bienvenido jugador</h1>
-        <p>Aqui se encuentran algunas herramientas que podrian ser de tu agrado</p>
+        <h1>{{ _('Bienvenido jugador') }}</h1>
+        <p>{{ _('Aqui se encuentran algunas herramientas que podrían ser de tu agrado') }}</p>
           <h2 id="countdown"></h2>
       </div>
 
@@ -42,8 +44,8 @@
                         <img class="card-img-top" src="https://image.freepik.com/vector-gratis/ilustracion-concepto-cascos-musica_114360-2222.jpg">
 
                         <div class="card-body">
-                        <p class="card-text">El sonido es demasiado epico para tus oidos? no hay problema puedes mutearlo y activarlo las veces que desees desde aqui.</p>
-                        <button id="music" class="btn btn-primary btn-block" type="button" style="width:100%; height:80px; font-size: 16px;">Musica</button>
+                        <p class="card-text">{{ _('El sonido es demasiado épico para tus oidos? no hay problema puedes mutearlo y activarlo las veces que desees desde aquí.') }}</p>
+                        <button id="music" class="btn btn-primary btn-block" type="button" style="width:100%; height:80px; font-size: 16px;">{{ _('Música') }}</button>
                         </div>
                     </div>
             </div>
@@ -55,14 +57,16 @@
                         <img class="card-img-top" src="https://image.freepik.com/vector-gratis/concepto-do-you-speak-english_23-2147864772.jpg">
 
                         <div class="card-body">
-                        <p class="card-text">Te gusta presumir que hablas otros idiomas? Seguro por que no! con esta opcion podras cubrir esa necesidad y si no sabias tanto como pensabas siempre puedes volver al confiable espanish</p>
+                        <p class="card-text">{{ _('Te gusta presumir que hablas otros idiomas? Seguro por que no! con esta opcion podras cubrir esa necesidad y si no sabias tanto como pensabas siempre puedes volver al confiable espanish') }}</p>
                         <div class="dropdown">
                             <button class="btn btn-primary btn-lg  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width:100%; height:80px; font-size: 16px;">
-                            Seleccionar Idioma
+                            {{ _('Seleccionar idioma') }}
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#">Español</a>
-                            <a class="dropdown-item" href="#">Ingles</a>
+                            <a class="dropdown-item" href="#">{{ _('Español') }}</a>
+                            <a class="dropdown-item" href="#">{{ _('Inglés') }}</a>
+                            <a class="dropdown-item" href="#">{{ _('Italiano') }}</a>
+                            <a class="dropdown-item" href="#">{{ _('Aleman') }}</a>
                             </div>
                         </div>
                         </div>
@@ -76,8 +80,8 @@
                     <img class="card-img-top" src="https://image.freepik.com/vector-gratis/chicos-jovenes-premio-estrella_74855-6139.jpg">
 
                     <div class="card-body">
-                    <p class="card-text">Aqui podras ver las mayores puntuaciones hechas por la comunidad, diviertete y alcanza la gloria</p>
-                    <button id="ranking" class="btn btn-primary btn-block" type="button" style="width:100%; height:80px; font-size: 16px;">Ranking Global</button>
+                    <p class="card-text">{{ _('Aquí podrás ver las mayores puntuaciones hechas por la comunidad, diviértete y alcanza la gloria') }}</p>
+                    <button id="ranking" class="btn btn-primary btn-block" type="button" style="width:100%; height:80px; font-size: 16px;">{{ _('Ranking global') }}</button>
                     </div>
                 </div>
             </div>
