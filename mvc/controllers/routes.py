@@ -1,6 +1,6 @@
 import datetime
 
-from  flask import request, url_for, Blueprint, session, render_template, redirect, json
+from flask import request, url_for, Blueprint, session, render_template, redirect, json, g
 import requests
 from entities.models import Users
 from bussiness.usuarios_logic import UserLogic
@@ -10,6 +10,24 @@ from flask_babel import gettext as _
 
 
 global_scope= Blueprint('justintime', __name__, template_folder='templates')
+
+@global_scope.url_defaults
+def add_language_code(endpoint, values):
+    values.setdefault('lang_code', g.lang_code)
+
+@global_scope.url_value_preprocessor
+def pull_lang_code(endpoint, values):
+
+    url_lang_code_items_values = ['en','es','de','it']
+    url_lang_code_default_item_value = 'es'
+
+    g.lang_code = url_lang_code_default_item_value
+    if values:
+        if 'lang_code' in values:
+            if values['lang_code'] in url_lang_code_items_values:
+                g.lang_code = values.pop('lang_code', None)
+            else:
+                pass
 
 def is_human(captcha_response):
     """ Validating recaptcha response from google server
@@ -66,7 +84,7 @@ def login(contex:Dict=None):
             session['user'] = user.username
             session['auth'] = 1
             session['lastinteraction']=datetime.datetime.now()
-            return redirect('/home')
+            return redirect(url_for('justintime.home'))
 
         if user is None:
             error = "Username incorrecto"
@@ -79,7 +97,7 @@ def login(contex:Dict=None):
     else:
         try:
             if session['user'] is not None and session['auth']==1:
-                return redirect('/home')
+                return redirect(url_for('justintime.home'))
         except:
             if type(contex)==dict:
                 print(dict)
@@ -133,7 +151,7 @@ def register():
 def logout():
     session['user']=None
     session['auth']=0
-    return redirect('/')
+    return redirect(url_for('justintime.login'))
 
 @global_scope.route('/rules', methods=['POST', 'GET'])
 def rules():

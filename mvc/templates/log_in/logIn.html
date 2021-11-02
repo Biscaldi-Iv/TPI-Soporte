@@ -18,16 +18,16 @@
               </button>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="#"><img src="{{url_for('static',filename='de.png')}}" width="25" height="20"> {{ gettext('Aleman') }}</a>
+                  <a class="dropdown-item" href="/de/"><img src="{{url_for('static',filename='de.png')}}" width="25" height="20"> {{ gettext('Aleman') }}</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#"><img src="{{url_for('static',filename='es.png')}}" width="25" height="20"> {{ gettext('Español') }}</a>
+                  <a class="dropdown-item" href="/es/"><img src="{{url_for('static',filename='es.png')}}" width="25" height="20"> {{ gettext('Español') }}</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#"><img src="{{url_for('static',filename='en.jpg')}}" width="25" height="20"> {{ gettext('Ingles') }}</a>
+                  <a class="dropdown-item" href="/en/"><img src="{{url_for('static',filename='en.jpg')}}" width="25" height="20"> {{ gettext('Ingles') }}</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#"><img src="{{url_for('static',filename='it.png')}}" width="25" height="20"> {{ gettext('Italiano') }}</a>
+                  <a class="dropdown-item" href="/it/"><img src="{{url_for('static',filename='it.png')}}" width="25" height="20"> {{ gettext('Italiano') }}</a>
                 </li>
               </ul>
             </div>
@@ -59,7 +59,8 @@
       <label for="floatingPassword">{{ gettext('Contraseña') }}</label>
     </div>
     <p style="color:red;">{{error}}</p>
-    
+
+
     <button id="btnCancel" class="btn btn-danger btn-md center-block" type="reset" >{{ _('Cancelar') }}</button>
     <button id="btnLogIn" class="btn btn-primary btn-md center-block" type="submit" formaction="{{url_for('justintime.login')}}">{{ gettext('Iniciar Sesión') }}</button>
     
