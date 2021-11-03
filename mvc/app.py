@@ -47,6 +47,7 @@ def session_control():  # control de sesion -->ver
     session.permanent = True
 
 
+
 app.register_blueprint(global_scope, url_prefix='/<lang_code>')
 
 #agregar optional en nav var para evitar que alla botones que no corresponden
