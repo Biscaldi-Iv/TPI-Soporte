@@ -15,3 +15,4 @@ entities/__pycache__/__init__.cpython-39.pyc
 mvc/controllers/__pycache__/__init__.cpython-39.pyc
 keys.py
 *__pycache__
+*.jpg

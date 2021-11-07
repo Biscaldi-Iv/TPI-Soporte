@@ -76,6 +76,7 @@ class CollectorsItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     nombre = scrapy.Field()
+    img_name = scrapy.Field()
     fortuna = scrapy.Field(input_processor=MapCompose(fortune))
     altura = scrapy.Field(input_processor=MapCompose(
         to_metro_float))

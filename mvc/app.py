@@ -1,13 +1,16 @@
 from flask import Flask, session, request, g, redirect
+from flask.helpers import url_for
+from flask.templating import render_template
 from controllers.routes import global_scope
 from flask_babel import Babel, gettext as _
 
 app = Flask(__name__)
 
 app.secret_key = 'www123456www'
-app.config['BABEL_DEFAULT_LOCALE']='en'
-app.config['BABEL_TRANSLATION_DIRECTORIES']='/home/usuario/Documentos/Soporte 2021/TPI-Soporte/translations'
-babel=Babel(app)
+app.config['BABEL_DEFAULT_LOCALE'] = 'en'
+app.config['BABEL_TRANSLATION_DIRECTORIES'] = '/home/usuario/Documentos/Soporte 2021/TPI-Soporte/translations'
+babel = Babel(app)
+
 
 @babel.localeselector
 def get_locale():
@@ -22,8 +25,8 @@ def get_locale():
                 request_lc = 'es_ES'
             elif g.lang_code == 'de':
                 request_lc = 'de_DE'
-            elif g.lang_code=='it':
-                request_lc='it_IT'
+            elif g.lang_code == 'it':
+                request_lc = 'it_IT'
             else:
                 request_lc = 'en_US'
 
@@ -33,8 +36,8 @@ def get_locale():
             g.lang_code = 'de'
         elif request_lc == 'es_ES':
             g.lang_code = 'es'
-        elif request_lc=='it_IT':
-            g.lang_code='it'
+        elif request_lc == 'it_IT':
+            g.lang_code = 'it'
         else:
             request_lc = 'en_US'
             g.lang_code = 'en'
@@ -42,15 +45,20 @@ def get_locale():
     session['lc'] = request_lc
     return request_lc
 
+
 @app.before_request
 def session_control():  # control de sesion -->ver
     session.permanent = True
 
 
+@app.route('/imagen', methods=['POST', 'GET'])
+def imagen():
+    return render_template('imagenes.html')
+
 
 app.register_blueprint(global_scope, url_prefix='/<lang_code>')
 
-#agregar optional en nav var para evitar que alla botones que no corresponden
+# agregar optional en nav var para evitar que alla botones que no corresponden
 
 if __name__ == '__main__':
     app.run(debug=True)
