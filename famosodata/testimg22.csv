@@ -33,22 +33,22 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 32,0,"October 18, 1952",17400000000.0,James-Arthur-Ratcliffe.jpg,British,James Arthur Ratcliffe,0
 33,0,28 November 1964,17200000000.0,Sallie-L.-Krawcheck.jpg,American,Sallie L. Krawcheck,0
 34,0,"April 27, 1955",14700000000.0,Eric-Emerson-Schmidt.jpg,American,Eric Emerson Schmidt,0
-35,0,,13200000000.0,David-Albert-Duffield.jpg,American,David Albert Duffield,0
+35,0,0,13200000000.0,David-Albert-Duffield.jpg,American,David Albert Duffield,0
 36,0,"March 10, 1978",9910000000.0,Robert-J.-Pera.jpg,American,Robert J. Pera,0
 37,0,1970,9240000000.0,Zhou-Qunfei-.jpg,Chinese,Zhou Qunfei ,0
 38,0,"December 19, 1972 ",8460000000.000001,Galen-Weston-Jr.jpg,American,Galen Weston Jr,0
-39,0,,8390000000.000001,Xu-Shihui.jpg,Chinese,Xu Shihui,0
-40,0,,8170000000.0,anonimo.jpg,South Korea,,0
+39,0,0,8390000000.000001,Xu-Shihui.jpg,Chinese,Xu Shihui,0
+40,0,0,8170000000.0,anonimo.jpg,South Korea,0,0
 41,0,"March 1, 1963",7000000000.0,Robert-A.-Kotick.jpg,American,Robert A. Kotick,0
 42,0,"March 11, 1963",6840000000.0,Hiroshi-Mikitani.jpg,Japanese,Hiroshi Mikitani,0
 43,0,"August 6, 1976",6650000000.0,Travis-Cordell-Kalanick.jpg,American,Travis Cordell Kalanick,0
 44,0,"October 13, 1947",4800000000.0,Roberto-Irineu-Marinho.jpg,Brazilian,Roberto Irineu Marinho,0
-45,0,,4700000000.0,Cesar-Mata-Pires.jpg,Brazil,Cesar Mata Pires,0
+45,0,0,4700000000.0,Cesar-Mata-Pires.jpg,Brazil,Cesar Mata Pires,0
 46,0,6 August 1948,4600000000.0,Lars-Kristinus-Larsen.jpg,Danish,Lars Kristinus Larsen,0
 47,0,"September 17, 1939",4500000000.0,Guenther-Fielmann.jpg,German,Guenther Fielmann,0
-48,0,,4300000000.0,Andrew-and-Peggy-Cherng.jpg,Americans,Andrew and Peggy Cherng,0
+48,0,0,4300000000.0,Andrew-and-Peggy-Cherng.jpg,Americans,Andrew and Peggy Cherng,0
 49,0,"November 19, 1963",4099999999.9999995,Ralph-Dommermuth.jpg,Germany,Ralph Dommermuth,0
-50,0,,3900000000.0,Daniel-S.-Och.jpg,American,Daniel S. Och,0
+50,0,0,3900000000.0,Daniel-S.-Och.jpg,American,Daniel S. Och,0
 51,1.87,"July 27, 1975",300000000.0,"Alexander-Emmanuel-""Alex""-Rodriguez.jpg",American,"Alexander Emmanuel ""Alex"" Rodriguez",0
 52,1.9,"June 26, 1974",185000000.0,Derek-Sanderson-Jeter.jpg,American,Derek Sanderson Jeter,79.38
 53,1.98,"July 21, 1980 ",155000000.0,Carsten-Charles-CC-Sabathia.jpg,American,"Carsten Charles ""CC"" Sabathia",0
@@ -171,32 +171,32 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 170,1.71,"December 18, 1946",5410000000.0,Steven-Allan-Spielberg.jpg,American,Steven Allan Spielberg,0
 171,0,1962,5330000000.0,Joao-Moreira-Salles.jpg,Brazil,Joao Moreira Salles,0
 172,0,"May 27, 1923",5100000000.0,Sumner-Murray-Rothstein.jpg,American,Sumner Murray Rothstein,0
-173,0,,4880000000.0,anonimo.jpg,India,,0
+173,0,0,4880000000.0,anonimo.jpg,India,0,0
 174,0,"December 13, 1946",4500000000.0,Clive-Ian-Calder.jpg,British,Clive Ian Calder,0
 175,0,6 April 1946,4000000000.0,Patrizio-Bertelli.jpg,Italian,Patrizio Bertelli,0
 176,0,"February 25, 1937",3600000000.0,Barbara-Piasecka-Johnson.jpg,Polish-American,Barbara Piasecka Johnson,0
 177,0,10 May 1949,3500000000.0,Miuccia-Bianchi-Prada.jpg,Italian,Miuccia Bianchi Prada,0
 178,0,"September 8, 1967",3500000000.0,James-Douglas-Packer.jpg,Australian,James Douglas Packer,0
-179,0,"December 6, 1944",3400000000.0,anonimo.jpg,Israeli,,0
+179,0,"December 6, 1944",3400000000.0,anonimo.jpg,Israeli,0,0
 180,0,1964,3300000000.0,Kalanithi-Maran-.jpg,India,Kalanithi Maran ,0
-181,0,"October 15, 1944",2900000000.0,anonimo.jpg,Israeli-American,,0
+181,0,"October 15, 1944",2900000000.0,anonimo.jpg,Israeli-American,0,0
 182,1.69,"January 29, 1954",2700000000.0,Orpah-Gail-Winfrey.jpg,American,Orpah Gail Winfrey,75.5
 183,0,"June 4, 1937",2500000000.0,Mortimer-Benjamin-Zuckerman.jpg,Canadian-American,Mortimer Benjamin Zuckerman,0
 184,0,"November 19, 1938",2200000000.0,Robert-Edward-Turner-III.jpg,United States,Robert Edward Turner III,0
 185,0,"April 24, 1955",2200000000.0,Johannes-Hendrikus-Hubert-de-Mol-Jr..jpg,Dutch,Johannes Hendrikus Hubert de Mol Jr.,0
 186,0,"November 2, 1922",2300000000.0,Lloyd-Stanley-Perron-AC.jpg,Australian,Lloyd Stanley Perron AC,0
-187,0,,1900000000.0,"David-Hearst,-Jr..jpg",United States,"David Hearst, Jr.",0
-188,0,,1900000000.0,Austin-Hearst.jpg,American,Austin Hearst,0
-189,0,"December 6, 1944",3400000000.0,anonimo.jpg,Israeli,,0
+187,0,0,1900000000.0,"David-Hearst,-Jr..jpg",United States,"David Hearst, Jr.",0
+188,0,0,1900000000.0,Austin-Hearst.jpg,American,Austin Hearst,0
+189,0,"December 6, 1944",3400000000.0,anonimo.jpg,Israeli,0,0
 190,0,1964,3300000000.0,Kalanithi-Maran-.jpg,India,Kalanithi Maran ,0
-191,0,"October 15, 1944",2900000000.0,anonimo.jpg,Israeli-American,,0
+191,0,"October 15, 1944",2900000000.0,anonimo.jpg,Israeli-American,0,0
 192,1.69,"January 29, 1954",2700000000.0,Orpah-Gail-Winfrey.jpg,American,Orpah Gail Winfrey,75.5
 193,0,"June 4, 1937",2500000000.0,Mortimer-Benjamin-Zuckerman.jpg,Canadian-American,Mortimer Benjamin Zuckerman,0
 194,0,"November 19, 1938",2200000000.0,Robert-Edward-Turner-III.jpg,United States,Robert Edward Turner III,0
 195,0,"April 24, 1955",2200000000.0,Johannes-Hendrikus-Hubert-de-Mol-Jr..jpg,Dutch,Johannes Hendrikus Hubert de Mol Jr.,0
 196,0,"November 2, 1922",2300000000.0,Lloyd-Stanley-Perron-AC.jpg,Australian,Lloyd Stanley Perron AC,0
-197,0,,1900000000.0,"David-Hearst,-Jr..jpg",United States,"David Hearst, Jr.",0
-198,0,,1900000000.0,Austin-Hearst.jpg,American,Austin Hearst,0
+197,0,0,1900000000.0,"David-Hearst,-Jr..jpg",United States,"David Hearst, Jr.",0
+198,0,0,1900000000.0,Austin-Hearst.jpg,American,Austin Hearst,0
 199,1.8,"April 29, 1954 ",920000000.0,Jerome-Jerry-Seinfeld.jpg,American,"Jerome ""Jerry"" Seinfeld",77.0
 200,1.8,"July 2, 1947 ",800000000.0,Lawrence-Gene-Larry-David-.jpg,American,"Lawrence Gene ""Larry"" David ",0
 201,0,"February 15, 1954",500000000.0,Matthew-Abram-Groening.jpg,American,Matthew Abram Groening,0
@@ -235,7 +235,7 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 234,0,"April 4, 1925",22500000000.0,Serge-Dassault-.jpg,French,Serge Dassault ,0
 235,0,"September 22, 1965",16700000000.0,Ernesto-Bertarelli.jpg,Swiss,Ernesto Bertarelli,0
 236,0,"May 2, 1944",16500000000.0,Charoen-Sirivadhanabhakdi.jpg,Thailand,Charoen Sirivadhanabhakdi,0
-237,0,,14900000000.0,"Srichand-Hinduja,-Gopichand-Hinduja,-Prakash-Hinduja,-Ashok-Hinduja.jpg",British,"Srichand Hinduja, Gopichand Hinduja, Prakash Hinduja, Ashok Hinduja",0
+237,0,0,14900000000.0,"Srichand-Hinduja,-Gopichand-Hinduja,-Prakash-Hinduja,-Ashok-Hinduja.jpg",British,"Srichand Hinduja, Gopichand Hinduja, Prakash Hinduja, Ashok Hinduja",0
 238,1.74,"November 30, 1937",400000000.0,Sir-Ridley-Scott.jpg,British,Sir Ridley Scott,0
 239,1.96,"September 13, 1969",400000000.0,"Emmitt-Perry,-Jr..jpg",United States,"Emmitt Perry, Jr.",113.0
 240,1.82,"April 7, 1939",250000000.0,Francis-Ford-Coppola.jpg,American,Francis Ford Coppola,0
@@ -243,27 +243,27 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 242,0,"August 8, 1967",215000000.0,Lee-Unkrich.jpg,American,Lee Unkrich,0
 243,0,"November 10, 1955 ",200000000.0,Roland-Emmerich.jpg,German,Roland Emmerich,0
 244,2.06,"October 23, 1942",175000000.0,John-Michael-Crichton.jpg,American,John Michael Crichton,0
-245,0,,165000000.0,anonimo.jpg,United Kingdom,,0
+245,0,0,165000000.0,anonimo.jpg,United Kingdom,0,0
 246,0,"April 6, 1942",150000000.0,Barry-Levinson.jpg,American,Barry Levinson,0
 247,1.8,"September 10, 1968",150000000.0,Guy-Stuart-Ritchie.jpg,English,Guy Stuart Ritchie,0
 248,1.75,"March 1, 1954",140000000.0,Ronald-William-Howard.jpg,American,Ronald William Howard,0
 249,0,"July 30, 1970 ",135000000.0,Christopher-Jonathan-James-Nolan.jpg,"United Kingdom, United States",Christopher Jonathan James Nolan,0
-250,0,,11600000000.0,Yeung-Kin-man.jpg,,Yeung Kin-man,0
+250,0,0,11600000000.0,Yeung-Kin-man.jpg,0,Yeung Kin-man,0
 251,0,"March 19, 1982",10600000000.0,Eduardo-Luiz-Saverin.jpg,Brazil,Eduardo Luiz Saverin,0
 252,0,1967,8730000000.0,Guangchang-Guo.jpg,Chinese,Guangchang Guo,0
-253,0,,8230000000.0,Sherry-Brydson.jpg,Canadian,Sherry Brydson,0
-254,0,"June 24, 1962",7960000000.0,anonimo.jpg,Indian,,0
+253,0,0,8230000000.0,Sherry-Brydson.jpg,Canadian,Sherry Brydson,0
+254,0,"June 24, 1962",7960000000.0,anonimo.jpg,Indian,0,0
 255,0,October 1945,7150000000.0,Zong-Qinghou.jpg,Chinese,Zong Qinghou,0
 256,0,"September 19, 1935",6790000000.0,Hansjörg-Wyss.jpg,Swiss,Hansjörg Wyss,0
-257,0,"August 11, 1952",5300000000.0,anonimo.jpg,Indonesia,,0
+257,0,"August 11, 1952",5300000000.0,anonimo.jpg,Indonesia,0,0
 258,0,1964,5200000000.0,Wei-Jianjun.jpg,Chinese,Wei Jianjun,0
 259,0,"March 2, 1948",5200000000.0,Gianfelice-Mario-Rocca.jpg,Italy,Gianfelice Mario Rocca,0
 260,0,"January 22, 1952",4870000000.0,Bernhard-Wobben.jpg,German,Bernhard Wobben,0
-261,0,"June 24, 1969",3250000000.0,anonimo.jpg,China,,0
-262,0,,3200000000.0,John-Kapoor.jpg,American,John Kapoor,0
-263,0,,3000000000.0,Hoang-Kieu.jpg,American,Hoang Kieu,0
+261,0,"June 24, 1969",3250000000.0,anonimo.jpg,China,0,0
+262,0,0,3200000000.0,John-Kapoor.jpg,American,John Kapoor,0
+263,0,0,3000000000.0,Hoang-Kieu.jpg,American,Hoang Kieu,0
 264,1.85," January 26, 1961 ",200000000.0,Wayne-Douglas-Gretzky.jpg,Canadian,Wayne Douglas Gretzky,86.0
-265,1.93,"October 5, 1965",150000000.0,anonimo.jpg,Canadian,,107.0
+265,1.93,"October 5, 1965",150000000.0,anonimo.jpg,Canadian,0,107.0
 266,0,"October 10, 1974",75000000.0,Christopher-Robert-Pronger.jpg,Canadian,Christopher Robert Pronger,100.0
 267,0,"March 16, 1964",130000000.0,Gregor-Verbinski.jpg,American,Gregor Verbinski,0
 268,0,"Ethan - 21 September 1957, Joel - 29 November 1954",120000000.0,Ethan-and-Joel-Coen.jpg,American,Ethan and Joel Coen,0
@@ -305,7 +305,7 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 304,0,"May 23, 1979",45000000.0,Brian-Wesley-Campbell.jpg,Canadian,Brian Wesley Campbell,86.0
 305,0,"November 5, 1973",45000000.0,Alexei-Valeryevich-Yashin-.jpg,Russian,Alexei Valeryevich Yashin ,100.0
 306,0,"January 21, 1985",45000000.0,Ryan-Suter.jpg,American,Ryan Suter,88.0
-307,0,,475000000.0,anonimo.jpg,British,,0
+307,0,0,475000000.0,anonimo.jpg,British,0,0
 308,0,"December 25, 1946",430000000.0,James-William-Buffett.jpg,American,James William Buffett,0
 309,1.78,26 July 1943,360000000.0,Michael-Philip-Jagger.jpg,British,Michael Philip Jagger,64.0
 310,1.68,"July 7, 1940",350000000.0,"Richard-Starkey,-Jr..jpg",British,"Richard Starkey, Jr.",0
@@ -347,8 +347,8 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 346,1.88," July 6, 1981",55000000.0,Nnamdi-Asomugha.jpg,American,Nnamdi Asomugha,95.0
 347,1.88,"October 13, 1962",55000000.0,Jerry-Lee-Rice-.jpg,United States,Jerry Lee Rice ,91.0
 348,1.7,"May 14, 1944",7620000000.0,"George-Walton-Lucas,-Jr..jpg",American,"George Walton Lucas, Jr.",0
-349,0,"December 6, 1944",3400000000.0,anonimo.jpg,Israeli,,0
-350,0,,1900000000.0,Austin-Hearst.jpg,American,Austin Hearst,0
+349,0,"December 6, 1944",3400000000.0,anonimo.jpg,Israeli,0,0
+350,0,0,1900000000.0,Austin-Hearst.jpg,American,Austin Hearst,0
 351,0,"September 8, 1951",1850000000.0,Jeffrey-Lurie.jpg,American,Jeffrey Lurie,0
 352,0,"October 17, 1946",1200000000.0,Cameron-Anthony-Mackintosh.jpg,British,Cameron Anthony Mackintosh,0
 353,0,"December 4, 1974 ",1000000000.0,Ryan-Colin-Kavanaugh.jpg,American,Ryan Colin Kavanaugh,0
@@ -375,14 +375,14 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 374,1.88,"December 21, 1948",200000000.0,Samuel-Leroy-Jackson.jpg,American,Samuel Leroy Jackson,0
 375,1.83,"July 18, 1967",200000000.0,Mark-Sinclair-Vincent.jpg,American,Mark Sinclair Vincent,98.0
 376,0,"August 11, 1944",3900000000.0,Frederick-Wallace-Smith.jpg,American,Frederick Wallace Smith,0
-377,0,,3800000000.0,Akira-Mori.jpg,Japanese,Akira Mori,0
+377,0,0,3800000000.0,Akira-Mori.jpg,Japanese,Akira Mori,0
 378,0,4 August 1956,3700000000.0,Margaret-Cushing-Meg-Whitman.jpg,American,"Margaret Cushing ""Meg"" Whitman",0
 379,0,5 January 1953,3700000000.0,Tony-Tan-Caktiong.jpg,Filipino,Tony Tan Caktiong,0
 380,0,1934,3700000000.0,Horst-Paulmann-Kemna.jpg,Chilean-Germany,Horst Paulmann Kemna,0
 381,0,1946,3700000000.0,István-Ferencz-Udvar-Házy.jpg,United States,István Ferencz Udvar-Házy,0
 382,0,"January 21, 1949",3700000000.0,Jeremy-Maurice-Jacobs-Sr..jpg,American,Jeremy Maurice Jacobs Sr.,0
-383,0,,3600000000.0,Michael-Pieper.jpg,Switzerland,Michael Pieper,0
-384,0,,3500000000.0,Shigenobu-Nagamori.jpg,Japan,Shigenobu Nagamori,0
+383,0,0,3600000000.0,Michael-Pieper.jpg,Switzerland,Michael Pieper,0
+384,0,0,3500000000.0,Shigenobu-Nagamori.jpg,Japan,Shigenobu Nagamori,0
 385,1.78,"June 9, 1963",200000000.0,John-Christopher-Depp-II.jpg,American,John Christopher Depp II,71.0
 386,1.84,"December 28, 1954",190000000.0,"Denzel-Hayes-Washington,-Jr..jpg",United States,"Denzel Hayes Washington, Jr.",96.0
 387,1.83,"April 28, 1973 ",185000000.0,Jorge-Garcia.jpg,United States,Jorge Garcia,0
@@ -397,22 +397,22 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 396,1.77,"August 17, 1943",150000000.0,Robert-De-Niro.jpg,United States,Robert De Niro,77.11
 397,1.7,"April 25, 1940",145000000.0,Alfredo-James-Pacino.jpg,American,Alfredo James Pacino,68.04
 398,1.78," August 13, 1962 ",145000000.0,"John-M.-Slattery,-Jr.jpg",United States,"John M. Slattery, Jr",0
-399,0,,3500000000.0,Jason-C.S.-Chang.jpg,Taiwan,Jason C.S. Chang,0
-400,0,,3400000000.0,Axel-Oberwelland.jpg,German,Axel Oberwelland,0
+399,0,0,3500000000.0,Jason-C.S.-Chang.jpg,Taiwan,Jason C.S. Chang,0
+400,0,0,3400000000.0,Axel-Oberwelland.jpg,German,Axel Oberwelland,0
 401,0,"December 19, 1962",3300000000.0,Alexander-Nesis-Natanovich.jpg,Russian,Alexander Nesis Natanovich,0
 402,0,1951,3100000000.0,Thomas-J.-Pritzker.jpg,American,Thomas J. Pritzker,0
 403,0,"January 27, 1942",3000000000.0,Stephen-Alan-Weinberg.jpg,American,Stephen Alan Weinberg,0
-404,0,,2900000000.0,Hui-Lin-Chit.jpg,Chinese,Hui Lin Chit,0
+404,0,0,2900000000.0,Hui-Lin-Chit.jpg,Chinese,Hui Lin Chit,0
 405,0,"June 25, 1957",2700000000.0,Tilman-Joseph-Fertitta.jpg,American,Tilman Joseph Fertitta,0
 406,0,"December 20, 1930",2700000000.0,Andrew-Jerrold-Perenchio.jpg,American,Andrew Jerrold Perenchio,0
-407,0,,2600000000.0,Shin-Chang-Jae.jpg,South Korea,Shin Chang-Jae,0
+407,0,0,2600000000.0,Shin-Chang-Jae.jpg,South Korea,Shin Chang-Jae,0
 408,0,1946,2600000000.0,Shen-Wenrong.jpg,China,Shen Wenrong,0
 409,0,"February 9, 1940",2600000000.0,Hubert-Burda.jpg,German,Hubert Burda,0
-410,0,,2500000000.0,Nicholas-Woodman.jpg,United States,Nicholas Woodman,0
-411,0,,2500000000.0,David-M.-Rubenstein.jpg,American,David M. Rubenstein,0
+410,0,0,2500000000.0,Nicholas-Woodman.jpg,United States,Nicholas Woodman,0
+411,0,0,2500000000.0,David-M.-Rubenstein.jpg,American,David M. Rubenstein,0
 412,0,"November 27, 1950",2400000000.0,Robert-Parsons.jpg,American,Robert Parsons,0
 413,0,"March 18, 1961 ",2400000000.0,Arnaud-Lagardère.jpg,France,Arnaud Lagardère,0
-414,0,,2300000000.0,Alexander-Dzhaparidze.jpg,Russian,Alexander Dzhaparidze,0
+414,0,0,2300000000.0,Alexander-Dzhaparidze.jpg,Russian,Alexander Dzhaparidze,0
 415,1.79,"June 8, 1977",1800000000.0,Kanye-Omari-West.jpg,American,Kanye Omari West,72.0
 416,1.87,"December 4, 1969",1400000000.0,Shawn-Corey-Carter.jpg,American,Shawn Corey Carter,87.9
 417,0,"November 4, 1969",825000000.0,Sean-John-Combs.jpg,American,Sean John Combs,86.0
@@ -465,7 +465,7 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 464,1.68," May 20, 1946",305000000.0,Cherilyn-Sarkisian.jpg,United States,Cherilyn Sarkisian,56.6
 465,1.7,"March 1, 1994",305000000.0,Justin-Drew-Bieber.jpg,Canadian,Justin Drew Bieber,59.0
 466,0,"September 23, 1943",300000000.0,Julio-José-Iglesias-de-la-Cueva.jpg,Spanish,Julio José Iglesias de la Cueva,0
-467,0,,280000000.0,anonimo.jpg,Greece,,0
+467,0,0,280000000.0,anonimo.jpg,Greece,0,0
 468,1.8," December 13, 1989",280000000.0,Taylor-Alison-Swift.jpg,American,Taylor Alison Swift,54.0
 469,0,"June 15, 1943",275000000.0,Jean-Philippe-Sme.jpg,France,Jean-Philippe Sme,0
 470,1.73,"October 26, 1965",275000000.0,Aaron-Kwok-Fu-shing-.jpg,Hong Kong,Aaron Kwok Fu-shing ,0
@@ -506,11 +506,11 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 505,0,"March 13, 1959 ",300000000.0,Kathleen-Elizabeth-Avanzino.jpg,United States,Kathleen Elizabeth Avanzino,0
 506,1.69,"February 23, 1969 ",250000000.0,Daymond-John.jpg,United States,Daymond John,0
 507,1.58,"October 9, 1952",220000000.0,Sharon-Rachel-Osbourne.jpg,United Kingdom,Sharon Rachel Osbourne,0
-508,0,,200000000.0,anonimo.jpg,United States,,0
-509,0,,200000000.0,anonimo.jpg,United States,,0
+508,0,0,200000000.0,anonimo.jpg,United States,0,0
+509,0,0,200000000.0,anonimo.jpg,United States,0,0
 510,0,"September 25, 1929",150000000.0,Barbara-Jill-Walters-.jpg,American,Barbara Jill Walters ,0
 511,1.75,"November 19, 1933",150000000.0,Lawrence-Harvey-Zeiger.jpg,American,Lawrence Harvey Zeiger,0
-512,0,,100000000.0,anonimo.jpg,United States,,0
+512,0,0,100000000.0,anonimo.jpg,United States,0,0
 513,1.88,"October 28, 1949",100000000.0,Caitlyn-Marie-(William-Bruce)-Jenner-.jpg,American,Caitlyn Marie (William Bruce) Jenner ,97.0
 514,1.85,"April 19, 1969",100000000.0,Jesse-Gregory-James.jpg,American,Jesse Gregory James,0
 515,0,"July 17, 1912",90000000.0,Gordon-Arthur-Kelly.jpg,American,Gordon Arthur Kelly,0
@@ -547,11 +547,11 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 546,0,"October 23, 1978",60000000.0,John-Derran-Lackey.jpg,American,John Derran Lackey,0
 547,0,"December 8, 1954",1900000000.0,Richard-Clive-Desmond-.jpg,English,Richard Clive Desmond ,0
 548,0,"September 8, 1951",1850000000.0,Jeffrey-Lurie.jpg,American,Jeffrey Lurie,0
-549,0,1976,1800000000.0,anonimo.jpg,Irish,,0
+549,0,1976,1800000000.0,anonimo.jpg,Irish,0,0
 550,1.79,"June 8, 1977",1800000000.0,Kanye-Omari-West.jpg,American,Kanye Omari West,72.0
 551,0,26 September 1965,1600000000.0,Andrea-Della-Valle.jpg,Italian,Andrea Della Valle,0
 552,0,"February 23, 1942",1600000000.0,Johannes-Adrianus-van-den-Ende.jpg,Dutch,Johannes Adrianus van den Ende,0
-553,0,"May 23, 1968",1540000000.0,anonimo.jpg,Ukrainian,,0
+553,0,"May 23, 1968",1540000000.0,anonimo.jpg,Ukrainian,0,0
 554,1.87,"December 4, 1969",1400000000.0,Shawn-Corey-Carter.jpg,American,Shawn Corey Carter,87.9
 555,0,"December 12, 1930",1300000000.0,Senor-Abravanel.jpg,Brazil,Senor Abravanel,0
 556,1.8,18 June 1942,1280000000.0,James-Paul-McCartney.jpg,British,James Paul McCartney,82.0
@@ -570,9 +570,9 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 569,1.69,"August 21, 1956",75000000.0,Kim-Victoria-Cattrall--.jpg,British-Canadian (Dual citizenship),Kim Victoria Cattrall  ,0
 570,1.88,25 May 1958,1200000000.0,Slavica-Radić.jpg,British-Croatian,Slavica Radić,0
 571,0,22 March 1948,1200000000.0,Andrew-Lloyd-Webber.jpg,British,Andrew Lloyd Webber,0
-572,0,,1100000000.0,anonimo.jpg,France,,0
+572,0,0,1100000000.0,anonimo.jpg,France,0,0
 573,0,3 December 1967,1100000000.0,"Jonathan-Harold-Esmond-Vere-Harmsworth,-4th-Viscount-Rothermere.jpg",British,"Jonathan Harold Esmond Vere Harmsworth, 4th Viscount Rothermere",0
-574,0,,1095000000.0,anonimo.jpg,United Kingdom,,0
+574,0,0,1095000000.0,anonimo.jpg,United Kingdom,0,0
 575,0,"April 8, 1946",1000000000.0,Robert-L.-Johnson.jpg,American,Robert L. Johnson,0
 576,1.75,"August 10, 1997",1000000000.0,Kylie-Kristen-Jenner.jpg,American,Kylie Kristen Jenner,57.0
 577,0,"July 6, 1925",1000000000.0,"Mervyn-Edward-Griffin,-Jr..jpg",American,"Mervyn Edward Griffin, Jr.",0
@@ -659,7 +659,7 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 658,1.74," June 4, 1985",25000000.0,Bar-Rafaeli-.jpg,Israelite,Bar Rafaeli ,58.0
 659,1.75,"July 25, 1955",25000000.0,Iman-Mohamed-Abdulmajid.jpg,Somali-American,Iman Mohamed Abdulmajid,0
 660,0,15 July 1976,24000000.0,Diane-Heidkrüger.jpg,German,Diane Heidkrüger,0
-661,0,,24000000.0,anonimo.jpg,United Kingdom,,0
+661,0,0,24000000.0,anonimo.jpg,United Kingdom,0,0
 662,1.78,"September 25, 1947",24000000.0,Cheryl-Rae-Tiegs.jpg,American,Cheryl Rae Tiegs,0
 663,1.78,"January 27, 1988",23000000.0,Liu-Wen.jpg,Chinese,Liu Wen,50.0
 664,1.87,"August 3, 1992",21000000.0,Karlie-Elizabeth-Kloss.jpg,American,Karlie Elizabeth Kloss,52.0
@@ -699,7 +699,7 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 698,1.78,"February 25, 1965",75000000.0,Scott-Thompson.jpg,American,Scott Thompson,0
 699,0,"April 18, 1963",75000000.0,Conan-Christopher-O'Brien.jpg,United States,Conan Christopher O'Brien,0
 700,1.85,"March 29, 1943",60000000.0,Eric-Idle.jpg,British,Eric Idle,0
-701,0,"April 18, 1962",60000000.0,anonimo.jpg,United States,,0
+701,0,"April 18, 1962",60000000.0,anonimo.jpg,United States,0,0
 702,0,"February 21,1976",50000000.0,Michael-Hazen-James-McIntyre.jpg,British,Michael Hazen James McIntyre,0
 703,0,"February 17, 1963",50000000.0,Daniel-Lawrence-Whitney.jpg,United States,Daniel Lawrence Whitney,0
 704,1.7,"March 14, 1948",45000000.0,William-Edward-Crystal.jpg,American,William Edward Crystal,0
@@ -754,7 +754,7 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 753,1.8,"August 19, 1951",115000000.0,John-Richard-Deacon.jpg,British,John Richard Deacon,0
 754,1.83,"September 26, 1980",40000000.0,Henrik-Lars-Sedin.jpg,Swedish,Henrik Lars Sedin,0
 755,1.88,"December 13, 1969",40000000.0,Sergei-Viktorovich-Fyodorov.jpg,Russian,Sergei Viktorovich Fyodorov,93.0
-756,1.91,"February 15, 1972",40000000.0,anonimo.jpg,Czech,,49.5
+756,1.91,"February 15, 1972",40000000.0,anonimo.jpg,Czech,0,49.5
 757,0,"January 21, 1981 ",38600000.0,Daniel-James-Heatley.jpg,Canadian,Daniel James Heatley,100.0
 758,1.93,"October 29, 1984",38000000.0,Eric-Craig-Staal.jpg,Canadian,Eric Craig Staal,93.0
 759,0,"January 1, 1971",36000000.0,Robert-Holik.jpg,Czech-American,Robert Holik,110.0
@@ -765,8 +765,8 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 764,1.91,"April 4, 1979",36000000.0,Roberto-Luongo.jpg,Canada,Roberto Luongo,98.0
 765,0,"July 20, 1929",2400000000.0,Michael-Ilitch-Jr..jpg,American,Michael Ilitch Jr.,0
 766,0,1972,2300000000.0,Michael-G.-Rubin.jpg,American,Michael G. Rubin,0
-767,0,,2200000000.0,Juan-Fernando-Belmont-Anderson.jpg,Peru,Juan Fernando Belmont Anderson,0
-768,0,,2100000000.0,Hans-Epprecht.jpg,American,Hans Epprecht,0
+767,0,0,2200000000.0,Juan-Fernando-Belmont-Anderson.jpg,Peru,Juan Fernando Belmont Anderson,0
+768,0,0,2100000000.0,Hans-Epprecht.jpg,American,Hans Epprecht,0
 769,0,"July 21, 1942",1900000000.0,Sir-Ian-Clark-Wood.jpg,Scottish,Sir Ian Clark Wood,0
 770,1.8,"February 15, 1969",110000000.0,Bryan-Williams.jpg,United States,Bryan Williams,93.0
 771,1.85,"March 2, 1982",35000000.0,Henrik-Lundqvist.jpg,Swedish,Henrik Lundqvist,84.0
@@ -777,7 +777,7 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 776,0,"November 30, 1982",31000000.0,Jason-John-Pominville.jpg,"Repentigny, Quebec",Jason John Pominville,84.0
 777,0,"February 22, 1950",1800000000.0,Guilherme-Peirao.jpg,Brazilian,Guilherme Peirao,0
 778,0,"June 23, 1964",1500000000.0,Stephen-Bradley-Saad.jpg,South African,Stephen Bradley Saad,0
-779,0,,1500000000.0,Peggy-Tsiang.jpg,American,Peggy Tsiang,0
+779,0,0,1500000000.0,Peggy-Tsiang.jpg,American,Peggy Tsiang,0
 780,0,"August 2, 1944",1400000000.0,Peter-Unger.jpg,Germany,Peter Unger,0
 781,0,1950,1400000000.0,Joseph-W.-Craft-III.jpg,United States,Joseph W. Craft III,0
 782,0,"March 2, 1943",1400000000.0,Yeung-Sau-Shing.jpg,Chinese,Yeung Sau Shing,0
@@ -785,8 +785,8 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 784,0,1953,1300000000.0,Manoj-Bhargava.jpg,American,Manoj Bhargava,0
 785,0,1977,1300000000.0,Maxim-Nogotkov.jpg,Russian,Maxim Nogotkov,0
 786,0,"May 16, 1957",1300000000.0,Anas-Sefrioui.jpg,Moroccan,Anas Sefrioui,0
-787,0,,1300000000.0,Alan-Gerry.jpg,American,Alan Gerry,0
-788,0,,1290000000.0,Polys-Haji-Ioannou.jpg,British,Polys Haji-Ioannou,0
+787,0,0,1300000000.0,Alan-Gerry.jpg,American,Alan Gerry,0
+788,0,0,1290000000.0,Polys-Haji-Ioannou.jpg,British,Polys Haji-Ioannou,0
 789,0,"July 30, 1948",1200000000.0,Roberto-Angelini-Rossi.jpg,Chile,Roberto Angelini Rossi,0
 790,0,"August 2, 1960",1200000000.0,Todd-R.-Wagner.jpg,American,Todd R. Wagner,0
 791,0,"August 14, 1948",1200000000.0,Frank-L.-VanderSloot.jpg,American,Frank L. VanderSloot,0
@@ -800,7 +800,7 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 799,1.96,"January 14, 1983",50000000.0,Vincent-Jackson.jpg,American,Vincent Jackson,104.0
 800,0,"February 11, 1942",1200000000.0,"Armas-Clifford-Markkula,-Jr..jpg",United States,"Armas Clifford Markkula, Jr.",0
 801,0,"March 23, 1944",1100000000.0,James-H.-Clark.jpg,United States,James H. Clark,0
-802,0,,1060000000.0,Clelia-Haji-Ioannou.jpg,British,Clelia Haji-Ioannou,0
+802,0,0,1060000000.0,Clelia-Haji-Ioannou.jpg,British,Clelia Haji-Ioannou,0
 803,0,"February 21, 1962",1000000000.0,Randolph-David-Lerner.jpg,American,Randolph David Lerner,0
 804,1.88,"June 22, 1971",48000000.0,Kurtis-Eugene-Warner.jpg,American,Kurtis Eugene Warner,97.0
 805,1.83,"November 17, 1978",48000000.0,Reginald-Wayne.jpg,American,Reginald Wayne,90.0
@@ -818,7 +818,7 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 817,1.78,"June 23, 1964",100000000.0,Joseph-Hill-Whedon.jpg,American,Joseph Hill Whedon,0
 818,0,"December 1, 1956",100000000.0,Larry-Clive-Charles.jpg,American,Larry Clive Charles,0
 819,0,"October 27, 1946",100000000.0,Ivan-Reitman.jpg,Slovak-Canadian,Ivan Reitman,0
-820,1.74,"December 6, 1967",90000000.0,anonimo.jpg,American,,0
+820,1.74,"December 6, 1967",90000000.0,anonimo.jpg,American,0,0
 821,0,"June 14, 1957",90000000.0,Matthew-Jay-Roach.jpg,American,Matthew Jay Roach,0
 822,1.73,"February 5, 1943",90000000.0,Michael-Kenneth-Mann.jpg,American,Michael Kenneth Mann,0
 823,1.85,"March 27, 1963 ",90000000.0,Quentin-Jerome-Tarantino.jpg,United States,Quentin Jerome Tarantino,0
@@ -834,7 +834,7 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 833,0,1956,80000000.0,Robert-Andrew-Ackerman.jpg,United States,Robert Andrew Ackerman,0
 834,0,"August 15, 1972",75000000.0,Benjamin-Géza-Affleck-Boldt.jpg,American,Benjamin Géza Affleck-Boldt,0
 835,1.73,"March 28, 1969",75000000.0,Brett-Ratner-.jpg,American,Brett Ratner ,0
-836,0,,72000000.0,anonimo.jpg,American,,0
+836,0,0,72000000.0,anonimo.jpg,American,0,0
 837,1.78,"August 3, 1950",70000000.0,John-David-Landis.jpg,American,John David Landis,0
 838,0,"February 8, 1974",70000000.0,Guillaume-Emmanuel-de-Homem-Christo.jpg,French,Guillaume Emmanuel de Homem-Christo,0
 839,1.88,"March 30, 1937",70000000.0,Henry-Warren-Beatty.jpg,American,Henry Warren Beatty,0
@@ -847,7 +847,7 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 846,0,"October 20, 1956",60000000.0,Daniel-F.-Boyle.jpg,British,Daniel F. Boyle,0
 847,0,"July 14, 1952",400000000.0,Joel-Silver.jpg,American,Joel Silver,0
 848,1.96,"September 13, 1969",400000000.0,"Emmitt-Perry,-Jr..jpg",United States,"Emmitt Perry, Jr.",113.0
-849,0,,360000000.0,Kishore-Arjan-Lulla.jpg,Indian,Kishore Arjan Lulla,0
+849,0,0,360000000.0,Kishore-Arjan-Lulla.jpg,Indian,Kishore Arjan Lulla,0
 850,1.85,"October 19, 1969",350000000.0,Randolph-Severn-Parker-III.jpg,United States,Randolph Severn Parker III,0
 851,1.7,"November 17, 1944",350000000.0,Lorne-Lipowitz.jpg,"Canada, United States",Lorne Lipowitz,0
 852,0,"June 19, 1954 ",300000000.0,Louis-Jay-Lou-Pearlman-.jpg,American,"Louis Jay ""Lou"" Pearlman ",0
@@ -855,16 +855,16 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 854,0,"January 6, 1966",280000000.0,Allah-Rakha-Rahman.jpg,Indian,Allah-Rakha Rahman,0
 855,0,"February 26, 1971 ",250000000.0,Martin-Karl-Sandberg.jpg,Swedish,Martin Karl Sandberg,0
 856,0,"April 4, 1956",250000000.0,David-Edward-Kelley.jpg,American,David Edward Kelley,0
-857,0,"June 6, 1963 ",250000000.0,anonimo.jpg,English,,0
+857,0,"June 6, 1963 ",250000000.0,anonimo.jpg,English,0,0
 858,1.88,"August 8, 1935",250000000.0,Donald-Paul-Bellisario.jpg,United States,Donald Paul Bellisario,0
 859,0,"November 11, 1948",225000000.0,Robert-John-Mutt-Lange.jpg,British and Zambian,"Robert John ""Mutt"" Lange",0
 860,0,"October 28, 1953",200000000.0,John-Charles-Barrett.jpg,American,John Charles Barrett,0
 861,0,"January 27, 1960",200000000.0,Philip-Rosenthal.jpg,American,Philip Rosenthal,0
 862,0,"June 2, 1945",200000000.0,Jon-Peters.jpg,American,Jon Peters,0
 863,0,"November 14, 1916",175000000.0,Sherwood-Charles-Schwartz.jpg,American,Sherwood Charles Schwartz,0
-864,0,,165000000.0,anonimo.jpg,United Kingdom,,0
+864,0,0,165000000.0,anonimo.jpg,United Kingdom,0,0
 865,0,"December 26, 1968",150000000.0,William-Van-Duzer-Lawrence-IV.jpg,American,William Van Duzer Lawrence IV,0
-866,1.83,"March 19, 1952",150000000.0,anonimo.jpg,American,,0
+866,1.83,"March 19, 1952",150000000.0,anonimo.jpg,American,0,0
 867,0,"August 17, 1968",150000000.0,Anthony-Edward-Zuiker.jpg,American,Anthony Edward Zuiker,0
 868,0,"October 13, 1947",150000000.0,Avinoam-Avi-Lerner.jpg,United States,"Avinoam ""Avi"" Lerner",0
 869,0,"June 5, 1953",150000000.0,Kathleen-Kennedy-.jpg,United States,Kathleen Kennedy ,0
@@ -879,10 +879,10 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 878,1.85,"January 31, 1981",225000000.0,Justin-Randall-Timberlake.jpg,United States,Justin Randall Timberlake,75.0
 879,0,"December 1, 1945",220000000.0,Bette-Midler.jpg,United States,Bette Midler,0
 880,0,"February 2, 1977",220000000.0,Shakira-Isabel-Mebarak-Ripoll-.jpg,Colombia,Shakira Isabel Mebarak Ripoll ,0
-881,0,,215000000.0,One-Direction.jpg,English- Irish,One Direction,0
+881,0,0,215000000.0,One-Direction.jpg,English- Irish,One Direction,0
 882,0,"July 22, 1947",250000000.0,Donald-Hugh-Henley.jpg,American,Donald Hugh Henley,0
 883,0,"November 26, 1939",200000000.0,Anna-Mae-Bullock.jpg,American,Anna Mae Bullock,0
-884,0,,0,,,,0
+884,0,0,0,0,0,0,0
 885,0,"August 3, 1926",200000000.0,Anthony-Dominick-Benedetto.jpg,American,Anthony Dominick Benedetto,79.0
 886,0,"June 20, 1949",200000000.0,"Lionel-Brockman-Richie,-Jr..jpg",United States,"Lionel Brockman Richie, Jr.",0
 887,1.85,13 February 1974,200000000.0,Robert-Peter-Williams.jpg,United Kingdom,Robert Peter Williams,0
@@ -891,7 +891,7 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 890,1.73,"October 14, 1978",180000000.0,Usher-Raymond-IV.jpg,American,Usher Raymond IV,71.0
 891,1.63," May 16, 1966",175000000.0,Janet-Damita-Jo-Jackson.jpg,American,Janet Damita Jo Jackson,61.0
 892,0,"April 10, 1959",170000000.0,Kenneth-Brian-Edmonds-.jpg,American,Kenneth Brian Edmonds ,0
-893,0,,165000000.0,anonimo.jpg,United Kingdom,,0
+893,0,0,165000000.0,anonimo.jpg,United Kingdom,0,0
 894,1.65,"November 23, 1992",160000000.0,Destiny-Hope-Cyrus.jpg,American,Destiny Hope Cyrus,47.0
 895,1.56,18 December 1980,160000000.0,Christina-María-Aguilera.jpg,American,Christina María Aguilera,45.3
 896,1.78,"September 9, 1975",150000000.0,Michael-Steven-Bublé.jpg,Canadian,Michael Steven Bublé,0
@@ -955,7 +955,7 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 954,1.75,"September 27, 1961",105000000.0,Andy-Lau-Tak-wah.jpg,Hong Kong,Andy Lau Tak-wah,65.0
 955,1.8,"August 31, 1949",100000000.0,Richard-Tiffany-Gere.jpg,American,Richard Tiffany Gere,80.0
 956,1.93,"May 17, 1956",100000000.0,Robert-Lane-Bob-Saget.jpg,American,"Robert Lane ""Bob"" Saget",87.0
-957,0,,100000000.0,anonimo.jpg,United States,,0
+957,0,0,100000000.0,anonimo.jpg,United States,0,0
 958,1.85,"January 5, 1975",100000000.0,Bradley-Charles-Cooper.jpg,American,Bradley Charles Cooper,82.0
 959,1.77,"March 22, 1931",100000000.0,William-Alan-Shatner.jpg,Canada,William Alan Shatner,0
 960,1.89,"October 12, 1968",100000000.0,Hugh-Michael-Jackman.jpg,Australia,Hugh Michael Jackman,93.0
@@ -968,7 +968,7 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 967,1.75," April 3, 1961",85000000.0,Edward-Regan-Murphy.jpg,United States,Edward Regan Murphy,77.0
 968,0,1960,2100000000.0,Mark-Walter.jpg,American,Mark Walter,0
 969,0,13 August 1972,2100000000.0,Kevin-A.-Plank.jpg,American,Kevin A. Plank,0
-970,0,,2100000000.0,Ajay-Kalsi.jpg,Indian,Ajay Kalsi,0
+970,0,0,2100000000.0,Ajay-Kalsi.jpg,Indian,Ajay Kalsi,0
 971,0,"January 1, 1936",2000000000.0,James-D.-Sinegal.jpg,United  States,James D. Sinegal,0
 972,0,"May 17, 1964",2000000000.0,Alexander-Vladimirovich-Frolov.jpg,Russian,Alexander Vladimirovich Frolov,0
 973,0,"March 26, 1952",2000000000.0,Dato-Sri-Tahir.jpg,Indonesian,Dato Sri Tahir,0
@@ -976,10 +976,10 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 975,0,"November 19, 1976",1900000000.0,Jack-Dorsey-.jpg,United States,Jack Dorsey ,0
 976,0,"May 29, 1927",1840000000.0,Jean-Coutu.jpg,Canada,Jean Coutu,0
 977,0,"September 3, 1944",1760000000.0,H-Ty-Warner.jpg,United States,H Ty Warner,0
-978,0,,1750000000.0,Jayme-Brasil-Garfinkel.jpg,Brazil,Jayme Brasil Garfinkel,0
-979,0,,1700000000.0,Alexei-Ananyev.jpg,Russian,Alexei Ananyev,0
-980,0,,1600000000.0,Ralf-Sonnenberg.jpg,Netherlands,Ralf Sonnenberg,0
-981,0,,1600000000.0,Alfred-James-Clark.jpg,American,Alfred James Clark,0
+978,0,0,1750000000.0,Jayme-Brasil-Garfinkel.jpg,Brazil,Jayme Brasil Garfinkel,0
+979,0,0,1700000000.0,Alexei-Ananyev.jpg,Russian,Alexei Ananyev,0
+980,0,0,1600000000.0,Ralf-Sonnenberg.jpg,Netherlands,Ralf Sonnenberg,0
+981,0,0,1600000000.0,Alfred-James-Clark.jpg,American,Alfred James Clark,0
 982,0,"August 20, 1946",1550000000.0,Nagavara-Ramarao-Narayana-Murthy.jpg,India,Nagavara Ramarao Narayana Murthy,0
 983,1.85,"June 7, 1972",80000000.0,Karl-Heinz-Urban.jpg,New Zealander,Karl-Heinz Urban,0
 984,1.8,"June 13, 1953",80000000.0,Timothy-Allen-Dick-.jpg,American,Timothy Allen Dick ,82.0
@@ -993,9 +993,9 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 992,0,"November 24, 1941",1400000000.0,Gerald-W.-Schwartz.jpg,Canadian,Gerald W. Schwartz,0
 993,0,"August 21, 1958",1400000000.0,Stephen-McConnell.jpg,American,Stephen McConnell,0
 994,0,2 May 1974 ,1350000000.0,Jonathan-Oringer.jpg,American,Jonathan Oringer,0
-995,0,,1350000000.0,Christopher-Goldsbury.jpg,American,Christopher Goldsbury,0
+995,0,0,1350000000.0,Christopher-Goldsbury.jpg,American,Christopher Goldsbury,0
 996,0,"December 23, 1935",1300000000.0,Thomas-Denny-Sanford.jpg,United States,Thomas Denny Sanford,0
-997,0,,1300000000.0,Allan-Wong.jpg,Hong Kong,Allan Wong,0
+997,0,0,1300000000.0,Allan-Wong.jpg,Hong Kong,Allan Wong,0
 998,1.83,"February 6, 1940",70000000.0,Thomas-John-Brokaw.jpg,American,Thomas John Brokaw,0
 999,1.62,"July 20, 1964",66000000.0,Terri-Raines-Irwin.jpg,American-Australian,Terri Raines Irwin,0
 1000,0,"September 15, 1960",65000000.0,Lisa-Vanderpump.jpg,United Kingdom,Lisa Vanderpump,0
@@ -1007,16 +1007,16 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 1006,0,"September 3, 1960",55000000.0,David-Ramsey.jpg,United States,David Ramsey,0
 1007,1.55,"January 7, 1957",55000000.0,Katherine-Anne-Katie-Couric.jpg,United States,"Katherine Anne ""Katie"" Couric",48.0
 1008,0,"October 15, 1959",50000000.0,Emeril-John-Lagasse.jpg,American,Emeril John Lagasse,0
-1009,0,,50000000.0,anonimo.jpg,,,0
-1010,0,,50000000.0,Carole-DiFalco.jpg,United States,Carole DiFalco,0
+1009,0,0,50000000.0,anonimo.jpg,0,0,0
+1010,0,0,50000000.0,Carole-DiFalco.jpg,United States,Carole DiFalco,0
 1011,1.68,"September 2, 1968",50000000.0,Camille-Donatacci-Grammer.jpg,American,Camille Donatacci Grammer,0
 1012,0,"April 11, 1960",50000000.0,Jeremy-Charles-Robert-Clarkson.jpg,United Kingdom,Jeremy Charles Robert Clarkson,0
-1013,0,,50000000.0,Matthew-Chasen.jpg,United States,Matthew Chasen,0
-1014,0,,50000000.0,Gerald-Dowden.jpg,American,Gerald Dowden,0
+1013,0,0,50000000.0,Matthew-Chasen.jpg,United States,Matthew Chasen,0
+1014,0,0,50000000.0,Gerald-Dowden.jpg,American,Gerald Dowden,0
 1015,0,"July 10, 1975",50000000.0,Andrew-Boulton-Firestone.jpg,American,Andrew Boulton Firestone,0
 1016,1.7,"March 22, 1952",45000000.0,Robert-Quinlan-Costas-.jpg,American,Robert Quinlan Costas ,0
 1017,1.75,"November 17, 1966 ",45000000.0,Daisy-Fuentes.jpg,United States,Daisy Fuentes,0
-1018,1.54,,45000000.0,Anne-Josephine-Robinson.jpg,British,Anne Josephine Robinson,0
+1018,1.54,0,45000000.0,Anne-Josephine-Robinson.jpg,British,Anne Josephine Robinson,0
 1019,1.54,"September 26, 1944 ",45000000.0,Anne-Josephine-Robinson.jpg,British,Anne Josephine Robinson,0
 1020,0,"January 11, 1976",45000000.0,LaTasha-Marbury.jpg,United States,LaTasha Marbury,0
 1021,0,"February 2, 1948",44000000.0,Ina-Rosenberg-Garten.jpg,American,Ina Rosenberg Garten,0
@@ -1046,7 +1046,7 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 1045,1.88,"May 8, 1982 ",50000000.0,Adrian-Gonzalez.jpg,United States-Mexico,Adrian Gonzalez,102.0
 1046,1.91,"October 1, 1984 ",50000000.0,Matthew-Thomas-Cain.jpg,American,Matthew Thomas Cain,107.0
 1047,1.78,"September 9, 1972",50000000.0,Michael-William-Hampton.jpg,American,Michael William Hampton,84.0
-1048,229.0,"September 12, 1980",65000000.0,anonimo.jpg,China,,0
+1048,229.0,"September 12, 1980",65000000.0,anonimo.jpg,China,0,0
 1049,0,"July 6, 1980",65000000.0,Pau-Gasol-Sáez.jpg,Spanish,Pau Gasol Sáez,0
 1050,0,"September 28, 1982",64200000.0,Chukwuemeka-Ndubuisi-Okafor.jpg,American,Chukwuemeka Ndubuisi Okafor,116.0
 1051,0,"March 5, 1977",62700000.0,Walter-Rober-Szczerbiak.jpg,American,Walter Rober Szczerbiak,111.0
@@ -1065,7 +1065,7 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 1064,2.08,"November 6, 1979",56000000.0,Lamar-Joseph-Odom.jpg,United States,Lamar Joseph Odom,104.0
 1065,1.91,"June 26, 1984",55000000.0,Deron-Michael-Williams.jpg,American,Deron Michael Williams,95.0
 1066,0,"October 10, 1940",41600000000.0,Jacqueline-Mars.jpg,American,Jacqueline Mars,0
-1067,0,,33400000000.0,Maria-Franca-Fissolo-Ferrero.jpg,Italian,Maria Franca Fissolo Ferrero,0
+1067,0,0,33400000000.0,Maria-Franca-Fissolo-Ferrero.jpg,Italian,Maria Franca Fissolo Ferrero,0
 1068,0,"August 17, 1941",26100000000.0,Maria-Elisabeth-Schaeffler.jpg,Germany,Maria-Elisabeth Schaeffler,0
 1069,0,20 July 1981,23600000000.0,Yang-Huiyan.jpg,Chinese,Yang Huiyan,0
 1070,0,"November 6, 1963",21200000000.0,Laurene-Powell-Jobs.jpg,United States,Laurene Powell Jobs,0
@@ -1074,13 +1074,13 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 1073,0,"December 19, 1961 ",17200000000.0,Abigail-Pierrepont-Johnson.jpg,United States,Abigail Pierrepont Johnson,0
 1074,0,"December 1, 1919",17000000000.0,Anne-Beau-Cox-Chambers.jpg,American,Anne Beau Cox Chambers,0
 1075,0,9 February 1954,16200000000.0,Georgina-Hope-Gina-Rinehart.jpg,Australian,"Georgina Hope ""Gina"" Rinehart",0
-1076,0,,16000000000.0,Iris-Fontbona.jpg,Chile,Iris Fontbona,0
+1076,0,0,16000000000.0,Iris-Fontbona.jpg,Chile,Iris Fontbona,0
 1077,0,"January 12, 1939 ",15400000000.0,Elaine-Tettemer-Marshall.jpg,American,Elaine Tettemer Marshall,0
 1078,0,1924,12600000000.0,Birgit-Mayne.jpg,Swedish,Birgit Mayne,0
-1079,0,,12000000000.0,anonimo.jpg,Saudi Arabia,,0
-1080,0,,11000000000.0,Pollyanna-Yuet-Wah-Chu.jpg,Hong Kong,Pollyanna Yuet Wah Chu,0
-1081,0,,10600000000.0,Massimiliana-Landini-Aleotti.jpg,Italian,Massimiliana Landini Aleotti,0
-1082,0,,10400000000.0,Beate-Heister.jpg,German,Beate Heister,0
+1079,0,0,12000000000.0,anonimo.jpg,Saudi Arabia,0,0
+1080,0,0,11000000000.0,Pollyanna-Yuet-Wah-Chu.jpg,Hong Kong,Pollyanna Yuet Wah Chu,0
+1081,0,0,10600000000.0,Massimiliana-Landini-Aleotti.jpg,Italian,Massimiliana Landini Aleotti,0
+1082,0,0,10400000000.0,Beate-Heister.jpg,German,Beate Heister,0
 1083,2.16,"October 2, 1982",55000000.0,Tyson-Cleotis-Chandler.jpg,American,Tyson Cleotis Chandler,109.0
 1084,1.98,"April 20, 1971 ",55000000.0,Allan-Wade-Houston.jpg,American,Allan Wade Houston,93.0
 1085,1.88,"May 28, 1938",55000000.0,Jerry-Alan-West.jpg,United States,Jerry Alan West,84.0
@@ -1088,19 +1088,19 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 1087,1.85,"February 22, 1986",51000000.0,Rajon-Pierre-Rondo.jpg,American,Rajon Pierre Rondo,84.0
 1088,1.96,"July 20, 1975 ",50000000.0,"Walter-Ray-Allen,-Jr..jpg",United States,"Walter Ray Allen, Jr.",93.0
 1089,2.01,"June 21, 1980",50000000.0,Richard-Allen-Jefferson.jpg,American,Richard Allen Jefferson,104.0
-1090,0,,10200000000.0,Tan-Siok-Tijen.jpg,Indonesian,Tan Siok Tijen,0
+1090,0,0,10200000000.0,Tan-Siok-Tijen.jpg,Indonesian,Tan Siok Tijen,0
 1091,0,1960,9590000000.0,Pamela-Diane-Mars-Wright.jpg,American,Pamela Diane Mars-Wright,0
-1092,0,,9590000000.0,Victoria-B.-Mars.jpg,American,Victoria B. Mars,0
+1092,0,0,9590000000.0,Victoria-B.-Mars.jpg,American,Victoria B. Mars,0
 1093,0,"January 1, 1952",9310000000.0,Blair-Parry-Okeden.jpg,Australian,Blair Parry-Okeden,0
 1094,0,"March  20, 1950",8260000000.0,Savitri-Devu-Jindal.jpg,Indian,Savitri Devu Jindal,0
-1095,0,,7910000000.0,Sandra-Ortega-Mera.jpg,Spain,Sandra Ortega Mera,0
+1095,0,0,7910000000.0,Sandra-Ortega-Mera.jpg,Spain,Sandra Ortega Mera,0
 1096,0,1957,7650000000.0,Shari-Arison.jpg,Israel- American,Shari Arison,0
 1097,0,"June 6, 1952 ",7140000000.0,Kirsten-Rausing.jpg,Swedish,Kirsten Rausing,0
 1098,0,1958,30200000000.0,Hui-Ka-Yan.jpg,Chinese,Hui Ka Yan,0
 1099,0,"June 13, 1928",27700000000.0,Ka-shing-Li.jpg,Hong Kong-Canada,Ka-shing Li,0
 1100,0,1950,27400000000.0,Gerard-Wertheimer.jpg,French,Gerard Wertheimer,0
 1101,0,1949,27400000000.0,Alain-Wertheimer-.jpg,French,Alain Wertheimer ,0
-1102,0,,27400000000.0,Alain-and-Gerard-Wertheimer.jpg,French,Alain and Gerard Wertheimer,0
+1102,0,0,27400000000.0,Alain-and-Gerard-Wertheimer.jpg,French,Alain and Gerard Wertheimer,0
 1103,1.78,"January 21, 1953",27100000000.0,Paul-Gardner-Allen.jpg,United States,Paul Gardner Allen,0
 1104,0,"June 12, 1957",27000000000.0,David-Kenneth-Roy-Thomson.jpg,Canada,David Kenneth Roy Thomson,0
 1105,0,"January 29, 1928",26200000000.0,Lee-Shau-kee-.jpg,Hong Kong,Lee Shau-kee ,0
@@ -1109,11 +1109,11 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 1108,0,"March 11, 1931",24100000000.0,Keith-Rupert-Murdoch.jpg,Australian-American,Keith Rupert Murdoch,0
 1109,0,"August 11, 1955",23800000000.0,Leonid-Mikhelson.jpg,Russian,Leonid Mikhelson,0
 1110,0,"September 24, 1939",23200000000.0,Dieter-Schwarz.jpg,German,Dieter Schwarz,0
-1111,0,,22900000000.0,Pallonji-Shapoorji-Mistry.jpg,Irish,Pallonji Shapoorji Mistry,0
+1111,0,0,22900000000.0,Pallonji-Shapoorji-Mistry.jpg,Irish,Pallonji Shapoorji Mistry,0
 1112,0,"July 24, 1945",22200000000.0,Azim-Hashim-Premji.jpg,Indian,Azim Hashim Premji,0
 1113,1.6,"January 28, 1950 ",20000000.0,Barbara-Lynn-Klein.jpg,United States,Barbara Lynn Klein,49.0
-1114,1.76,"August 11, 1974",20000000.0,anonimo.jpg,American,,0
-1115,1.77,"May 25, 1973",20000000.0,anonimo.jpg,American,,0
+1114,1.76,"August 11, 1974",20000000.0,anonimo.jpg,American,0,0
+1115,1.77,"May 25, 1973",20000000.0,anonimo.jpg,American,0,0
 1116,1.73,"August 6, 1978",20000000.0,Marisa-Lee-Bertetta.jpg,American,Marisa Lee Bertetta,50.0
 1117,1.78, 23 January 1985,19000000.0,Doutzen-Kroes.jpg,Netherlands,Doutzen Kroes,54.0
 1118,1.75,"April 20, 1983 ",18000000.0,Miranda-May-Kerr.jpg,Australian,Miranda May Kerr,56.0
@@ -1126,7 +1126,7 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 1125,1.75,"July 25, 1976",17000000.0,Linda-Ann-Hopkins.jpg,American,Linda Ann Hopkins,55.0
 1126,1.91,"February 19, 1980",16000000.0,David-James-Gandy.jpg,United Kingdom,David James Gandy,0
 1127,1.6,"April 20, 1972",16000000.0,Tara-Leigh-Patrick.jpg,American,Tara Leigh Patrick,49.8
-1128,0,"November 19, 1983",16000000.0,anonimo.jpg,Ukrainian-Canadian,,0
+1128,0,"November 19, 1983",16000000.0,anonimo.jpg,Ukrainian-Canadian,0,0
 1129,1.83,"July 2, 1956",15000000.0,Jerry-Faye-Hall.jpg,American,Jerry Faye Hall,0
 1130,1.9,"August 4, 1968",15000000.0,Marcus-Lodewijk-Schenkenberg-van-Mierop.jpg,Swedish,Marcus Lodewijk Schenkenberg van Mierop,80.0
 1131,0," January 3, 1961 ",21100000000.0,Vladimir-Olegovich-Potanin.jpg,Russia,Vladimir Olegovich Potanin,0
@@ -1149,7 +1149,7 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 1148,1.8,"April 29, 1954 ",920000000.0,Jerome-Jerry-Seinfeld.jpg,American,"Jerome ""Jerry"" Seinfeld",77.0
 1149,1.82,"September 16, 1956",900000000.0,David-Seth-Kotkin.jpg,American,David Seth Kotkin,0
 1150,0,"December 21, 1950",900000000.0,Jeffrey-Katzenberg.jpg,American,Jeffrey Katzenberg,0
-1151,0,,900000000.0,The-Rolling-Stones.jpg,British,The Rolling Stones,0
+1151,0,0,900000000.0,The-Rolling-Stones.jpg,British,The Rolling Stones,0
 1152,1.73,"September 21, 1943",900000000.0,Jerome-Leon-Bruckheimer.jpg,United States,Jerome Leon Bruckheimer,0
 1153,0,"November 4, 1969",825000000.0,Sean-John-Combs.jpg,American,Sean John Combs,86.0
 1154,0,"March 31, 1935",850000000.0,Herbert-Herb-Alpert.jpg,American,"Herbert ""Herb"" Alpert",0
@@ -1177,8 +1177,8 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 1176,1.88,"August 16, 1954 ",700000000.0,James-Francis-Cameron.jpg,Canadian,James Francis Cameron,0
 1177,0,"June 27, 1949",650000000.0,Vera-Ellen-Wang.jpg,American,Vera Ellen Wang,0
 1178,1.96,"January 12, 1954",650000000.0,Howard-Allan-Stern.jpg,American,Howard Allan Stern,102.0
-1179,0,,637500000.0,anonimo.jpg,Canada,,0
-1180,0,,615000000.0,Julian-Dunkerton.jpg,British,Julian Dunkerton,0
+1179,0,0,637500000.0,anonimo.jpg,Canada,0,0
+1180,0,0,615000000.0,Julian-Dunkerton.jpg,British,Julian Dunkerton,0
 1181,0,"September 20, 1945",600000000.0,Carole-Gene-Spelling.jpg,American,Carole Gene Spelling,49.0
 1182,1.76,"May 10, 1960",600000000.0,Paul-David-Hewson.jpg,Irish,Paul David Hewson,0
 1183,1.7,"October 4, 1946",50000000.0,Susan-Abigail-Tomalin.jpg,American,Susan Abigail Tomalin,0
@@ -1201,7 +1201,7 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 1200,1.98,"July 21, 1980 ",155000000.0,Carsten-Charles-CC-Sabathia.jpg,American,"Carsten Charles ""CC"" Sabathia",0
 1201,1.7,"August 4, 1971",150000000.0,Jeffrey-Michael-Gordon.jpg,American,Jeffrey Michael Gordon,68.0
 1202,1.85,"August 12, 1971 ",150000000.0,Peter-Sampras.jpg,United States,Peter Sampras,77.0
-1203,1.93,"October 5, 1965",150000000.0,anonimo.jpg,Canadian,,107.0
+1203,1.93,"October 5, 1965",150000000.0,anonimo.jpg,Canadian,0,107.0
 1204,1.88,"August 20, 1931",150000000.0,Donald-King.jpg,United States,Donald King,0
 1205,1.8,"September 2, 1989 ",145000000.0,Alexandre-Rodrigues-da-Silva.jpg,Brazilian,Alexandre Rodrigues da Silva,71.0
 1206,0,"March 1, 1973",143400000.0,Mayce-Edward-Christopher-Webber.jpg,American,Mayce Edward Christopher Webber,111.0
@@ -1283,7 +1283,7 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 1282,0,"July 31, 1978",75000000.0,William-Champion.jpg,British,William Champion,0
 1283,0,"December 8, 1984",75000000.0,Onika-Tanya-Maraj.jpg,American,Onika Tanya Maraj,54.0
 1284,0,"May 28, 1945",70000000.0,John-Cameron-Fogerty.jpg,American,John Cameron Fogerty,0
-1285,0,"January 3, 1975",70000000.0,anonimo.jpg,French,,0
+1285,0,"January 3, 1975",70000000.0,anonimo.jpg,French,0,0
 1286,1.76,"November 6, 1948",70000000.0,Glenn-Lewis-Frey.jpg,American,Glenn Lewis Frey,0
 1287,0,"April 16, 1984",35000000.0,Johnathan-Lee-Joseph.jpg,American,Johnathan Lee Joseph,85.0
 1288,0,"October 22, 1982",35000000.0,"Earl-Heath-Miller,-Jr..jpg",American,"Earl Heath Miller, Jr.",116.0
@@ -1345,7 +1345,7 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 1344,0,"September 20, 1948",80000000.0,George-Raymond-Richard-Martin.jpg,American,George Raymond Richard Martin,0
 1345,0,"February 10, 1958 ",80000000.0,Vladimir-Nikitich-Afanasieff.jpg,United States,Vladimir Nikitich Afanasieff,0
 1346,0,"October 17, 1962",75000000.0,Michael-Craig-Mike-Judge.jpg,American,"Michael Craig ""Mike"" Judge",0
-1347,0,,75000000.0,Sarah-King.jpg,British,Sarah King,0
+1347,0,0,75000000.0,Sarah-King.jpg,British,Sarah King,0
 1348,1.6,"December 22, 1972",150000000.0,Vanessa-Chantal-Paradis.jpg,France,Vanessa Chantal Paradis,0
 1349,0,"October 5, 1951",150000000.0,Robert-Frederick-Zenon-Geldof.jpg,Ireland,Robert Frederick Zenon Geldof,0
 1350,0,"April 5, 1973",150000000.0,Pharrell-Williams.jpg,United States,Pharrell Williams,0
@@ -1365,7 +1365,7 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 1364,0,27 July 1942,100000000.0,Bobbie-Lee-Gentry.jpg,American,Bobbie Lee Gentry,57.0
 1365,0,"February 19, 1940",100000000.0,"William-Robinson,-Jr..jpg",American,"William Robinson, Jr.",0
 1366,0,"August 6, 1982",100000000.0,Benjamin-Zachary-Bronfman.jpg,American,Benjamin Zachary Bronfman,0
-1367,0,,100000000.0,anonimo.jpg,United States,,0
+1367,0,0,100000000.0,anonimo.jpg,United States,0,0
 1368,0,"March 28, 1955",95000000.0,Reba-Nell-McEntire-.jpg,American,Reba Nell McEntire ,0
 1369,0,"May 2, 1936",90000000.0,Arnold-George-Dorsey.jpg,English,Arnold George Dorsey,0
 1370,0,5 October 1947,90000000.0,Brian-Johnson.jpg,United Kingdom,Brian Johnson,0
@@ -1378,8 +1378,8 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 1377,0,"March 9, 1985",30000000.0,William-Brent-Burns.jpg,Canadian,William Brent Burns,105.0
 1378,1.93,"May 10, 1985",30000000.0,Ryan-Getzlaf.jpg,Canadian,Ryan Getzlaf,100.0
 1379,1.85,"June 5, 1980",30000000.0,Michael-Andrew-Fisher-.jpg,Canadian,Michael Andrew Fisher ,98.0
-1380,1.7779999979426,"July 17, 1977",30000000.0,anonimo.jpg,Canadian,,86.63614274265225
-1381,1.85,"August 31, 1973",30000000.0,anonimo.jpg,Canadian,,91.0
+1380,1.7779999979426,"July 17, 1977",30000000.0,anonimo.jpg,Canadian,0,86.63614274265225
+1381,1.85,"August 31, 1973",30000000.0,anonimo.jpg,Canadian,0,91.0
 1382,1.93,"February 28, 1973",30000000.0,Eric-Bryan-Lindros.jpg,Canadian,Eric Bryan Lindros,109.0
 1383,0,"July 3, 1973 ",26600000.0,Adrian-Mark-Aucoin-.jpg,Canadian,Adrian Mark Aucoin ,94.0
 1384,0,"March 18, 1977",26000000.0,Zdeno-Chára.jpg,Slovak,Zdeno Chára,116.0
@@ -1398,9 +1398,9 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 1397,1.85,"January 13, 1973",22000000.0,Nikolai-Ivanovich-Khabibulin.jpg,Russian,Nikolai Ivanovich Khabibulin,94.0
 1398,0,"September 25, 1979",1000000000.0,Sandro-Salsano.jpg,Italian,Sandro Salsano,0
 1399,0,1945,1000000000.0,Robert-T.-Bigelow.jpg,United States,Robert T. Bigelow,0
-1400,0,,900000000.0,Gary-Tharaldson.jpg,American,Gary Tharaldson,0
+1400,0,0,900000000.0,Gary-Tharaldson.jpg,American,Gary Tharaldson,0
 1401,0,"November 21, 1948",800000000.0,George-Zimmer.jpg,American,George Zimmer,0
-1402,0,,750000000.0,David-McCourt.jpg,United States,David McCourt,0
+1402,0,0,750000000.0,David-McCourt.jpg,United States,David McCourt,0
 1403,0,"November 20, 1955",650000000.0,Raymond-Ozzie.jpg,United States,Raymond Ozzie,0
 1404,0,18 September 1973,500000000.0,Mark-Richard-Shuttleworth.jpg,"South African, British (dual)",Mark Richard Shuttleworth,0
 1405,0,"December 29, 1947",500000000.0,John-Staluppi.jpg,American,John Staluppi,0
@@ -1409,15 +1409,15 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 1408,0,1928,400000000.0,Karl-Eller.jpg,United States,Karl Eller,0
 1409,0,1984,400000000.0,Kevin-Systrom.jpg,United States,Kevin Systrom,0
 1410,0,1943,350000000.0,Norman-J.-Pattiz.jpg,United States,Norman J. Pattiz,0
-1411,0,,320000000.0,anonimo.jpg,United Kingdom,,0
+1411,0,0,320000000.0,anonimo.jpg,United Kingdom,0,0
 1412,0,"March 16, 1961",300000000.0,Todd-McFarlane.jpg,Canadian,Todd McFarlane,0
-1413,0,,300000000.0,Zachary-Bogue.jpg,United States,Zachary Bogue,0
-1414,0,,300000000.0,Pleasant-Williams-Thiele.jpg,American,Pleasant Williams Thiele,0
-1415,0,,300000000.0,Omar-Hamoui.jpg,United States,Omar Hamoui,0
+1413,0,0,300000000.0,Zachary-Bogue.jpg,United States,Zachary Bogue,0
+1414,0,0,300000000.0,Pleasant-Williams-Thiele.jpg,American,Pleasant Williams Thiele,0
+1415,0,0,300000000.0,Omar-Hamoui.jpg,United States,Omar Hamoui,0
 1416,0,"March 27, 1948",250000000.0,James-William-Heselden.jpg,United Kingdom,James William Heselden,0
-1417,0,"March 2, 1962",200000000.0,anonimo.jpg,United States,,0
-1418,0,,200000000.0,Scott-Boilen.jpg,United States,Scott Boilen,0
-1419,0,,200000000.0,Jay-Penske-.jpg,United States,Jay Penske ,0
+1417,0,"March 2, 1962",200000000.0,anonimo.jpg,United States,0,0
+1418,0,0,200000000.0,Scott-Boilen.jpg,United States,Scott Boilen,0
+1419,0,0,200000000.0,Jay-Penske-.jpg,United States,Jay Penske ,0
 1420,2.0,"January 21, 1974",200000000.0,Kim-Schmitz.jpg,Germany-Finland,Kim Schmitz,132.0
 1421,0,"March 10, 1974",200000000.0,Christopher-Isaac-Stone.jpg,United States,Christopher Isaac Stone,0
 1422,1.85,"July 1, 1952",135000000.0,"Daniel-Edward-Dan-Aykroyd,-CM.jpg",Canadian,"Daniel Edward ""Dan"" Aykroyd, CM",0
@@ -1500,14 +1500,14 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 1499,0,"March 10, 1964",40000000.0,David-H.-Faber.jpg,United States,David H. Faber,0
 1500,0,"June 18, 1941",36000000.0,Delia-Smith.jpg,United Kingdom,Delia Smith,0
 1501,1.68," November 30, 1963",35000000.0,-Jill-Susan-Kamen-.jpg,United States, Jill Susan Kamen ,57.0
-1502,0,,35000000.0,anonimo.jpg,United States,,0
+1502,0,0,35000000.0,anonimo.jpg,United States,0,0
 1503,1.52,"April 18, 1979",35000000.0,Kourtney-Mary-Kardashian.jpg,American,Kourtney Mary Kardashian,49.0
 1504,1.73,"December 11, 1959",30000000.0,Lisa-D'Amico-Gastineau.jpg,American,Lisa D'Amico Gastineau,0
 1505,1.71,"January 5, 1969",30000000.0,Heather-Paige-Kent-Dubrow.jpg,United States,Heather Paige Kent Dubrow,0
-1506,0,,30000000.0,Alexia-Echevarria.jpg,Cuba,Alexia Echevarria,0
+1506,0,0,30000000.0,Alexia-Echevarria.jpg,Cuba,Alexia Echevarria,0
 1507,0,"August 3, 1963",30000000.0,Michael-James-Holmes.jpg,Canadian,Michael James Holmes,102.0
 1508,1.52," June 19, 1962",30000000.0,Paula-Julie-Abdul.jpg,American,Paula Julie Abdul,49.8
-1509,0,,30000000.0,Joe-Terranova.jpg,United States,Joe Terranova,0
+1509,0,0,30000000.0,Joe-Terranova.jpg,United States,Joe Terranova,0
 1510,1.87,"November 17, 1960",27000000.0,Jonathan-Stephen-Ross.jpg,United Kingdom,Jonathan Stephen Ross,0
 1511,0,"June 20, 1946",25000000.0,Robert-Joseph-Vila.jpg,American,Robert Joseph Vila,0
 1512,1.78,"November 23, 1960",25000000.0,Robin-René-Roberts.jpg,American,Robin René Roberts,0
@@ -1517,29 +1517,29 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 1516,1.71," November 4, 1970",25000000.0,Bethenny-Frankel.jpg,United States,Bethenny Frankel,52.0
 1517,0,1970,25000000.0,"Armando-Montelongo,-Jr.-.jpg",American,"Armando Montelongo, Jr. ",0
 1518,1.83,"July 5, 1980",24000000.0,Paul-DelVecchio.jpg,American,Paul DelVecchio,0
-1519,0,,23000000.0,anonimo.jpg,United States,,0
+1519,0,0,23000000.0,anonimo.jpg,United States,0,0
 1520,0,"July 3, 1966",20000000.0,Sandra-Lee-Christiansen.jpg,American,Sandra Lee Christiansen,0
 1521,1.7,"August 25, 1931",20000000.0,Regis-Francis-Xavier-Philbin.jpg,American,Regis Francis Xavier Philbin,0
 1522,1.91,2 July 1984,20000000.0,Ryan-Serhant.jpg,American,Ryan Serhant,0
 1523,0,"August 22, 1944",1300000000.0,Paul-Elliot-Singer.jpg,American,Paul Elliot Singer,0
 1524,0,1947,1240000000.0,Richard-A.-Hayne.jpg,United States,Richard A. Hayne,0
 1525,0,1929,1200000000.0,"Donald-J.-Hall,-Sr..jpg",American,"Donald J. Hall, Sr.",0
-1526,0,,1200000000.0,Alan-I.-Casden.jpg,American,Alan I. Casden,0
-1527,0,,1150000000.0,anonimo.jpg,Brazilian,,0
+1526,0,0,1200000000.0,Alan-I.-Casden.jpg,American,Alan I. Casden,0
+1527,0,0,1150000000.0,anonimo.jpg,Brazilian,0,0
 1528,0,1972,1100000000.0,Hamdi-Ulukaya.jpg,Turkey,Hamdi Ulukaya,0
-1529,0,,1100000000.0,Edward-W.-Stack.jpg,United States,Edward W. Stack,0
+1529,0,0,1100000000.0,Edward-W.-Stack.jpg,United States,Edward W. Stack,0
 1530,0,1944,1100000000.0,Nicholas-J.-Pritzker.jpg,United States,Nicholas J. Pritzker,0
 1531,0,"May 5, 1947",1100000000.0,William-E.-Macaulay.jpg,American,William E. Macaulay,0
 1532,0,"May 15, 1963",1050000000.0,Stefan-von-Holtzbrinck.jpg,Germany,Stefan von Holtzbrinck,0
 1533,0,"December 7, 1960",1050000000.0,Gautam-Thapar.jpg,Indian,Gautam Thapar,0
-1534,0,,1040000000.0,Akio-Nitori.jpg,Japanese,Akio Nitori,0
-1535,0,,1000000000.0,David-E.-Simon.jpg,American,David E. Simon,0
+1534,0,0,1040000000.0,Akio-Nitori.jpg,Japanese,Akio Nitori,0
+1535,0,0,1000000000.0,David-E.-Simon.jpg,American,David E. Simon,0
 1536,0,January 1947,1000000000.0,Richard-A.-Peddie.jpg,Canada,Richard A. Peddie,0
 1537,0,1944,1000000000.0,"Guizhou,-China.jpg",China,"Guizhou, China",0
-1538,0,,1000000000.0,Quinton-Van-Der-Burgh.jpg,South Africa,Quinton Van Der Burgh,0
-1539,0,,1000000000.0,Huang-Maoru.jpg,Belize,Huang Maoru,0
-1540,0,,1000000000.0,Alain-Taravella.jpg,French,Alain Taravella,0
-1541,0,"May 3, 1956",1000000000.0,anonimo.jpg,Japanese,,0
+1538,0,0,1000000000.0,Quinton-Van-Der-Burgh.jpg,South Africa,Quinton Van Der Burgh,0
+1539,0,0,1000000000.0,Huang-Maoru.jpg,Belize,Huang Maoru,0
+1540,0,0,1000000000.0,Alain-Taravella.jpg,French,Alain Taravella,0
+1541,0,"May 3, 1956",1000000000.0,anonimo.jpg,Japanese,0,0
 1542,0,"March 11, 1953",950000000.0,James-Iovine.jpg,United States,James Iovine,0
 1543,0,"October 8, 1960",840000000.0,Wilmot-Reed-Hastings-Jr..jpg,American,Wilmot Reed Hastings Jr.,0
 1544,0,"Nov 19, 1935",720000000.0,"John-Francis-Jack-Welch,-Jr..jpg",American ,"John Francis Jack Welch, Jr.",0
@@ -1578,10 +1578,10 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 1577,0,"November 9, 1952",17000000000.0,Gennady-Nikolayevich-Timchenko.jpg,Russia-Finland,Gennady Nikolayevich Timchenko,0
 1578,0,"August 1 , 1949",16899999999.999998,Ray-Dalio-.jpg,American,Ray Dalio ,0
 1579,0,"January 9, 1942",16800000000.0,Lee-Kun-hee.jpg,Korean,Lee Kun-hee,0
-1580,0,,16800000000.0,Takemitsu-Takizaki.jpg,Japan,Takemitsu Takizaki,0
-1581,0,,16800000000.0,anonimo.jpg,China,,0
+1580,0,0,16800000000.0,Takemitsu-Takizaki.jpg,Japan,Takemitsu Takizaki,0
+1581,0,0,16800000000.0,anonimo.jpg,China,0,0
 1582,0,"April 2, 1941",16700000000.0,Heinz-Hermann-Thiele.jpg,German,Heinz Hermann Thiele,0
-1583,0,"August 9, 1929",16700000000.0,anonimo.jpg,Chinese,,0
+1583,0,"August 9, 1929",16700000000.0,anonimo.jpg,Chinese,0,0
 1584,0,"February 14, 1947",16700000000.0,Stephen-Allen-Schwarzman.jpg,American,Stephen Allen Schwarzman,0
 1585,0,"August 26, 1925",16500000000.0,Cheng-Yu-Tung.jpg,Chinese,Cheng Yu-Tung,0
 1586,0,"April 28, 1940",16500000000.0,Robert-Budi-Hartono-.jpg,Indonesian-Chinese,Robert Budi Hartono ,0
@@ -1630,70 +1630,70 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 1629,0,8 June 1962,60000000.0,Nicholas-James-Bates.jpg,British,Nicholas James Bates,0
 1630,0,"April 11, 1974",60000000.0,William-Packer.jpg,American,William Packer,0
 1631,1.83,"March 10, 1953",60000000.0,Paul-Edward-Haggis.jpg,Canadian,Paul Edward Haggis,0
-1632,0,,60000000.0,Barry-M.-Meyer.jpg,United States,Barry M. Meyer,0
+1632,0,0,60000000.0,Barry-M.-Meyer.jpg,United States,Barry M. Meyer,0
 1633,0,"June 26, 1970",60000000.0,Irving-Domingo-Lorenzo-Jr..jpg,American,Irving Domingo Lorenzo Jr.,0
-1634,0,"January 17, 1977",55000000.0,anonimo.jpg,Australian,,0
+1634,0,"January 17, 1977",55000000.0,anonimo.jpg,Australian,0,0
 1635,1.83,"May 13, 1957 ",55000000.0,Alan-E.-Ball.jpg,American,Alan E. Ball,0
 1636,0,"March 14, 1965",55000000.0,Kevin-Meade-Williamson.jpg,American,Kevin Meade Williamson,0
-1637,0,,52500000.0,Ken-Berry.jpg,British,Ken Berry,0
+1637,0,0,52500000.0,Ken-Berry.jpg,British,Ken Berry,0
 1638,0,"April 17, 1934",50000000.0,Donald-Clark-Kirshner.jpg,American,Donald Clark Kirshner,0
 1639,0,"June 26, 1928",50000000.0,Yoshiro-Nakamatsu-.jpg,Japanese,Yoshiro Nakamatsu ,0
 1640,0,"July 27, 1922",50000000.0,Norman-Milton-Lear.jpg,American,Norman Milton Lear,0
-1641,0,"February 27, 1977",50000000.0,anonimo.jpg,Malaysian,,0
-1642,0,,50000000.0,anonimo.jpg,Scottish,,0
+1641,0,"February 27, 1977",50000000.0,anonimo.jpg,Malaysian,0,0
+1642,0,0,50000000.0,anonimo.jpg,Scottish,0,0
 1643,0,"July 28, 1947",50000000.0,Duncan-Dick-Ebersol.jpg,American,"Duncan ""Dick"" Ebersol",0
 1644,0,"October 25, 1955",50000000.0,Gale-Anne-Hurd.jpg,American,Gale Anne Hurd,0
 1645,0,"January 30, 1982",45000000.0,DeStorm-Power.jpg,American,DeStorm Power,82.0
 1646,0,"January 14, 1963",40000000.0,Steven-Andrew-Soderbergh.jpg,American,Steven Andrew Soderbergh,0
 1647,0,"April 6, 1968",40000000.0,Douglas-Reed-Ellin.jpg,American,Douglas Reed Ellin,0
 1648,0,"September 6, 1943 ",6820000000.0,Antonia-Ax:son-Johnson.jpg,Swedish,Antonia Ax:son Johnson,0
-1649,0,,6480000000.0,Vivien-Wai-Wai-Chen.jpg,Chinese,Vivien Wai Wai Chen,0
+1649,0,0,6480000000.0,Vivien-Wai-Wai-Chen.jpg,Chinese,Vivien Wai Wai Chen,0
 1650,0,"June 1, 1962",6070000000.0,Margarita-Bogdanova.jpg,French,Margarita Bogdanova,0
 1651,0,"September 30, 1930",5950000000.0,Maria-Helena-Moraes-Scripilliti.jpg,Brazilian,Maria Helena Moraes Scripilliti,0
-1652,0,,5910000000.0,Eva-Gonda-de-Rivera.jpg,Mexican,Eva Gonda de Rivera,0
+1652,0,0,5910000000.0,Eva-Gonda-de-Rivera.jpg,Mexican,Eva Gonda de Rivera,0
 1653,0,"April 15, 1942",5860000000.0,Margaretta-Johnson-Taylor.jpg,American,Margaretta Johnson Taylor,0
 1654,0,1 January 1962,5700000000.0,Randa-Duncan-Williams.jpg,American,Randa Duncan Williams,0
 1655,0,1941,5600000000.0,Chan-Laiwa.jpg,China,Chan Laiwa,0
-1656,0,,5500000000.0,Tamara-Hughes-Gustavson.jpg,United States,Tamara Hughes Gustavson,0
-1657,0,,5500000000.0,Gwendolyn-Sontheim-Meyer.jpg,United States,Gwendolyn Sontheim Meyer,0
+1656,0,0,5500000000.0,Tamara-Hughes-Gustavson.jpg,United States,Tamara Hughes Gustavson,0
+1657,0,0,5500000000.0,Gwendolyn-Sontheim-Meyer.jpg,United States,Gwendolyn Sontheim Meyer,0
 1658,0,"July 31, 1934",5500000000.0,Pauline-MacMillan-Keinath.jpg,United States,Pauline MacMillan Keinath,0
 1659,0,1974,5200000000.0,Dannine-Duncan-Avara.jpg,American,Dannine Duncan Avara,0
 1660,0,"August 17, 1941",5050000000.0,Maria-Elisabeth-Schaeffler.jpg,Germany,Maria-Elisabeth Schaeffler,0
 1661,0,"August 13, 1969",5000000000.0,Magdalena-Martullo-Blocher.jpg,Swiss,Magdalena Martullo-Blocher,0
 1662,0,"January 21, 1939 ",5000000000.0,Lynn-Schusterman.jpg,United States,Lynn Schusterman,0
 1663,0,"June 9, 1906",5000000000.0,Huguette-Marcelle-Clark.jpg,United States,Huguette Marcelle Clark,0
-1664,0,,4970000000.0,Tan-Kim-Choo.jpg,Singaporean,Tan Kim Choo,0
+1664,0,0,4970000000.0,Tan-Kim-Choo.jpg,Singaporean,Tan Kim Choo,0
 1665,0,1947,4900000000.0,Diane-Hendricks.jpg,American,Diane Hendricks,0
-1666,0,,4900000000.0,Rahel-Blocher.jpg,Swiss,Rahel Blocher,0
+1666,0,0,4900000000.0,Rahel-Blocher.jpg,Swiss,Rahel Blocher,0
 1667,0,1950,4860000000.0,Mary-Alice-Dorrance-Malone.jpg,United States,Mary Alice Dorrance Malone,0
 1668,0,18 April 1949,4500000000.0,Helga-Liselott-Persson-Tham.jpg,Swedish,Helga Liselott Persson Tham,0
 1669,0,1958,4300000000.0,Karen-Pritzker.jpg,United States,Karen Pritzker,0
-1670,0,,4200000000.0,Milane-Frantz.jpg,American,Milane Frantz,0
-1671,0,,4200000000.0,Ka-Yee-Wong.jpg,French,Ka Yee Wong,0
+1670,0,0,4200000000.0,Milane-Frantz.jpg,American,Milane Frantz,0
+1671,0,0,4200000000.0,Ka-Yee-Wong.jpg,French,Ka Yee Wong,0
 1672,0,26 August 1962,4099999999.9999995,Ho-Chiu-king.jpg,Chinese,Ho Chiu-king,0
-1673,0,,120000000.0,Tyler-Goldman.jpg,United States,Tyler Goldman,0
+1673,0,0,120000000.0,Tyler-Goldman.jpg,United States,Tyler Goldman,0
 1674,0,1979,120000000.0,Bret-Taylor.jpg,United States,Bret Taylor,0
-1675,0,"April 27, 1962",100000000.0,anonimo.jpg,United States,,0
+1675,0,"April 27, 1962",100000000.0,anonimo.jpg,United States,0,0
 1676,0,"April 6, 1969",100000000.0,Richard-Rosenblatt.jpg,United States,Richard Rosenblatt,0
 1677,0,"April 29, 1929",100000000.0,Maurice-F.-Strong.jpg,Canadian,Maurice F. Strong,0
-1678,0,,90000000.0,Imran-Hakim.jpg,,Imran Hakim,0
+1678,0,0,90000000.0,Imran-Hakim.jpg,0,Imran Hakim,0
 1679,1.8,"June 17, 1985",82000000.0,Chris-Phillips.jpg,English,Chris Phillips,70.0
 1680,0,"October 9, 1938",80000000.0,Hiroaki-Aoki.jpg,United States,Hiroaki Aoki,0
 1681,0,"February 14, 1962",50000000.0,Russ-Leatherman.jpg,United States,Russ Leatherman,0
 1682,0,"June 7, 1972",50000000.0,Maximillion-Fife-Alexander-Cooper.jpg,English,Maximillion Fife Alexander Cooper,0
-1683,0,,50000000.0,East-Meadow.jpg,United States,East Meadow,0
-1684,0,,45000000.0,Jamal-Edwards.jpg,United Kingdom,Jamal Edwards,0
+1683,0,0,50000000.0,East-Meadow.jpg,United States,East Meadow,0
+1684,0,0,45000000.0,Jamal-Edwards.jpg,United Kingdom,Jamal Edwards,0
 1685,0,"January 11, 1923",40000000.0,Carroll-Hall-Shelby.jpg,American,Carroll Hall Shelby,0
 1686,0,"January 11, 1984",40000000.0,Matthew-Charles-Mullenweg.jpg,American,Matthew Charles Mullenweg,0
 1687,0,"March 25, 1985",38000000.0,Adam-Hildreth.jpg,British,Adam Hildreth,0
-1688,0,,30000000.0,Mona-Scott-Young.jpg,United States,Mona Scott-Young,0
+1688,0,0,30000000.0,Mona-Scott-Young.jpg,United States,Mona Scott-Young,0
 1689,0,"January 1, 1970",20000000.0,Bruce-Croxon.jpg,Canadian,Bruce Croxon,0
 1690,0,1960,20000000.0,Scott-A.-Jones.jpg,United States,Scott A. Jones,0
 1691,0,"October 14, 1946",20000000.0,Dennis-Hof.jpg,American,Dennis Hof,0
-1692,0,,20000000.0,Andrew-Lessman.jpg,American,Andrew Lessman,0
+1692,0,0,20000000.0,Andrew-Lessman.jpg,American,Andrew Lessman,0
 1693,0,"September 2, 1964",16000000.0,Jonnie-Shearer.jpg,British,Jonnie Shearer,0
-1694,0,,15000000.0,Lori-Greiner.jpg,United States,Lori Greiner,0
-1695,0,"November 10, 1955",15000000.0,anonimo.jpg,Argentine,,0
+1694,0,0,15000000.0,Lori-Greiner.jpg,United States,Lori Greiner,0
+1695,0,"November 10, 1955",15000000.0,anonimo.jpg,Argentine,0,0
 1696,0,"February 11, 1847",12000000.0,Thomas-Alva-Edison.jpg,United States,Thomas Alva Edison,0
 1697,0,"November 7, 1966 ",10000000.0,Mark-Howard-Gorton.jpg,United States,Mark Howard Gorton,0
 1698,2.03,"September 25, 1965",50000000.0,Scottie-Maurice-Pippen.jpg,American,Scottie Maurice Pippen,103.0
@@ -1777,7 +1777,7 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 1776,1.69,"March 2, 1980",16000000.0,Rebel-Melanie-Elizabeth-Wilson.jpg,Australian,Rebel Melanie Elizabeth Wilson,132.0
 1777,1.88,"May 17, 1962",16000000.0,Craig-Ferguson.jpg,"British, American (naturalised 2008)",Craig Ferguson,0
 1778,0,"May 27, 1964",16000000.0,Adam-Carolla.jpg,American,Adam Carolla,0
-1779,1.65,"August 22, 1973",16000000.0,Kristen-Carroll-Wiig.jpg,,Kristen Carroll Wiig,0
+1779,1.65,"August 22, 1973",16000000.0,Kristen-Carroll-Wiig.jpg,0,Kristen Carroll Wiig,0
 1780,1.85,"August 4, 1944",16000000.0,Richard-Jay-Belzer.jpg,American,Richard Jay Belzer,0
 1781,0,"February 5, 1961",16000000.0,Timothy-Tim-Meadows.jpg,American,"Timothy ""Tim"" Meadows",0
 1782,1.73,"September 1, 1939",15000000.0,Mary-Jean-Lily-Tomlin.jpg,American,"Mary Jean ""Lily"" Tomlin",0
@@ -1787,7 +1787,7 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 1786,0,"July 31, 1929",15000000.0,Pasquale-Cooper.jpg,American,Pasquale Cooper,0
 1787,1.8,"February 5, 1948",15000000.0,Christopher-Haden-Guest.jpg,British-American,Christopher Haden-Guest,0
 1788,1.85,4 June 1975,15000000.0,Russell-Edward-Brand.jpg,British,Russell Edward Brand,78.0
-1789,0,,14000000.0,anonimo.jpg,United States,,0
+1789,0,0,14000000.0,anonimo.jpg,United States,0,0
 1790,1.76,"December 11, 1967",13000000.0,Monique-Angela-Hicks.jpg,American,Monique Angela Hicks,90.0
 1791,0,"April 4, 1964",12000000.0,David-Cross.jpg,American,David Cross,0
 1792,0,"October 11, 1967 ",12000000.0,"Arthur-Steven-Artie-Lange,-Jr..jpg",American,"Arthur Steven ""Artie"" Lange, Jr.",0
@@ -1796,14 +1796,14 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 1795,1.83,"September 15, 1972",12000000.0,James-Anthony-Patrick-Jimmy-Carr-.jpg,English- Irish,"James Anthony Patrick ""Jimmy"" Carr ",0
 1796,1.88,"May 4, 1970",12000000.0,William-Emerson-Will-Arnett.jpg,Canadian-American,"William Emerson ""Will"" Arnett",0
 1797,0,"July 21, 1957",12000000.0,Jonathan-Michael-Lovitz.jpg,American,Jonathan Michael Lovitz,0
-1798,0,,20000000.0,anonimo.jpg,United States,,0
+1798,0,0,20000000.0,anonimo.jpg,United States,0,0
 1799,0,"January 1, 1970",20000000.0,Bruce-Croxon.jpg,Canadian,Bruce Croxon,0
-1800,1.78,,20000000.0,anonimo.jpg,United States,,0
+1800,1.78,0,20000000.0,anonimo.jpg,United States,0,0
 1801,1.83,"March 30, 1965",20000000.0,Piers-Stefan-O'Meara.jpg,United Kingdom,Piers Stefan O'Meara,0
 1802,1.78,"May 5, 1943",20000000.0,Michael-Edward-Palin.jpg,England,Michael Edward Palin,0
 1803,0,"July 16, 1970",20000000.0,Michael-Robert-Carri.jpg,United States,Michael Robert Carri,0
-1804,0,,20000000.0,Matthew-Jason-Nordgren.jpg,United States,Matthew Jason Nordgren,0
-1805,0,,18500000.0,anonimo.jpg,United States,,0
+1804,0,0,20000000.0,Matthew-Jason-Nordgren.jpg,United States,Matthew Jason Nordgren,0
+1805,0,0,18500000.0,anonimo.jpg,United States,0,0
 1806,0,"May 26, 1939",18000000.0,Brent-Woody-Musburger.jpg,American,Brent Woody Musburger,0
 1807,1.78,"November 3, 1995",18000000.0,Kendall-Nicole-Jenner.jpg,American,Kendall Nicole Jenner,54.0
 1808,1.55,"October 23, 1959",18000000.0,Nancy-Ann-Grace.jpg,American,Nancy Ann Grace,0
@@ -1818,34 +1818,34 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 1817,0,"April 24, 1946 ",15000000.0,Phil-Robertson.jpg,United States,Phil Robertson,0
 1818,1.88,"March 16, 1941",15000000.0,Charles-Herbert-Woolery.jpg,American,Charles Herbert Woolery,90.0
 1819,0,"September 21, 1940",15000000.0,William-Horton-Kuretich.jpg,United States,William Horton Kuretich,0
-1820,0,,15000000.0,Lydia-Stirling-McLaughlin.jpg,United States,Lydia Stirling McLaughlin,0
+1820,0,0,15000000.0,Lydia-Stirling-McLaughlin.jpg,United States,Lydia Stirling McLaughlin,0
 1821,1.85,"March 30, 1969",15000000.0,Richard-Rawlings.jpg,American,Richard Rawlings,0
 1822,0,"February 25, 1935",14500000.0,Sally-Lowenthal.jpg,American,Sally Lowenthal,0
 1823,0,"August 20, 1935",4099999999.9999995,Martha-Robinson-Rivers.jpg,United States,Martha Robinson Rivers,0
-1824,0,,4000000000.0,Gayle-Cook.jpg,United States,Gayle Cook,0
+1824,0,0,4000000000.0,Gayle-Cook.jpg,United States,Gayle Cook,0
 1825,0,"December 31, 1937",3800000000.0,Robert-C.-McNair.jpg,American,Robert C. McNair,0
 1826,0,May 1951 ,3700000000.0,Nancy-Walton-Laurie.jpg,United States,Nancy Walton Laurie,0
 1827,0,"August 15, 1942",3700000000.0,Friede-Riewerts.jpg,Germany,Friede Riewerts,0
-1828,0,,3600000000.0,Ana-Lucia-de-Mattos-Barretto-Villela.jpg,Brazilian,Ana Lucia de Mattos Barretto Villela,0
+1828,0,0,3600000000.0,Ana-Lucia-de-Mattos-Barretto-Villela.jpg,Brazilian,Ana Lucia de Mattos Barretto Villela,0
 1829,0,August 1943,3500000000.0,Judith-Judy-R.-Faulkner.jpg,American,"Judith ""Judy"" R. Faulkner",0
 1830,0,November 1951,3500000000.0,Ursula-Bechtolsheimer-Kipp.jpg,German,Ursula Bechtolsheimer-Kipp,0
 1831,0,1973,3500000000.0,Isabel-Dos-Santos.jpg,Angola,Isabel Dos Santos,0
 1832,0,"August 24, 1965",3500000000.0,Zhang-Xin.jpg,China,Zhang Xin,0
-1833,0,,3500000000.0,Karen-Davidson.jpg,United States,Karen Davidson,0
+1833,0,0,3500000000.0,Karen-Davidson.jpg,United States,Karen Davidson,0
 1834,0,1953,3500000000.0,Marianne-Cargill-Liebmann-.jpg,United States,Marianne Cargill Liebmann ,0
 1835,0,1933,3300000000.0,Donna-MacMillan.jpg,United States,Donna MacMillan,0
 1836,0,"June 28, 1941 ",3200000000.0,Dagmar-Dolby.jpg,American,Dagmar Dolby,0
 1837,0,1977,3100000000.0,Yvonne-Bauer.jpg,Germany,Yvonne Bauer,0
-1838,0,,3100000000.0,Joan-Tisch.jpg,United States,Joan Tisch,0
+1838,0,0,3100000000.0,Joan-Tisch.jpg,United States,Joan Tisch,0
 1839,0,1957,3050000000.0,Zhang-Yin.jpg,China,Zhang Yin,0
-1840,0,,3000000000.0,Imogene-Powers-Johnson.jpg,United States,Imogene Powers Johnson,0
-1841,0,,3000000000.0,Judy-Love.jpg,American,Judy Love,0
-1842,0,,3000000000.0,Filiz-Sahenk.jpg,Turkey,Filiz Sahenk,0
-1843,0,,3000000000.0,Helen-Johnson-Leipold.jpg,United States,Helen Johnson-Leipold,0
+1840,0,0,3000000000.0,Imogene-Powers-Johnson.jpg,United States,Imogene Powers Johnson,0
+1841,0,0,3000000000.0,Judy-Love.jpg,American,Judy Love,0
+1842,0,0,3000000000.0,Filiz-Sahenk.jpg,Turkey,Filiz Sahenk,0
+1843,0,0,3000000000.0,Helen-Johnson-Leipold.jpg,United States,Helen Johnson-Leipold,0
 1844,0,"July 8, 1937",2900000000.0,Giuliana-Benetton.jpg,Italian,Giuliana Benetton,0
 1845,0,1954,2800000000.0,Daniela-Herz.jpg,Germany,Daniela Herz,0
 1846,0,1957,2700000000.0,Helen-Johnson-Leipold.jpg,United States,Helen Johnson Leipold,0
-1847,0,,2700000000.0,Lihua-Chen.jpg,China,Lihua Chen,0
+1847,0,0,2700000000.0,Lihua-Chen.jpg,China,Lihua Chen,0
 1848,1.88,"April 5, 1926",40000000.0,Roger-William-Corman-.jpg,United States,Roger William Corman ,0
 1849,1.88,"April 22, 1946",38000000.0,"John-Samuel-Waters,-Jr..jpg",American,"John Samuel Waters, Jr.",0
 1850,1.83,"July 13, 1957",35000000.0,Cameron-Bruce-Crowe.jpg,United States,Cameron Bruce Crowe,0
@@ -1961,16 +1961,16 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 1960,0,1962,12800000000.0,Carl-Cook-.jpg,United States,Carl Cook ,0
 1961,0,"January 6, 1943",12800000000.0,James-Morris-Goodnight-.jpg,United States,James Morris Goodnight ,0
 1962,0,"January 29, 1991",12400000000.0,"Hugh-Richard-Louis-Grosvenor,-7th-Duke-of-Westminster.jpg",British,"Hugh Richard Louis Grosvenor, 7th Duke of Westminster",0
-1963,0,,12340000000.0,James-and-Arthur-Irving.jpg,Canadian,James and Arthur Irving,0
+1963,0,0,12340000000.0,James-and-Arthur-Irving.jpg,Canadian,James and Arthur Irving,0
 1964,0,1965,12100000000.0,Gong-Hongjia.jpg,Chinese,Gong Hongjia,0
 1965,0,"December 28, 1939",12100000000.0,Philip-Frederick-Anschutz.jpg,American,Philip Frederick Anschutz,0
 1966,0,"March 25, 1926",12000000000.0,"Hans-Rausing,-KBE.jpg",Swedish,"Hans Rausing, KBE",0
 1967,0,"November 17, 1968",12000000000.0,Robin-Li.jpg,Chinese,Robin Li,0
 1968,0,1939,11900000000.0,"Thomas-F.-Frist,-Jr..jpg",United States,"Thomas F. Frist, Jr.",0
 1969,0,"May 20, 1964",11500000000.0,Petr-Kellner.jpg,Czech,Petr Kellner,0
-1970,0,"June 29, 1949",11400000000.0,anonimo.jpg,American,,0
-1971,0,"April 20, 1935",11400000000.0,anonimo.jpg,German,,0
-1972,0,,11400000000.0,Lei-Jun.jpg,China,Lei Jun,0
+1970,0,"June 29, 1949",11400000000.0,anonimo.jpg,American,0,0
+1971,0,"April 20, 1935",11400000000.0,anonimo.jpg,German,0,0
+1972,0,0,11400000000.0,Lei-Jun.jpg,China,Lei Jun,0
 1973,0,"August 13, 1992",33000000.0,Lucas-Rodrigues-Moura-da-Silva.jpg,Brazilian,Lucas Rodrigues Moura da Silva,81.0
 1974,1.92,"June 23, 1976 ",33000000.0,Patrick-Vieira.jpg,France,Patrick Vieira,0
 1975,0,"March 9, 1975",32600000.0,Rudolphus-Antonius-Makaay.jpg,Dutch,Rudolphus Antonius Makaay,81.0
@@ -2002,22 +2002,22 @@ ID,altura,fnac,fortuna,img_name,nacionalidad,nombre,peso
 2001,0,1950,2500000000.0,Marie-Denise-DeBartolo-York.jpg,American,Marie Denise DeBartolo York,0
 2002,0,1956,2500000000.0,Iñigo-and-Mercedes-Zobel.jpg,Filipino,Iñigo and Mercedes Zobel,0
 2003,0,"September 12, 1954",2500000000.0,Alicia-Koplowitz-y-Romero-de-Juseu.jpg,Spanish,Alicia Koplowitz y Romero de Juseu,0
-2004,0,,2400000000.0,Edson-de-Godoy-Bueno.jpg,Brazil,Edson de Godoy Bueno,0
-2005,0,,2400000000.0,Alexandra-Stump.jpg,German,Alexandra Stump,0
-2006,0,,2400000000.0,Doris-Feigenbaum-Fisher.jpg,American,Doris Feigenbaum Fisher,0
+2004,0,0,2400000000.0,Edson-de-Godoy-Bueno.jpg,Brazil,Edson de Godoy Bueno,0
+2005,0,0,2400000000.0,Alexandra-Stump.jpg,German,Alexandra Stump,0
+2006,0,0,2400000000.0,Doris-Feigenbaum-Fisher.jpg,American,Doris Feigenbaum Fisher,0
 2007,0,1932,2400000000.0,Johnelle-Hunt.jpg,American,Johnelle Hunt,0
 2008,0,"August 1, 1954",2300000000.0,Darla-Dee-Moore.jpg,United States,Darla Dee Moore,0
 2009,0,1943,2200000000.0,Maria-de-Lourdes-Egydio-Villela.jpg,Brazil,Maria de Lourdes Egydio Villela,0
 2010,0,1936,2200000000.0,Esther-Grether.jpg,Switzerland,Esther Grether,0
-2011,0,,2100000000.0,anonimo.jpg,Germany,,0
+2011,0,0,2100000000.0,anonimo.jpg,Germany,0,0
 2012,0,1944,2000000000.0,Lynda-Rae-Resnick.jpg,American,Lynda Rae Resnick,0
 2013,0,1931,2000000000.0,Othman-Benjelloun.jpg,Morocco,Othman Benjelloun,0
-2014,0,,1900000000.0,Chu-Lam-Yiu.jpg,Hong Kong,Chu Lam Yiu,0
+2014,0,0,1900000000.0,Chu-Lam-Yiu.jpg,Hong Kong,Chu Lam Yiu,0
 2015,0,"July 13, 1927",1900000000.0,Phoebe-Millicent-Hearst.jpg,United States,Phoebe Millicent Hearst,0
 2016,0,1962,1900000000.0,Jean-Pritzker.jpg,United States,Jean Pritzker,0
 2017,0,1953,1850000000.0,Linda-Pritzker.jpg,United States,Linda Pritzker,0
 2018,0,1959,1850000000.0,Penny-Sue-Pritzker-.jpg,United States,Penny Sue Pritzker ,0
 2019,0,"February 3, 1961",1800000000.0,James-Laurence-Balsillie.jpg,Canada,James Laurence Balsillie,0
-2020,0,,1700000000.0,anonimo.jpg,China,,0
+2020,0,0,1700000000.0,anonimo.jpg,China,0,0
 2021,0,1950,1700000000.0,Deniz-Sahenk-.jpg,Turkey,Deniz Sahenk ,0
 2022,0,19 August 1939,1690000000.0,Marilyn-Carlson-Nelson.jpg,American,Marilyn Carlson Nelson,0
