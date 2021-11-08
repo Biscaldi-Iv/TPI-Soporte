@@ -51,5 +51,14 @@ class FamosoData(DataBase):
                 self.cursor.close()
                 self.close()
 
-p = FamosoData()
-print(p.GetPaises())
+    def getAleatorio(self, not0:str):
+        self.open()
+        try:
+            self.cursor.execute("SELECT * FROM just_in_time.famosos where "+not0+" !=0 order by rand() LIMIT 1")
+            return Famous(*self.cursor.fetchone().values())
+        except:
+            print("Error al recuperar famoso")
+        finally:
+            self.cursor.close()
+            self.close()
+
