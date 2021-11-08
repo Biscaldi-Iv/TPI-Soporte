@@ -3,6 +3,7 @@ from flask.helpers import url_for
 from flask.templating import render_template
 from controllers.routes import global_scope
 from flask_babel import Babel, gettext as _
+from bussiness.preguntas_logic import PreguntasLogic
 
 app = Flask(__name__)
 
@@ -61,4 +62,10 @@ app.register_blueprint(global_scope, url_prefix='/<lang_code>')
 # agregar optional en nav var para evitar que alla botones que no corresponden
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    #app.run(debug=True)
+    pregs=PreguntasLogic()
+    pr,resp,inc=pregs.getRandomQuestion(4)
+    print(pr)
+    print(resp)
+    for i in inc:
+        print(i)

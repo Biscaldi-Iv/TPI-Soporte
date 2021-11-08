@@ -11,5 +11,7 @@ class FamousLogic:
         fam = self.datasource.getAleatorio(not0)
         return fam
 
-f = FamousLogic()
-print(f.getRandomFamous())
+    def GetPaises(self):
+        paises=self.datasource.GetPaises()
+        return paises
+

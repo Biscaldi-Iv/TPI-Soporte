@@ -41,12 +41,13 @@ class Users():
 """
 
 class Famous():
-    def __init__(self, idFamoso: int, altura: float, fechaNacimiento: datetime, fortuna: float, nacionalidad: str,
+    def __init__(self, idFamoso: int, altura: float, fechaNacimiento: datetime, fortuna: float, img:str, nacionalidad: str,
         nombreCompleto: str, peso: float) -> None:
         self.idFamoso = idFamoso
         self.altura = altura
-        self.fechaNacimiento = fechaNacimiento
+        self.fechaNacimiento = fechaNacimiento if fechaNacimiento!=0 else datetime.today()
         self.fortuna = fortuna
+        self.imagen=img
         self.nacionalidad = nacionalidad
         self.nombreCompleto = nombreCompleto
         self.peso = peso

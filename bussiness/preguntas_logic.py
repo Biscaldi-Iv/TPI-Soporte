@@ -1,6 +1,6 @@
 from Base_de_datos.dataFamoso import FamosoData
 from entities.models import Question, Famous
-from bussiness import famosos_logic
+from bussiness.famosos_logic import FamousLogic
 import operator
 from datetime import date,datetime
 from typing import List
@@ -21,54 +21,62 @@ class PreguntasLogic:
         """:returns:[pregunta,respuesta_correcta, respuestas_incorrectas:List()"""
         respIncorrectas=list()
         idpreg= random.randint(0,len(self.listaPreguntas)-1)
-        preg = self.listaPreguntas[idpreg]
-        f = famosos_logic.FamousLogic()
+        preg = self.listaPreguntas[5]
+        f = FamousLogic()
         if 'año' in preg:
-            param='fnac'
+            param='LENGTH(fnac)>10 and fnac'
         elif 'nacionalidad' in preg:
-            param='nacionalidad'
+            param='length(nacionalidad)'
         elif 'fortuna' in preg:
             param='fortuna'
         elif 'mide' in preg:
             param='altura'
         elif 'pesa' in preg:
             param='peso'
-        famcorrecto=f.getRandomFamous(param)
 
+        famcorrecto=f.getRandomFamous(param)
+        while famcorrecto is None:
+            famcorrecto=f.getRandomFamous(param)
         #se pregunta por edad o año nacimiento
         if 'año' in preg:
                 if 'años' in preg:
                     ######################################################### reemplazar fecha nacimiento con edad
-                    edad=datetime.today()-parser.parse(famcorrecto.fechaNacimiento)
+                    edad=datetime.today()-famcorrecto.fechaNacimiento
                     edad=int(edad.total_seconds()/60/60/24/365)
                     respCorrecta=edad
-                    respIncorrectas.append(*self.generadorAnios(edad,cantResp-1))
+                    respIncorrectas=self.generadorAnios(edad,cantResp)
                 else:
                     ######################################################### reemplazar fecha nacimiento con año nac..
-                    YYnac=parser.parse(famcorrecto.fechaNacimiento).year
+                    YYnac=famcorrecto.fechaNacimiento.year
                     respCorrecta=YYnac
-                    respIncorrectas.append(*self.generadorAnios(YYnac,cantResp-1))
+                    respIncorrectas=self.generadorAnios(YYnac,cantResp)
 
         elif 'fortuna' in preg:
             respCorrecta=famcorrecto.fortuna
-            for i in range(cantResp):
-                factor=random.choice(range(-i,i))
+            for i in range(1,cantResp):
+                factor=random.choice(range(1,i+1))
                 respIncorrectas.append(factor*famcorrecto.fortuna)
 
         elif 'mide' in preg or 'pesa' in preg:
             respCorrecta=famcorrecto.altura if 'mide' in preg else famcorrecto.peso
-            for i in range(cantResp):
-                agregado=random.randint(-i,i)/random.choice([10,100])
+            while(len(respIncorrectas))+1!=cantResp:
+                agregado=random.randint(-9,9)/random.choice([10,100])
                 if 'mide' in preg:
-                    respIncorrectas.append(famcorrecto.altura+agregado)
+                    if famcorrecto.altura+agregado in respIncorrectas:
+                        continue
+                    else:
+                        respIncorrectas.append(famcorrecto.altura + agregado)
                 else:
                     agregado*=10
-                    respIncorrectas.append(famcorrecto.peso+agregado)
+                    if famcorrecto.peso + agregado in respIncorrectas:
+                        continue
+                    else:
+                        respIncorrectas.append(famcorrecto.peso + agregado)
 
         #se pregunta por nacionalidad
         elif 'nacionalidad' in preg:
             respCorrecta=famcorrecto.nacionalidad
-            for i in range(cantResp - 1):
+            for i in range(cantResp-1):
                 r= random.choice(f.GetPaises())
                 if r in respIncorrectas or r==famcorrecto.nacionalidad:
                     while r in respIncorrectas or r==famcorrecto.nacionalidad:
@@ -128,13 +136,14 @@ class PreguntasLogic:
 
     def generadorAnios(self, yy, cant):
         li=list()
-        for i in range(cant):
-            factor = random.choice([1, -1])
-            r = (factor * i) + yy
-            li.append(r)
+        while len(li)+1!=cant:
+            año=yy+random.choice(range(-9,9))
+            if año not in li and año!=yy:
+                li.append(año)
+
         return li
 
-
+"""
 p = PreguntasLogic()
 j = famosos_logic.FamousLogic()
 y = p.getRandomQuestion()
@@ -142,7 +151,7 @@ print(y)
 k = j.getRandomFamous()
 print(p.armarPregunta(y, k.nombreCompleto))
 print(p.elegirOpciones(y, k))
-
+"""
 """    def armarPregunta(self, preg: Question, fam: Famous):
         preguntaArmada = preg.descripcion + " " + fam.nombreCompleto + " ?"
         return preguntaArmada
