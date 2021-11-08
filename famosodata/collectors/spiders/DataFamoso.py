@@ -8,7 +8,8 @@ import requests
 import os
 import time
 
-next_url = enumeradorURLS(start=130, cant=70)
+start_n = 1801
+next_url = enumeradorURLS(start=start_n, cant=224)
 
 
 class FamousSpider(scrapy.Spider):
@@ -42,8 +43,11 @@ class FamousSpider(scrapy.Spider):
             'fnac', response.xpath('//h3[contains(text(),"Date of Birth:")]/following-sibling::span/text()').get())
         pers.add_value(
             'nacionalidad', response.xpath('//h3[contains(text(),"Nationality:")]/following-sibling::span/text()').get())
-
+        global start_n
+        start_n += 1
         yield pers.load_item()
+        print(
+            f"###############################    ITEM CARGADO   {start_n=}   #############################################")
         """Carga de imagen"""
         if img_name != 'anonimo.jpg':
 
@@ -54,14 +58,21 @@ class FamousSpider(scrapy.Spider):
                 os.mkdir(os.path.join(os.getcwd(), 'famousimg'))
             except:
                 pass
+
             os.chdir(os.path.join(os.getcwd(), 'famousimg'))
+            try:
+                time.sleep(2)
+                with open(img_name, 'wb') as f:
+                    im = requests.get(image_link)
+                    f.write(im.content)
 
-            with open(img_name, 'wb') as f:
-                im = requests.get(image_link)
-                f.write(im.content)
+                print(
+                    f"###############################    IMAGEN CARGADA   {start_n=}   #############################################")
 
+            except:
+                print(
+                    f"###############################    IMAGEN NO CARGADA   {start_n=}   #############################################")
             os.chdir('..')
-            time.sleep(2)
 
         try:
             siguiente = next(next_url)
