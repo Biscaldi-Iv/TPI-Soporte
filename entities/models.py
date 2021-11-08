@@ -40,20 +40,21 @@ class Users():
         return Users.query.filter_by(email=email).first()
 """
 
-
-
-
 class Famous():
-    def __init__(self, idFamoso: int, nombreCompleto: str, altura: float, fechaNacimiento: datetime, peso: str, idTipoFamoso: int) -> None:
+    def __init__(self, idFamoso: int, altura: float, fechaNacimiento: datetime, fortuna: float, nacionalidad: str,
+        nombreCompleto: str, peso: float) -> None:
         self.idFamoso = idFamoso
-        self.nombreCompleto = nombreCompleto
         self.altura = altura
         self.fechaNacimiento = fechaNacimiento
+        self.fortuna = fortuna
+        self.nacionalidad = nacionalidad
+        self.nombreCompleto = nombreCompleto
         self.peso = peso
-        self.idTipoFamoso = idTipoFamoso
+
 
     def __repr__(self):
-        return f"Famous({self.idFamoso},{self.nombreCompleto},{self.altura},{self.fechaNacimiento},{self.foto},{self.idTipoFamoso})"
+        return f"Famous({self.idFamoso},{self.altura},{self.fechaNacimiento},{self.fortuna},{self.nacionalidad}," \
+               f"{self.nombreCompleto}, {self.peso} )"
 
 
 class Score():
@@ -72,13 +73,12 @@ class Score():
         return self.idPuntuacion, self.score, self.fechaPuntuacion, self.tiempoPuntuacion, self.username
 
 class Question():
-    def __init__(self, idPregunta: int, descripcion: str, idTipoFamoso: int) -> None:
+    def __init__(self, idPregunta: int, descripcion: str) -> None:
         self.idPregunta = idPregunta
         self.descripcion = descripcion
-        self.idTipoFamoso = idTipoFamoso
 
     def __repr__(self):
-        return f"Question({self.idPregunta},{self.descripcion},{self.idTipoFamoso})"
+        return f"Question({self.idPregunta},{self.descripcion})"
 
     def lst(self) -> Tuple:
         """returns ('idpregunta', 'descripcion', 'idTipoFamoso')"""

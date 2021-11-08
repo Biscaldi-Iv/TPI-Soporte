@@ -1,13 +1,14 @@
 # aqui guardaremos el manejo de la tabla famoso de la base de datos
-import pymysql
+from typing import List
 from .connection import DataBase
-from entities.models import Famous,KindOfFamous
+from entities.models import Famous
+
 
 class FamosoData(DataBase):
-    def GetOne(self,idFamoso)->Famous:
+    def GetOne(self, idFamoso) -> Famous:
         self.open()
         try:
-            self.cursor.execute("select idfamoso,nombrecompleto,altura,fechanacimiento,foto,idtipofamoso from famoso where idfamoso=%s",(idFamoso,))
+            self.cursor.execute("SELECT * FROM famosos where id=%s", (idFamoso,))
             return Famous(*self.cursor.fetchone().values())
         except:
             print("excepcion ocurrida bro")
@@ -16,30 +17,13 @@ class FamosoData(DataBase):
             self.cursor.close()
             self.close()
 
-    def GetAll(self)->list[Famous]:
-        self.open()
-        listaFamosos=list()
-        try:
-            self.cursor.execute("select * from famoso",)
-            for fam in self.cursor.fetchall():
-                f=Famous(*fam.values())
-                listaFamosos.append(f)
-            return listaFamosos
-
-        except:
-            print("excepcion ocurrida bro")
-            self.connection.rollback()
-        finally:
-            self.cursor.close()
-            self.close()
-
-    def getFamosoXTipoF(self, tipoFamoso: KindOfFamous) -> list[Famous]:
+    def GetAll(self) -> List[Famous]:
         self.open()
         listaFamosos = list()
         try:
-            self.cursor.execute("select * from famoso where idtipofamoso=%s", tipoFamoso.idTipoFamoso)
+            self.cursor.execute("select * from famosos", )
             for fam in self.cursor.fetchall():
-                f=Famous(*fam.values())
+                f = Famous(*fam.values())
                 listaFamosos.append(f)
             return listaFamosos
 
@@ -50,10 +34,22 @@ class FamosoData(DataBase):
             self.cursor.close()
             self.close()
 
+    def GetPaises(self):
+            self.open()
+            listaPaises = []
+            try:
+                self.cursor.execute("SELECT distinct nacionalidad FROM famosos where nacionalidad not "
+                                    "like '%-%' and nacionalidad not like '%,%'", )
+                for row in self.cursor.fetchall():
+                    r = row.values()
+                    listaPaises.append(r)
+                return listaPaises
+            except:
+                print("excepcion ocurrida bro")
+                self.connection.rollback()
+            finally:
+                self.cursor.close()
+                self.close()
 
-f=FamosoData()
-print(f.GetOne(idFamoso=1)) #NO TENGO NADA EN LA BASE DE DATOS TODAVIA ASI QUE VA A DAR ERROR
-print("-----------")
-print(f.GetAll())
-
-
+p = FamosoData()
+print(p.GetPaises())

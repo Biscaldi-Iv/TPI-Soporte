@@ -14,8 +14,8 @@ class UsuarioData(DataBase):
         self.open()
         try:
             self.cursor.execute(
-                "select username,nombre,apellido,password,email from usuario where username=%s", username)
-            u=Users(*self.cursor.fetchone().values())
+                "select * from usuario where username=%s", username)
+            u = Users(*self.cursor.fetchone().values())
             return u
         except:
             print("excepcion ocurrida bro")
