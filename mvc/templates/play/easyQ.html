@@ -61,16 +61,12 @@
     </div>
 </div>
 
-{{lista=[0,1,2,3]}}
-{{lista2=list()}}
-{{e=random.choice(lista)}}
-{{lista2.append(e)}}
-{{del lista[e]}}
+
 
 <script>
 
-var ele=["opc1","opc2","opc3","opc4"];
-var elementos= ele.reverse();
+var elementos=["opc1","opc2","opc3","opc4"];
+elementos.sort(function(a, b){return 0.5 - Math.random()});
 
     document.getElementById(elementos[0]).innerHTML = '{{ correcta }}';
     document.getElementById(elementos[1]).innerHTML = '{{ incorrecta[0] }}';
