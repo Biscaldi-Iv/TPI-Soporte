@@ -7,6 +7,8 @@ from bussiness.usuarios_logic import UserLogic
 from typing import Dict
 from keys import secret_key, public_key
 from flask_babel import gettext as _
+from bussiness.preguntas_logic import PreguntasLogic
+import random
 
 
 global_scope= Blueprint('justintime', __name__, template_folder='templates')
@@ -159,7 +161,28 @@ def rules():
 
 @global_scope.route('/questions', methods=['POST','GET'])
 def questions():
-    return render_template('play/xtremeQ.html')
+    if 'nivel' not in session.keys():
+        session['nivel']=0
+    nivel=session['nivel']+1
+    #cambiar despues la cantidad de veces de cada nivel
+    if nivel<=10:
+        p = PreguntasLogic()
+        pregunta, correcta, incorrecta = p.getRandomQuestion(4)
+        contexto = {"pregunta": pregunta, "correcta": correcta, "incorrecta": incorrecta, }
+        return render_template('play/easyQ.html', **contexto)
+    if 1<nivel<=3:
+        p = PreguntasLogic()
+        pregunta, correcta, incorrecta = p.getRandomQuestion(8)
+        contexto = {"pregunta": pregunta, "correcta": correcta, "incorrecta": incorrecta, }
+        return render_template('play/middQ.html', **contexto)
+    if 3<nivel:
+        p = PreguntasLogic()
+        pregunta, correcta, incorrecta = p.getRandomQuestion(8)
+        contexto = {"pregunta": pregunta, "correcta": correcta, "incorrecta": incorrecta, }
+        return render_template('play/hardQ.html', **contexto)
+
+
+
 
 @global_scope.route('/menuTools', methods=['POST', 'GET'])
 def menu_tools():

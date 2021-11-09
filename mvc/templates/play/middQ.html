@@ -78,6 +78,34 @@
 </div>
 
 <script>
+    var elementos=["opc1","opc2","opc3","opc4","opc5","opc6","opc7","opc8"];
+    elementos.sort();
+    document.getElementById(elementos[0]).innerHTML = {{ correcta }};
+    document.getElementById(elementos[1]).innerHTML = {{ incorrecta[0] }};
+    document.getElementById(elementos[2]).innerHTML = {{ incorrecta[1] }};
+    document.getElementById(elementos[3]).innerHTML = {{ incorrecta[2] }};
+
+    function verificar(respuesta){
+        document.getElementById(elementos[1]).style.backgroundColor="red";
+        document.getElementById(elementos[2]).style.backgroundColor="red";
+        document.getElementById(elementos[3]).style.backgroundColor="red";
+
+        if (respuesta=={{ correcta }})
+        {
+            document.getElementById(elementos[0]).style.backgroundColor="green";
+            document.getElementById("resultado").innerHTML = "Respuesta Correcta!!!";
+
+        }
+        else
+        {
+            document.getElementById(elementos[0]).style.backgroundColor="yellow";
+            document.getElementById("resultado").innerHTML = "Respuesta Inorrecta!!!";
+        }
+        return;
+
+
+    }
+
     var countdowndate=new Date().getTime()+20000;//agregar 20 segundos
 
     //devuelve el tiempo restante cada segundo

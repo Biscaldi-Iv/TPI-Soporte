@@ -22,8 +22,8 @@
 
 {% block index %}
 <div class="container-fluid p-5 bg-primary text-white text-center" id="ctrPregunta">
-  <h1>{{ _('Pregunta') }}</h1>
-  <p>{{ _('Pregunta fácil') }}</p>
+  <h1>{{ pregunta+" ?"}}</h1>
+  <p id="resultado">{{ _('Pregunta fácil') }}</p>
     <h2 id="countdown"></h2>
 </div>
 <div class="container mt-5">
@@ -42,26 +42,62 @@
         </div>
         <div class="col-sm-4">
             <div class="col">
-                <button id="opc1" class="btn btn-primary btn-block" type="button" style="width:100%; height:120px; font-size: 16px;">Opcion 1</button>
+                <button id="opc1" name="opc1" class="btn btn-primary btn-block" type="button" style="width:100%; height:120px; font-size: 16px;" onclick="verificar(this.innerHTML)">Opcion 1</button>
             </div>
             <br>
             <div class="col">
-                <button id="opc2" class="btn btn-primary btn-block" style="width:100%; height:120px; font-size: 16px;">Opcion 2</button>
+                <button id="opc2" name="opc2" class="btn btn-primary btn-block" style="width:100%; height:120px; font-size: 16px;" onclick="verificar(this.innerHTML)">Opcion 2</button>
             </div>
         </div>
         <div class="col-sm-4">
             <div class="col">
-                <button id="opc3" class="btn btn-primary btn-block" style="width:100%; height:120px; font-size: 16px;">Opcion 3</button>
+                <button id="opc3" name="opc3" class="btn btn-primary btn-block" style="width:100%; height:120px; font-size: 16px;" onclick="verificar(this.innerHTML)">Opcion 3</button>
             </div>
             <br>
             <div class="col">
-                <button id="opc4" class="btn btn-primary btn-block" style="width:100%; height:120px; font-size: 16px;">Opcion 4</button>
+                <button id="opc4" name="opc4" class="btn btn-primary btn-block" style="width:100%; height:120px; font-size: 16px;" onclick="verificar(this.innerHTML)">Opcion 4</button>
             </div>
     </div>
     </div>
 </div>
 
+{{lista=[0,1,2,3]}}
+{{lista2=list()}}
+{{e=random.choice(lista)}}
+{{lista2.append(e)}}
+{{del lista[e]}}
+
 <script>
+
+var ele=["opc1","opc2","opc3","opc4"];
+var elementos= ele.reverse();
+
+    document.getElementById(elementos[0]).innerHTML = '{{ correcta }}';
+    document.getElementById(elementos[1]).innerHTML = '{{ incorrecta[0] }}';
+    document.getElementById(elementos[2]).innerHTML = '{{ incorrecta[1] }}';
+    document.getElementById(elementos[3]).innerHTML = '{{ incorrecta[2] }}';
+
+    function verificar(respuesta){
+        document.getElementById(elementos[1]).style.backgroundColor="red";
+        document.getElementById(elementos[2]).style.backgroundColor="red";
+        document.getElementById(elementos[3]).style.backgroundColor="red";
+
+        if (respuesta=='{{ correcta }}')
+        {
+            document.getElementById(elementos[0]).style.backgroundColor="green";
+            document.getElementById("resultado").innerHTML = "Respuesta Correcta!!!";
+
+        }
+        else
+        {
+            document.getElementById(elementos[0]).style.backgroundColor="yellow";
+            document.getElementById("resultado").innerHTML = "Respuesta Inorrecta!!!";
+        }
+        return;
+
+
+    }
+
     var countdowndate=new Date().getTime()+20000;//agregar 20 segundos
 
     //devuelve el tiempo restante cada segundo
@@ -83,5 +119,7 @@
             document.getElementById("ctrPregunta").style.backgroundColor="red";
             }
         }, 1000);
+
+
 </script>
 {% endblock %}

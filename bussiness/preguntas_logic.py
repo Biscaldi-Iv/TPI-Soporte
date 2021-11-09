@@ -21,7 +21,7 @@ class PreguntasLogic:
         """:returns:[pregunta,respuesta_correcta, respuestas_incorrectas:List()"""
         respIncorrectas=list()
         idpreg= random.randint(0,len(self.listaPreguntas)-1)
-        preg = self.listaPreguntas[5]
+        preg = self.listaPreguntas[idpreg]
         f = FamousLogic()
         if 'año' in preg:
             param='LENGTH(fnac)>10 and fnac'
@@ -53,9 +53,11 @@ class PreguntasLogic:
 
         elif 'fortuna' in preg:
             respCorrecta=famcorrecto.fortuna
-            for i in range(1,cantResp):
-                factor=random.choice(range(1,i+1))
-                respIncorrectas.append(factor*famcorrecto.fortuna)
+            while(len(respIncorrectas))+1!=cantResp:
+                factor=random.choice(range(1,9))
+                r=factor*famcorrecto.fortuna
+                if r not in respIncorrectas and r!=famcorrecto.fortuna:
+                    respIncorrectas.append(r)
 
         elif 'mide' in preg or 'pesa' in preg:
             respCorrecta=famcorrecto.altura if 'mide' in preg else famcorrecto.peso
@@ -64,13 +66,13 @@ class PreguntasLogic:
                 if 'mide' in preg:
                     if famcorrecto.altura+agregado in respIncorrectas:
                         continue
-                    else:
+                    elif 1.40 <famcorrecto.altura+agregado < 2.25 and famcorrecto.altura+agregado!=respCorrecta:
                         respIncorrectas.append(famcorrecto.altura + agregado)
                 else:
                     agregado*=10
                     if famcorrecto.peso + agregado in respIncorrectas:
                         continue
-                    else:
+                    elif famcorrecto.peso+agregado!=respCorrecta:
                         respIncorrectas.append(famcorrecto.peso + agregado)
 
         #se pregunta por nacionalidad
