@@ -1,6 +1,7 @@
 from datetime import datetime
 from typing import Tuple
 from werkzeug.security import generate_password_hash, check_password_hash
+from datetime import  datetime
 
 
 class Users():
@@ -59,19 +60,21 @@ class Famous():
 
 
 class Score():
-    def __init__(self, idPuntuacion: int, score: int, fechaPuntuacion: datetime, tiempoPuntuacion: datetime, username: str) -> None:
+    def __init__(self, idPuntuacion=0, score: int=0, fechaPuntuacion: datetime=datetime.today(), tiempoPuntuacion: datetime=0, username: str=''):
         self.idPuntuacion = idPuntuacion
         self.score = score
         self.fechaPuntuacion = fechaPuntuacion
         self.tiempoPuntuacion = tiempoPuntuacion
         self.username = username
+        return self
 
     def __repr__(self):
         return f"Score({self.idPuntuacion},{self.score},{self.fechaPuntuacion},{self.tiempoPuntuacion},{self.username})"
 
     def lst(self) -> Tuple:
-        """returns ('idpuntuacion', 'score', 'fechapuntuacion', 'tiempopuntuacion', 'username')"""
-        return self.idPuntuacion, self.score, self.fechaPuntuacion, self.tiempoPuntuacion, self.username
+        """returns ('score', 'fechapuntuacion', 'tiempopuntuacion', 'username')"""
+        return self.score, self.fechaPuntuacion, self.tiempoPuntuacion, self.username
+
 
 class Question():
     def __init__(self, idPregunta: int, descripcion: str) -> None:

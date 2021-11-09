@@ -69,7 +69,7 @@ def home():
     user_logic=UserLogic()
     if session['user'] is not None:
         context={'user':user_logic.get(session.get('user'))}
-        """Falta chequear si esta logueado"""
+
         return render_template('home/home.html',**context)
     else:
         return redirect('/')
