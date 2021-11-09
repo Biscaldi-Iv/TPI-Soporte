@@ -22,7 +22,7 @@
 
 {% block index %}
 <div class="container-fluid p-5 bg-primary text-white text-center" id="ctrPregunta">
-  <h1>{{ _('Pregunta') }}</h1>
+  <h1>{{ pregunta+" ?"}}</h1>
   <p>{{ _('Pregunta media') }}</p>
     <h2 id="countdown"></h2>
 </div>
@@ -79,18 +79,25 @@
 
 <script>
     var elementos=["opc1","opc2","opc3","opc4","opc5","opc6","opc7","opc8"];
-    elementos.sort();
-    document.getElementById(elementos[0]).innerHTML = {{ correcta }};
-    document.getElementById(elementos[1]).innerHTML = {{ incorrecta[0] }};
-    document.getElementById(elementos[2]).innerHTML = {{ incorrecta[1] }};
-    document.getElementById(elementos[3]).innerHTML = {{ incorrecta[2] }};
+    elementos.sort(function(a, b){return 0.5 - Math.random()});
+    document.getElementById(elementos[0]).innerHTML = '{{ correcta }}';
+    document.getElementById(elementos[1]).innerHTML = '{{ incorrecta[0] }}';
+    document.getElementById(elementos[2]).innerHTML = '{{ incorrecta[1] }}';
+    document.getElementById(elementos[3]).innerHTML = '{{ incorrecta[2] }}';
+    document.getElementById(elementos[4]).innerHTML = '{{ incorrecta[3] }}';
+    document.getElementById(elementos[5]).innerHTML = '{{ incorrecta[4] }}';
+    document.getElementById(elementos[6]).innerHTML = '{{ incorrecta[5] }}';
+    document.getElementById(elementos[7]).innerHTML = '{{ incorrecta[6] }}';
 
     function verificar(respuesta){
         document.getElementById(elementos[1]).style.backgroundColor="red";
         document.getElementById(elementos[2]).style.backgroundColor="red";
         document.getElementById(elementos[3]).style.backgroundColor="red";
+        document.getElementById(elementos[4]).style.backgroundColor="red";
+        document.getElementById(elementos[5]).style.backgroundColor="red";
+        document.getElementById(elementos[6]).style.backgroundColor="red";
 
-        if (respuesta=={{ correcta }})
+        if (respuesta=='{{ correcta }}')
         {
             document.getElementById(elementos[0]).style.backgroundColor="green";
             document.getElementById("resultado").innerHTML = "Respuesta Correcta!!!";

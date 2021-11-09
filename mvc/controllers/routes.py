@@ -44,6 +44,8 @@ def is_human(captcha_response):
 @global_scope.before_request
 def SessionCheck():
     _, endp=request.endpoint.split('.')
+    if endp!='questions':
+        session.pop('nivel')
     if endp!='login' and endp!='register' and endp!='logout':
         try:
             lastinteraction = session['lastinteraction'].replace(tzinfo=None)
@@ -161,25 +163,34 @@ def rules():
 
 @global_scope.route('/questions', methods=['POST','GET'])
 def questions():
-    if 'nivel' not in session.keys():
-        session['nivel']=0
-    nivel=session['nivel']+1
-    #cambiar despues la cantidad de veces de cada nivel
-    if nivel<=10:
-        p = PreguntasLogic()
-        pregunta, correcta, incorrecta = p.getRandomQuestion(4)
-        contexto = {"pregunta": pregunta, "correcta": correcta, "incorrecta": incorrecta, }
-        return render_template('play/easyQ.html', **contexto)
-    if 1<nivel<=3:
-        p = PreguntasLogic()
-        pregunta, correcta, incorrecta = p.getRandomQuestion(8)
-        contexto = {"pregunta": pregunta, "correcta": correcta, "incorrecta": incorrecta, }
-        return render_template('play/middQ.html', **contexto)
-    if 3<nivel:
-        p = PreguntasLogic()
-        pregunta, correcta, incorrecta = p.getRandomQuestion(8)
-        contexto = {"pregunta": pregunta, "correcta": correcta, "incorrecta": incorrecta, }
-        return render_template('play/hardQ.html', **contexto)
+    if request.method=='POST':
+        if 'nivel' not in session.keys():
+            session['nivel']=0
+        if session['nivel']!=0 and request.form['formrespuesta']=='false':
+            #falta mostrar puntuacion y registrarla
+            return redirect('/home')
+        nivel=session['nivel']+1
+        session['nivel']=nivel
+        #cambiar despues la cantidad de veces de cada nivel
+        if nivel<=10:
+            p = PreguntasLogic()
+            pregunta, correcta, incorrecta = p.getRandomQuestion(4)
+            contexto = {"pregunta": pregunta, "correcta": correcta, "incorrecta": incorrecta, }
+            return render_template('play/easyQ.html', **contexto)
+        if 1<nivel<=3:
+            p = PreguntasLogic()
+            pregunta, correcta, incorrecta = p.getRandomQuestion(8)
+            contexto = {"pregunta": pregunta, "correcta": correcta, "incorrecta": incorrecta, }
+            return render_template('play/middQ.html', **contexto)
+        if 3<nivel:
+            p = PreguntasLogic()
+            pregunta, correcta, incorrecta = p.getRandomQuestion(8)
+            contexto = {"pregunta": pregunta, "correcta": correcta, "incorrecta": incorrecta, }
+            return render_template('play/hardQ.html', **contexto)
+    else:
+        #"arreglar **"
+        return 'Estas haciendo trampa'
+
 
 
 
