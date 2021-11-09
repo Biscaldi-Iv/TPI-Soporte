@@ -45,7 +45,8 @@ def is_human(captcha_response):
 def SessionCheck():
     _, endp=request.endpoint.split('.')
     if endp!='questions':
-        session.pop('nivel')
+        if 'nivel' in session.keys():
+            session.pop('nivel')
     if endp!='login' and endp!='register' and endp!='logout':
         try:
             lastinteraction = session['lastinteraction'].replace(tzinfo=None)
@@ -172,12 +173,13 @@ def questions():
         nivel=session['nivel']+1
         session['nivel']=nivel
         #cambiar despues la cantidad de veces de cada nivel
-        if nivel<=10:
+        #if nivel<=10:
+        if False:
             p = PreguntasLogic()
             pregunta, correcta, incorrecta = p.getRandomQuestion(4)
             contexto = {"pregunta": pregunta, "correcta": correcta, "incorrecta": incorrecta, }
             return render_template('play/easyQ.html', **contexto)
-        if 1<nivel<=3:
+        if True:
             p = PreguntasLogic()
             pregunta, correcta, incorrecta = p.getRandomQuestion(8)
             contexto = {"pregunta": pregunta, "correcta": correcta, "incorrecta": incorrecta, }

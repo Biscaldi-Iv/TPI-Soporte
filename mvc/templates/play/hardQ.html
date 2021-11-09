@@ -73,11 +73,21 @@
             <div class="col">
                 <button id="opc8" class="btn btn-primary btn-block" style="width:100%; height:120px; font-size: 16px;">Opcion 8</button>
             </div>
+            <br>
+            <br>
+            <div>
+              <form method="post">
+                <input id="formrespuesta" name="formrespuesta" value="false" style="display: none;">
+                <button id="siguiente" class="btn btn-primary btn-block" type="submit" formaction="{{url_for('justintime.questions')}}">Siguiente</button>
+              </form>
+            </div>
     </div>
     </div>
 </div>
 
 <script>
+    var control=true; //mientras esta en true se puede responder-- en false se anulan todos los eventos
+    var responde=true;
     var countdowndate=new Date().getTime()+10000;//agregar 10 segundos
 
     //devuelve el tiempo restante cada segundo
