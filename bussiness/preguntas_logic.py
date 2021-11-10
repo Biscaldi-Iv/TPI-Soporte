@@ -6,16 +6,17 @@ from datetime import date,datetime
 from typing import List
 from dateutil import parser
 import random
+from flask_babel import gettext as _
 
 
 class PreguntasLogic:
     def __init__(self):
-        self.listaPreguntas=['¿Cuantos años tiene xxx',
-                             '¿De que nacionalidad es xxx',
-                             '¿Cual es la fortuna de xxx',
-                             '¿Cuantos metros mide xxx',
-                             '¿Cuantos kilogramos pesa xxx',
-                             '¿En que año nacio xxx',]
+        self.listaPreguntas=[_('¿Cuantos años tiene xxx'),
+                             _('¿De que nacionalidad es xxx'),
+                             _('¿Cual es la fortuna de xxx'),
+                             _('¿Cuantos metros mide xxx'),
+                             _('¿Cuantos kilogramos pesa xxx'),
+                             _('¿En que año nacio xxx'),]
 
     def getRandomQuestion(self, cantResp:int) -> [Question]:
         """:returns:[pregunta,respuesta_correcta, respuestas_incorrectas:List()"""
@@ -23,23 +24,23 @@ class PreguntasLogic:
         idpreg= random.randint(0,len(self.listaPreguntas)-1)
         preg = self.listaPreguntas[idpreg]
         f = FamousLogic()
-        if 'año' in preg:
+        if _('año') in preg:
             param='LENGTH(fnac)>10 and fnac'
-        elif 'nacionalidad' in preg:
+        elif _('nacionalidad') in preg:
             param='length(nacionalidad)'
-        elif 'fortuna' in preg:
+        elif _('fortuna') in preg:
             param='fortuna'
-        elif 'mide' in preg:
+        elif _('mide') in preg:
             param='altura'
-        elif 'pesa' in preg:
+        elif _('pesa') in preg:
             param='peso'
 
         famcorrecto=f.getRandomFamous(param)
         while famcorrecto is None:
             famcorrecto=f.getRandomFamous(param)
         #se pregunta por edad o año nacimiento
-        if 'año' in preg:
-                if 'años' in preg:
+        if _('año') in preg:
+                if _('años') in preg:
                     ######################################################### reemplazar fecha nacimiento con edad
                     edad=datetime.today()-famcorrecto.fechaNacimiento
                     edad=int(edad.total_seconds()/60/60/24/365)
@@ -51,7 +52,7 @@ class PreguntasLogic:
                     respCorrecta=YYnac
                     respIncorrectas=self.generadorAnios(YYnac,cantResp)
 
-        elif 'fortuna' in preg:
+        elif _('fortuna') in preg:
             respCorrecta=famcorrecto.fortuna
             while(len(respIncorrectas))+1!=cantResp:
                 factor=random.choice(range(1,9))
@@ -59,11 +60,11 @@ class PreguntasLogic:
                 if r not in respIncorrectas and r!=famcorrecto.fortuna:
                     respIncorrectas.append(r)
 
-        elif 'mide' in preg or 'pesa' in preg:
+        elif _('mide') in preg or 'pesa' in preg:
             respCorrecta=famcorrecto.altura if 'mide' in preg else famcorrecto.peso
             while(len(respIncorrectas))+1!=cantResp:
                 agregado=random.randint(-9,9)/random.choice([10,100])
-                if 'mide' in preg:
+                if _('mide') in preg:
                     if famcorrecto.altura+agregado in respIncorrectas:
                         continue
                     elif 1.40 <famcorrecto.altura+agregado < 2.25 and famcorrecto.altura+agregado!=respCorrecta:
@@ -76,7 +77,7 @@ class PreguntasLogic:
                         respIncorrectas.append(famcorrecto.peso + agregado)
 
         #se pregunta por nacionalidad
-        elif 'nacionalidad' in preg:
+        elif _('nacionalidad') in preg:
             respCorrecta=famcorrecto.nacionalidad
             for i in range(cantResp-1):
                 r= random.choice(f.GetPaises())
@@ -85,14 +86,9 @@ class PreguntasLogic:
                         r=random.choice(f.GetPaises())
                 respIncorrectas.append(r)
 
-        preg=self.armarPregunta(preg, famcorrecto.nombreCompleto)
-
-        return preg, respCorrecta, respIncorrectas, famcorrecto.imagen
+        return preg.replace('xxx',famcorrecto.nombreCompleto), respCorrecta, respIncorrectas, famcorrecto.imagen
 
 
-    def armarPregunta(self, preg: str, fam: str):
-        pregArmada = preg.replace('xxx',fam)
-        return pregArmada
 
     """def elegirOpciones(self,preg: Question, fam: Famous):
         if (fam.nombreCompleto == "0"):
