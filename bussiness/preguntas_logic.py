@@ -22,7 +22,7 @@ class PreguntasLogic:
         """:returns:[pregunta,respuesta_correcta, respuestas_incorrectas:List()"""
         respIncorrectas=list()
         idpreg= random.randint(0,len(self.listaPreguntas)-1)
-        preg = self.listaPreguntas[3]
+        preg = self.listaPreguntas[idpreg]
         f = FamousLogic()
         if _('año') in preg:
             param='LENGTH(fnac)>10 and fnac'

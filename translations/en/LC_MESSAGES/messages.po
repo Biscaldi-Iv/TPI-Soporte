@@ -175,6 +175,11 @@ msgstr "Exit"
 msgid "Pregunta fácil"
 msgstr "Easy question"
 
+#: mvc/templates/play/easyQ.html:58 mvc/templates/play/hardQ.html:74
+#: mvc/templates/play/middQ.html:74
+msgid "Siguiente"
+msgstr "Next"
+
 #: mvc/templates/play/hardQ.html:26
 msgid "Pregunta difícil"
 msgstr "Hard question"

@@ -175,6 +175,11 @@ msgstr "Esci dal gioco"
 msgid "Pregunta fácil"
 msgstr "Domanda facile"
 
+#: mvc/templates/play/easyQ.html:58 mvc/templates/play/hardQ.html:74
+#: mvc/templates/play/middQ.html:74
+msgid "Siguiente"
+msgstr "Prossimo"
+
 #: mvc/templates/play/hardQ.html:26
 msgid "Pregunta difícil"
 msgstr "Domanda dificile"
