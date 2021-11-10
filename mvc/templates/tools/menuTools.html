@@ -1,7 +1,7 @@
 {% extends 'common/base.html' %}
 
 {% block title %}
-    <title>Herramientas Extra -Just in Time</title>
+    <title>Features -Just in Time</title>
 {% endblock %}
 
 {% block navbarbtns %}
@@ -31,7 +31,7 @@
 
     <div class="container-fluid p-5 bg-primary text-white text-center" id="ctrHerramientas">
         <h1>{{ _('Bienvenido jugador') }}</h1>
-        <p>{{ _('Aqui se encuentran algunas herramientas que podrían ser de tu agrado') }}</p>
+        <p>{{ _('Aqui se encuentran algunas características que podrían ser de tu agrado') }}</p>
           <h2 id="countdown"></h2>
       </div>
 
@@ -41,11 +41,10 @@
             <div class="row">
 
                     <div class="card shadow-sm">
-                        <img class="card-img-top" src="https://image.freepik.com/vector-gratis/ilustracion-concepto-cascos-musica_114360-2222.jpg">
+                        <img class="card-img-top" src="https://image.freepik.com/vector-gratis/nina-feliz-usando-audifonos-disfrutando-lista-reproduccion-escuchando-musica-telefono-movil-cantando-canciones_74855-14053.jpg">
 
                         <div class="card-body">
-                        <p class="card-text">{{ _('El sonido es demasiado épico para tus oidos? no hay problema puedes mutearlo y activarlo las veces que desees desde aquí.') }}</p>
-                        <button id="music" class="btn btn-primary btn-block" type="button" style="width:100%; height:80px; font-size: 16px;">{{ _('Música') }}</button>
+                        <p class="card-text">{{ _('El sonido es molesto? no hay problema puedes mutearlo y activarlo las veces que desees desde el menu principal.') }}</p>
                         </div>
                     </div>
             </div>
@@ -54,21 +53,10 @@
         <div class="col-sm-6 offset-md-3">
             <div class="row">
                     <div class="card shadow-sm">
-                        <img class="card-img-top" src="https://image.freepik.com/vector-gratis/concepto-do-you-speak-english_23-2147864772.jpg">
+                        <img class="card-img-top" src="https://image.freepik.com/vector-gratis/ilustracion-grupo-personas-hablando_52683-30141.jpg">
 
                         <div class="card-body">
-                        <p class="card-text">{{ _('Te gusta presumir que hablas otros idiomas? Seguro por que no! con esta opcion podras cubrir esa necesidad y si no sabias tanto como pensabas siempre puedes volver al confiable espanish') }}</p>
-                        <div class="dropdown">
-                            <button class="btn btn-primary btn-lg  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width:100%; height:80px; font-size: 16px;">
-                            {{ _('Seleccionar idioma') }}
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#">{{ _('Español') }}</a>
-                            <a class="dropdown-item" href="#">{{ _('Inglés') }}</a>
-                            <a class="dropdown-item" href="#">{{ _('Italiano') }}</a>
-                            <a class="dropdown-item" href="#">{{ _('Aleman') }}</a>
-                            </div>
-                        </div>
+                        <p class="card-text">{{ _('Te gusta presumir que hablas otros idiomas? Seguro por que no! con la opcion idioma hallada en el menu principal podras cubrir esa necesidad, y si no sabias tanto como pensabas siempre puedes volver al confiable español') }}</p>
                         </div>
                     </div>
 
@@ -80,8 +68,7 @@
                     <img class="card-img-top" src="https://image.freepik.com/vector-gratis/chicos-jovenes-premio-estrella_74855-6139.jpg">
 
                     <div class="card-body">
-                    <p class="card-text">{{ _('Aquí podrás ver las mayores puntuaciones hechas por la comunidad, diviértete y alcanza la gloria') }}</p>
-                    <button id="ranking" class="btn btn-primary btn-block" type="button" style="width:100%; height:80px; font-size: 16px;">{{ _('Ranking global') }}</button>
+                    <p class="card-text">{{ _('En Home se encuentran las mayores puntuaciones hechas por la comunidad, y las tuyas también, diviértete y alcanza la gloria') }}</p>
                     </div>
                 </div>
             </div>
