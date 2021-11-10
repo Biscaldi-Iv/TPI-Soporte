@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-11-10 04:56-0300\n"
+"POT-Creation-Date: 2021-11-10 15:30-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,11 +54,11 @@ msgid "fortuna"
 msgstr ""
 
 #: bussiness/preguntas_logic.py:33 bussiness/preguntas_logic.py:63
-#: bussiness/preguntas_logic.py:67
+#: bussiness/preguntas_logic.py:64 bussiness/preguntas_logic.py:67
 msgid "mide"
 msgstr ""
 
-#: bussiness/preguntas_logic.py:35
+#: bussiness/preguntas_logic.py:35 bussiness/preguntas_logic.py:63
 msgid "pesa"
 msgstr ""
 
@@ -172,6 +172,11 @@ msgstr ""
 
 #: mvc/templates/play/easyQ.html:26
 msgid "Pregunta fácil"
+msgstr ""
+
+#: mvc/templates/play/easyQ.html:58 mvc/templates/play/hardQ.html:74
+#: mvc/templates/play/middQ.html:74
+msgid "Siguiente"
 msgstr ""
 
 #: mvc/templates/play/hardQ.html:26

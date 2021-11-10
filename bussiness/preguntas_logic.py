@@ -22,7 +22,7 @@ class PreguntasLogic:
         """:returns:[pregunta,respuesta_correcta, respuestas_incorrectas:List()"""
         respIncorrectas=list()
         idpreg= random.randint(0,len(self.listaPreguntas)-1)
-        preg = self.listaPreguntas[idpreg]
+        preg = self.listaPreguntas[3]
         f = FamousLogic()
         if _('año') in preg:
             param='LENGTH(fnac)>10 and fnac'
@@ -60,8 +60,8 @@ class PreguntasLogic:
                 if r not in respIncorrectas and r!=famcorrecto.fortuna:
                     respIncorrectas.append(r)
 
-        elif _('mide') in preg or 'pesa' in preg:
-            respCorrecta=famcorrecto.altura if 'mide' in preg else famcorrecto.peso
+        elif _('mide') in preg or _('pesa') in preg:
+            respCorrecta=famcorrecto.altura if _('mide') in preg else famcorrecto.peso
             while(len(respIncorrectas))+1!=cantResp:
                 agregado=random.randint(-9,9)/random.choice([10,100])
                 if _('mide') in preg:
