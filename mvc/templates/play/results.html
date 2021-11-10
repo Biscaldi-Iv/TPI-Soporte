@@ -13,6 +13,7 @@
             <a class="nav-link" href="#">{{ _('Usuario') }}</a>
           </li>
           <li>
+            <div class="btn-toolbar">
             <div class="dropdown">
               <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-translate" viewBox="0 0 16 16">
@@ -23,32 +24,35 @@
               </button>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="/de/score"><img src="{{url_for('static',filename='de.png')}}" width="25" height="20"> {{ _('Aleman') }}</a>
+                  <a class="dropdown-item" href="/de/home"><img src="{{url_for('static',filename='de.png')}}" width="25" height="20"> {{ _('Aleman') }}</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="/es/score"><img src="{{url_for('static',filename='es.png')}}" width="25" height="20"> {{ _('Español') }}</a>
+                  <a class="dropdown-item" href="/es/home"><img src="{{url_for('static',filename='es.png')}}" width="25" height="20"> {{ _('Español') }}</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="/en/score"><img src="{{url_for('static',filename='en.jpg')}}" width="25" height="20"> {{ _('Ingles') }}</a>
+                  <a class="dropdown-item" href="/en/home"><img src="{{url_for('static',filename='en.jpg')}}" width="25" height="20"> {{ _('Ingles') }}</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="/it/score"><img src="{{url_for('static',filename='it.png')}}" width="25" height="20"> {{ _('Italiano') }}</a>
+                  <a class="dropdown-item" href="/it/home"><img src="{{url_for('static',filename='it.png')}}" width="25" height="20"> {{ _('Italiano') }}</a>
                 </li>
               </ul>
             </div>
           </li>
+          &nbsp;
+          &nbsp;
           <li class="nav-item">
               <form method="get" id="frmplay">
               <button id="btnplay" class="btn btn-success btn-md center-block" type="submit" formaction="{{url_for('justintime.rules')}}">{{ _('Jugar') }}</button>
             </form>
           </li>
-
-        </ul>
+           <li> <p> ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo </p></li>
           <li class="nav-item">
             <form method="get" id="logoutfrm">
-              <button id="btnLogOut" class="btn btn-danger btn-md center-block" type="submit" formaction="{{url_for('justintime.logout')}}">{{ _('Cerrar Sesión') }}</button>
+              <button id="btnLogOut" class="btn btn-danger btn-md" type="submit" formaction="{{url_for('justintime.logout')}}">{{ _('Cerrar Sesión') }}</button>
             </form>
           </li>
+
+        </ul>
 {% endblock %}
 
 {% block index %}
