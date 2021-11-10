@@ -183,12 +183,12 @@ def questions():
             p = PreguntasLogic()
             pregunta, correcta, incorrecta = p.getRandomQuestion(8)
             contexto = {"pregunta": pregunta, "correcta": correcta, "incorrecta": incorrecta, }
-            return render_template('play/middQ.html', **contexto)
+            return render_template('play/hardQ.html', **contexto)
         if 3<nivel:
             p = PreguntasLogic()
             pregunta, correcta, incorrecta = p.getRandomQuestion(8)
             contexto = {"pregunta": pregunta, "correcta": correcta, "incorrecta": incorrecta, }
-            return render_template('play/hardQ.html', **contexto)
+            return render_template('play/middQ.html', **contexto)
     else:
         #"arreglar **"
         return 'Estas haciendo trampa'
