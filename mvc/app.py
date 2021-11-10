@@ -52,9 +52,9 @@ def session_control():  # control de sesion -->ver
     session.permanent = True
 
 
-@app.route('/imagen', methods=['POST', 'GET'])
+@app.route('/', methods=['POST', 'GET'])
 def imagen():
-    return render_template('imagenes.html')
+    return redirect('/es/logout')
 
 
 app.register_blueprint(global_scope, url_prefix='/<lang_code>')
