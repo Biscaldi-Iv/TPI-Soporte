@@ -69,8 +69,10 @@ def home():
         return  redirect('http://127.0.0.1:5000/')"""
     user_logic=UserLogic()
     if session['user'] is not None:
-        context={'user':user_logic.get(session.get('user'))}
-
+        pl=PuntuacionLogic()
+        top10=pl.top10()
+        mytop=pl.myTop(session['user'])
+        context={'user':user_logic.get(session.get('user')), 'top10':top10, 'mytop':mytop}
         return render_template('home/home.html',**context)
     else:
         return redirect('/')
