@@ -40,7 +40,7 @@ msgstr "Quanti chilogrammi pesa xxx"
 
 #: bussiness/preguntas_logic.py:19
 msgid "¿En que año nacio xxx"
-msgstr "In che anno è nato xxx"
+msgstr "In che anno sei nato?"
 
 #: bussiness/preguntas_logic.py:27 bussiness/preguntas_logic.py:42
 msgid "año"
@@ -73,7 +73,7 @@ msgstr "Username sbagliato"
 
 #: mvc/controllers/routes.py:109
 msgid "Contraseña incorrecta"
-msgstr "password errata"
+msgstr "Password errata"
 
 #: mvc/templates/home/home.html:13 mvc/templates/home/home.html:67
 #: mvc/templates/home/home.html:90 mvc/templates/play/results.html:13
@@ -138,6 +138,22 @@ msgstr ""
 msgid "Top 10 del jugador"
 msgstr ""
 
+#: mvc/templates/home/home.html:63
+msgid "Top 10 global"
+msgstr "Top 10 globale"
+
+#: mvc/templates/home/home.html:68 mvc/templates/home/home.html:91
+msgid "Fecha"
+msgstr "Data"
+
+#: mvc/templates/home/home.html:69 mvc/templates/home/home.html:92
+msgid "Puntuacion"
+msgstr "Punteggiatura"
+
+#: mvc/templates/home/home.html:86
+msgid "Top 10 del jugador"
+msgstr "Top 10 del giocatore"
+
 #: mvc/templates/log_in/logIn.html:8 mvc/templates/register/register.html:18
 msgid "Registrarse"
 msgstr ""
@@ -169,7 +185,7 @@ msgstr ""
 #: mvc/templates/play/easyQ.html:13 mvc/templates/play/hardQ.html:13
 #: mvc/templates/play/middQ.html:13
 msgid "Salir del juego"
-msgstr ""
+msgstr "Esci dal gioco"
 
 #: mvc/templates/play/easyQ.html:26
 msgid "Pregunta fácil"
@@ -194,6 +210,18 @@ msgstr ""
 #: mvc/templates/play/results.html:57
 msgid "puntos"
 msgstr ""
+
+#: mvc/templates/play/results.html:55
+msgid "FELICITACIONES"
+msgstr "CONGRATULAZIONI"
+
+#: mvc/templates/play/results.html:57
+msgid "Tu puntuacion es"
+msgstr "il tuo punteggio è"
+
+#: mvc/templates/play/results.html:57
+msgid "puntos"
+msgstr "punti"
 
 #: mvc/templates/play/rules.html:22
 msgid "Reglamento"
@@ -229,7 +257,7 @@ msgstr ""
 
 #: mvc/templates/play/rules.html:40
 msgid "Tendrás 10 segundos para elegir tu respuesta"
-msgstr ""
+msgstr "Avrai 10 secondi per rispondere"
 
 #: mvc/templates/register/register.html:22
 msgid "Nombre"
@@ -245,11 +273,11 @@ msgstr ""
 
 #: mvc/templates/register/register.html:47
 msgid "Confirmar contraseña"
-msgstr ""
+msgstr "conferma password"
 
 #: mvc/templates/register/register.html:54
 msgid "Confirmar"
-msgstr ""
+msgstr "conferma"
 
 #: mvc/templates/register/register.html:58
 msgid "Ya tengo una cuenta"
@@ -261,7 +289,7 @@ msgstr ""
 
 #: mvc/templates/tools/menuTools.html:34
 msgid "Aqui se encuentran algunas características que podrían ser de tu agrado"
-msgstr ""
+msgstr "Ecco alcuni suggerimenti"
 
 #: mvc/templates/tools/menuTools.html:46
 msgid ""
@@ -269,11 +297,11 @@ msgid ""
 "opcion idioma hallada en el menu principal podras cubrir esa necesidad, y"
 " si no sabias tanto como pensabas siempre puedes volver al confiable "
 "español"
-msgstr ""
+msgstr "Puoi cambiare la lingua"
 
 #: mvc/templates/tools/menuTools.html:58
 msgid ""
 "En Home se encuentran las mayores puntuaciones hechas por la comunidad, y"
 " las tuyas también, diviértete y alcanza la gloria"
-msgstr ""
+msgstr "In Home ci sono i punteggi più alti ottenuti dalla community"
 
