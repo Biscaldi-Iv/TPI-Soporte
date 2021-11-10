@@ -8,52 +8,133 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-11-01 19:00-0300\n"
+"POT-Creation-Date: 2021-11-10 04:56-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Generated-By: Babel 2.9.1\n"
 
-#: mvc/templates/home/home.html:13 mvc/templates/tools/menuTools.html:13
+#: bussiness/preguntas_logic.py:14
+msgid "¿Cuantos años tiene xxx"
+msgstr ""
+
+#: bussiness/preguntas_logic.py:15
+msgid "¿De que nacionalidad es xxx"
+msgstr ""
+
+#: bussiness/preguntas_logic.py:16
+msgid "¿Cual es la fortuna de xxx"
+msgstr ""
+
+#: bussiness/preguntas_logic.py:17
+msgid "¿Cuantos metros mide xxx"
+msgstr ""
+
+#: bussiness/preguntas_logic.py:18
+msgid "¿Cuantos kilogramos pesa xxx"
+msgstr ""
+
+#: bussiness/preguntas_logic.py:19
+msgid "¿En que año nacio xxx"
+msgstr ""
+
+#: bussiness/preguntas_logic.py:27 bussiness/preguntas_logic.py:42
+msgid "año"
+msgstr ""
+
+#: bussiness/preguntas_logic.py:29 bussiness/preguntas_logic.py:80
+msgid "nacionalidad"
+msgstr ""
+
+#: bussiness/preguntas_logic.py:31 bussiness/preguntas_logic.py:55
+msgid "fortuna"
+msgstr ""
+
+#: bussiness/preguntas_logic.py:33 bussiness/preguntas_logic.py:63
+#: bussiness/preguntas_logic.py:67
+msgid "mide"
+msgstr ""
+
+#: bussiness/preguntas_logic.py:35
+msgid "pesa"
+msgstr ""
+
+#: bussiness/preguntas_logic.py:43
+msgid "años"
+msgstr ""
+
+#: mvc/controllers/routes.py:106
+msgid "Username incorrecto"
+msgstr ""
+
+#: mvc/controllers/routes.py:109
+msgid "Contraseña incorrecta"
+msgstr ""
+
+#: mvc/templates/home/home.html:13 mvc/templates/home/home.html:67
+#: mvc/templates/home/home.html:90 mvc/templates/play/results.html:13
+#: mvc/templates/tools/menuTools.html:13
 msgid "Usuario"
 msgstr ""
 
+#: mvc/templates/home/home.html:22 mvc/templates/log_in/logIn.html:17
+#: mvc/templates/play/results.html:22
+msgid "Idioma"
+msgstr ""
+
 #: mvc/templates/home/home.html:26 mvc/templates/log_in/logIn.html:21
-#: mvc/templates/tools/menuTools.html:69
+#: mvc/templates/play/results.html:26
 msgid "Aleman"
 msgstr ""
 
 #: mvc/templates/home/home.html:29 mvc/templates/log_in/logIn.html:24
-#: mvc/templates/tools/menuTools.html:66
+#: mvc/templates/play/results.html:29
 msgid "Español"
 msgstr ""
 
 #: mvc/templates/home/home.html:32 mvc/templates/log_in/logIn.html:27
+#: mvc/templates/play/results.html:32
 msgid "Ingles"
 msgstr ""
 
 #: mvc/templates/home/home.html:35 mvc/templates/log_in/logIn.html:30
-#: mvc/templates/tools/menuTools.html:68
+#: mvc/templates/play/results.html:35
 msgid "Italiano"
 msgstr ""
 
-#: mvc/templates/home/home.html:42 mvc/templates/play/rules.html:54
-#: mvc/templates/tools/menuTools.html:17
+#: mvc/templates/home/home.html:42 mvc/templates/play/results.html:42
+#: mvc/templates/play/rules.html:49 mvc/templates/tools/menuTools.html:17
 msgid "Jugar"
 msgstr ""
 
 #: mvc/templates/home/home.html:49 mvc/templates/play/easyQ.html:18
 #: mvc/templates/play/hardQ.html:18 mvc/templates/play/middQ.html:18
-#: mvc/templates/play/rules.html:15 mvc/templates/play/xtremeQ.html:18
+#: mvc/templates/play/results.html:49 mvc/templates/play/rules.html:15
 #: mvc/templates/tools/menuTools.html:23
 msgid "Cerrar Sesión"
 msgstr ""
 
-#: mvc/templates/home/home.html:91
+#: mvc/templates/home/home.html:60
 msgid "Bienvenido"
+msgstr ""
+
+#: mvc/templates/home/home.html:63
+msgid "Top 10 global"
+msgstr ""
+
+#: mvc/templates/home/home.html:68 mvc/templates/home/home.html:91
+msgid "Fecha"
+msgstr ""
+
+#: mvc/templates/home/home.html:69 mvc/templates/home/home.html:92
+msgid "Puntuacion"
+msgstr ""
+
+#: mvc/templates/home/home.html:86
+msgid "Top 10 del jugador"
 msgstr ""
 
 #: mvc/templates/log_in/logIn.html:8 mvc/templates/register/register.html:18
@@ -72,26 +153,21 @@ msgstr ""
 msgid "Contraseña"
 msgstr ""
 
-#: mvc/templates/log_in/logIn.html:63 mvc/templates/register/register.html:53
+#: mvc/templates/log_in/logIn.html:64 mvc/templates/register/register.html:53
 msgid "Cancelar"
 msgstr ""
 
-#: mvc/templates/log_in/logIn.html:64
+#: mvc/templates/log_in/logIn.html:65
 msgid "Iniciar Sesión"
 msgstr ""
 
-#: mvc/templates/log_in/logIn.html:68
+#: mvc/templates/log_in/logIn.html:69
 msgid "Crear una cuenta"
 msgstr ""
 
 #: mvc/templates/play/easyQ.html:13 mvc/templates/play/hardQ.html:13
 #: mvc/templates/play/middQ.html:13
 msgid "Salir del juego"
-msgstr ""
-
-#: mvc/templates/play/easyQ.html:25 mvc/templates/play/hardQ.html:25
-#: mvc/templates/play/middQ.html:25 mvc/templates/play/xtremeQ.html:25
-msgid "Pregunta"
 msgstr ""
 
 #: mvc/templates/play/easyQ.html:26
@@ -104,6 +180,18 @@ msgstr ""
 
 #: mvc/templates/play/middQ.html:26
 msgid "Pregunta media"
+msgstr ""
+
+#: mvc/templates/play/results.html:55
+msgid "FELICITACIONES"
+msgstr ""
+
+#: mvc/templates/play/results.html:57
+msgid "Tu puntuacion es"
+msgstr ""
+
+#: mvc/templates/play/results.html:57
+msgid "puntos"
 msgstr ""
 
 #: mvc/templates/play/rules.html:22
@@ -142,36 +230,6 @@ msgstr ""
 msgid "Tendrás 10 segundos para elegir tu respuesta"
 msgstr ""
 
-#: mvc/templates/play/rules.html:43
-msgid "Preguntas extremas"
-msgstr ""
-
-#: mvc/templates/play/rules.html:44
-msgid "No se ofrecerán opciones, deberás ingresar tu respuesta usando el teclado"
-msgstr ""
-
-#: mvc/templates/play/rules.html:45
-msgid "Tendrás 20 segundos para ingresar tu respuesta"
-msgstr ""
-
-#: mvc/templates/play/rules.html:46
-msgid ""
-"Si se te acaba el tiempo se revisara la respuesta ingresada hasta ese "
-"momento"
-msgstr ""
-
-#: mvc/templates/play/xtremeQ.html:26
-msgid "Pregunta extrema"
-msgstr ""
-
-#: mvc/templates/play/xtremeQ.html:48
-msgid "Ingresa tu respuesta"
-msgstr ""
-
-#: mvc/templates/play/xtremeQ.html:52
-msgid "Responder"
-msgstr ""
-
 #: mvc/templates/register/register.html:22
 msgid "Nombre"
 msgstr ""
@@ -201,41 +259,20 @@ msgid "Bienvenido jugador"
 msgstr ""
 
 #: mvc/templates/tools/menuTools.html:34
-msgid "Aqui se encuentran algunas herramientas que podrían ser de tu agrado"
+msgid "Aqui se encuentran algunas características que podrían ser de tu agrado"
 msgstr ""
 
-#: mvc/templates/tools/menuTools.html:47
+#: mvc/templates/tools/menuTools.html:46
 msgid ""
-"El sonido es demasiado épico para tus oidos? no hay problema puedes "
-"mutearlo y activarlo las veces que desees desde aquí."
+"Te gusta presumir que hablas otros idiomas? Seguro por que no! con la "
+"opcion idioma hallada en el menu principal podras cubrir esa necesidad, y"
+" si no sabias tanto como pensabas siempre puedes volver al confiable "
+"español"
 msgstr ""
 
-#: mvc/templates/tools/menuTools.html:48
-msgid "Música"
-msgstr ""
-
-#: mvc/templates/tools/menuTools.html:60
+#: mvc/templates/tools/menuTools.html:58
 msgid ""
-"Te gusta presumir que hablas otros idiomas? Seguro por que no! con esta "
-"opcion podras cubrir esa necesidad y si no sabias tanto como pensabas "
-"siempre puedes volver al confiable espanish"
-msgstr ""
-
-#: mvc/templates/tools/menuTools.html:63
-msgid "Seleccionar idioma"
-msgstr ""
-
-#: mvc/templates/tools/menuTools.html:67
-msgid "Inglés"
-msgstr ""
-
-#: mvc/templates/tools/menuTools.html:83
-msgid ""
-"Aquí podrás ver las mayores puntuaciones hechas por la comunidad, "
-"diviértete y alcanza la gloria"
-msgstr ""
-
-#: mvc/templates/tools/menuTools.html:84
-msgid "Ranking global"
+"En Home se encuentran las mayores puntuaciones hechas por la comunidad, y"
+" las tuyas también, diviértete y alcanza la gloria"
 msgstr ""
 
