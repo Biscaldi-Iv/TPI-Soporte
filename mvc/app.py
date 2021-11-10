@@ -2,7 +2,7 @@ from flask import Flask, session, request, g, redirect
 from flask.helpers import url_for
 from flask.templating import render_template
 from controllers.routes import global_scope
-from flask_babel import Babel, gettext as _
+from flask_babel import Babel, gettext as _, lazy_gettext
 from bussiness.preguntas_logic import PreguntasLogic
 
 app = Flask(__name__)
