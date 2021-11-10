@@ -9,13 +9,12 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="{{url_for('justintime.home')}}">Home</a>
           </li>
-          <li> <p> ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo </p></li>
+</ul>
           <li class="nav-item">
             <form method="get" id="logoutfrm">
               <button id="btnLogOut" class="btn btn-danger btn-md center-block" type="submit" formaction="{{url_for('justintime.logout')}}">{{ _('Cerrar Sesión') }}</button>
             </form>
           </li>
-  </ul>
 {% endblock %}
 
 {% block index %}
