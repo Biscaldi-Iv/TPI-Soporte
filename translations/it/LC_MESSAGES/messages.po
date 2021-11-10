@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.9.0\n"
 
 #: bussiness/preguntas_logic.py:14
 msgid "¿Cuantos años tiene xxx"
@@ -89,54 +89,38 @@ msgstr "Idioma"
 #: mvc/templates/home/home.html:26 mvc/templates/log_in/logIn.html:21
 #: mvc/templates/play/results.html:26
 msgid "Aleman"
-msgstr ""
+msgstr "Tedesco"
 
 #: mvc/templates/home/home.html:29 mvc/templates/log_in/logIn.html:24
 #: mvc/templates/play/results.html:29
 msgid "Español"
-msgstr ""
+msgstr "Spagnolo"
 
 #: mvc/templates/home/home.html:32 mvc/templates/log_in/logIn.html:27
 #: mvc/templates/play/results.html:32
 msgid "Ingles"
-msgstr ""
+msgstr "Inglese"
 
 #: mvc/templates/home/home.html:35 mvc/templates/log_in/logIn.html:30
 #: mvc/templates/play/results.html:35
 msgid "Italiano"
-msgstr ""
+msgstr "Italiano"
 
 #: mvc/templates/home/home.html:42 mvc/templates/play/results.html:42
 #: mvc/templates/play/rules.html:49 mvc/templates/tools/menuTools.html:17
 msgid "Jugar"
-msgstr ""
+msgstr "Giocare a"
 
 #: mvc/templates/home/home.html:49 mvc/templates/play/easyQ.html:18
 #: mvc/templates/play/hardQ.html:18 mvc/templates/play/middQ.html:18
 #: mvc/templates/play/results.html:49 mvc/templates/play/rules.html:15
 #: mvc/templates/tools/menuTools.html:23
 msgid "Cerrar Sesión"
-msgstr ""
+msgstr "Disconnettersi"
 
 #: mvc/templates/home/home.html:60
 msgid "Bienvenido"
-msgstr ""
-
-#: mvc/templates/home/home.html:63
-msgid "Top 10 global"
-msgstr ""
-
-#: mvc/templates/home/home.html:68 mvc/templates/home/home.html:91
-msgid "Fecha"
-msgstr ""
-
-#: mvc/templates/home/home.html:69 mvc/templates/home/home.html:92
-msgid "Puntuacion"
-msgstr ""
-
-#: mvc/templates/home/home.html:86
-msgid "Top 10 del jugador"
-msgstr ""
+msgstr "Accoglienza"
 
 #: mvc/templates/home/home.html:63
 msgid "Top 10 global"
@@ -156,31 +140,31 @@ msgstr "Top 10 del giocatore"
 
 #: mvc/templates/log_in/logIn.html:8 mvc/templates/register/register.html:18
 msgid "Registrarse"
-msgstr ""
+msgstr "Registrare"
 
 #: mvc/templates/log_in/logIn.html:51
 msgid "Inicie sesión"
-msgstr ""
+msgstr "Accedere"
 
 #: mvc/templates/log_in/logIn.html:54
 msgid "Nombre de Usuario"
-msgstr ""
+msgstr "Nome utente"
 
 #: mvc/templates/log_in/logIn.html:59 mvc/templates/register/register.html:42
 msgid "Contraseña"
-msgstr ""
+msgstr "Parola d'ordine"
 
 #: mvc/templates/log_in/logIn.html:64 mvc/templates/register/register.html:53
 msgid "Cancelar"
-msgstr ""
+msgstr "Annulla"
 
 #: mvc/templates/log_in/logIn.html:65
 msgid "Iniciar Sesión"
-msgstr ""
+msgstr "Accedere"
 
 #: mvc/templates/log_in/logIn.html:69
 msgid "Crear una cuenta"
-msgstr ""
+msgstr "Creare un account"
 
 #: mvc/templates/play/easyQ.html:13 mvc/templates/play/hardQ.html:13
 #: mvc/templates/play/middQ.html:13
@@ -189,27 +173,15 @@ msgstr "Esci dal gioco"
 
 #: mvc/templates/play/easyQ.html:26
 msgid "Pregunta fácil"
-msgstr ""
+msgstr "Domanda facile"
 
 #: mvc/templates/play/hardQ.html:26
 msgid "Pregunta difícil"
-msgstr ""
+msgstr "Domanda dificile"
 
 #: mvc/templates/play/middQ.html:26
 msgid "Pregunta media"
-msgstr ""
-
-#: mvc/templates/play/results.html:55
-msgid "FELICITACIONES"
-msgstr ""
-
-#: mvc/templates/play/results.html:57
-msgid "Tu puntuacion es"
-msgstr ""
-
-#: mvc/templates/play/results.html:57
-msgid "puntos"
-msgstr ""
+msgstr "Domanda centrale"
 
 #: mvc/templates/play/results.html:55
 msgid "FELICITACIONES"
@@ -225,35 +197,35 @@ msgstr "punti"
 
 #: mvc/templates/play/rules.html:22
 msgid "Reglamento"
-msgstr ""
+msgstr "Regolamento"
 
 #: mvc/templates/play/rules.html:23
 msgid "Aquí puedes leer como es la modalidad del juego"
-msgstr ""
+msgstr "Qui puoi leggere come si gioca"
 
 #: mvc/templates/play/rules.html:28
 msgid "Preguntas fáciles"
-msgstr ""
+msgstr "Domande facili"
 
 #: mvc/templates/play/rules.html:29
 msgid "Se ofrecerán 4 opciones, de las cuales solamente una será correcta"
-msgstr ""
+msgstr "Avrai 4 opzioni e solo tu avrai ragione"
 
 #: mvc/templates/play/rules.html:30 mvc/templates/play/rules.html:35
 msgid "Tendrás 20 segundos para elegir tu respuesta"
-msgstr ""
+msgstr "Avrai 20 secondi per rispondere"
 
 #: mvc/templates/play/rules.html:33
 msgid "Preguntas medias"
-msgstr ""
+msgstr "Domande centrali"
 
 #: mvc/templates/play/rules.html:34 mvc/templates/play/rules.html:39
 msgid "Se ofrecerán 8 opciones, de las cuales solamente una será correcta"
-msgstr ""
+msgstr "Avrai 8 opzioni e solo tu avrai ragione"
 
 #: mvc/templates/play/rules.html:38
 msgid "Preguntas difíciles"
-msgstr ""
+msgstr "Domande dificili"
 
 #: mvc/templates/play/rules.html:40
 msgid "Tendrás 10 segundos para elegir tu respuesta"
@@ -261,15 +233,15 @@ msgstr "Avrai 10 secondi per rispondere"
 
 #: mvc/templates/register/register.html:22
 msgid "Nombre"
-msgstr ""
+msgstr "Nome"
 
 #: mvc/templates/register/register.html:27
 msgid "Apellido"
-msgstr ""
+msgstr "Cognome"
 
 #: mvc/templates/register/register.html:32
 msgid "Nombre de usuario"
-msgstr ""
+msgstr "Nome utente"
 
 #: mvc/templates/register/register.html:47
 msgid "Confirmar contraseña"
@@ -281,11 +253,11 @@ msgstr "conferma"
 
 #: mvc/templates/register/register.html:58
 msgid "Ya tengo una cuenta"
-msgstr ""
+msgstr "Ho già un account"
 
 #: mvc/templates/tools/menuTools.html:33
 msgid "Bienvenido jugador"
-msgstr ""
+msgstr "Benvenuto giocatore"
 
 #: mvc/templates/tools/menuTools.html:34
 msgid "Aqui se encuentran algunas características que podrían ser de tu agrado"
@@ -304,4 +276,3 @@ msgid ""
 "En Home se encuentran las mayores puntuaciones hechas por la comunidad, y"
 " las tuyas también, diviértete y alcanza la gloria"
 msgstr "In Home ci sono i punteggi più alti ottenuti dalla community"
-
