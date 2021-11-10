@@ -87,7 +87,7 @@ class PreguntasLogic:
 
         preg=self.armarPregunta(preg, famcorrecto.nombreCompleto)
 
-        return preg, respCorrecta, respIncorrectas
+        return preg, respCorrecta, respIncorrectas, famcorrecto.imagen
 
 
     def armarPregunta(self, preg: str, fam: str):

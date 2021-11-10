@@ -19,7 +19,7 @@ class PuntuacionData(DataBase):
             self.close()
 
 # =====================================================================================================================#
-    def GetAll(self)->list[Score]:
+    def GetAll(self)->List[Score]:
         self.open()
         listaPuntuaciones=list()
         try:

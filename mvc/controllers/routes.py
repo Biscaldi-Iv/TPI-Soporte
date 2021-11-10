@@ -167,28 +167,34 @@ def questions():
     if request.method=='POST':
         if 'nivel' not in session.keys():
             session['nivel']=0
+            session['puntuacion']=0
+        
         if session['nivel']!=0 and request.form['formrespuesta']=='false':
             #falta mostrar puntuacion y registrarla
-            return redirect('/home')
+            contexto = {"username": session['user']}
+            return render_template('play/results.html',**contexto)
+        suma_puntos(session['dificultad'])     
         nivel=session['nivel']+1
         session['nivel']=nivel
         #cambiar despues la cantidad de veces de cada nivel
-        #if nivel<=10:
-        if False:
+        if nivel<=10:
+            session['dificultad']='facil'
             p = PreguntasLogic()
-            pregunta, correcta, incorrecta = p.getRandomQuestion(4)
-            contexto = {"pregunta": pregunta, "correcta": correcta, "incorrecta": incorrecta, }
+            pregunta, correcta, incorrecta, imagen = p.getRandomQuestion(4)
+            contexto = {"pregunta": pregunta, "correcta": correcta, "incorrecta": incorrecta, "imagen": imagen}
             return render_template('play/easyQ.html', **contexto)
-        if True:
+        elif nivel<=20:
+            session['dificultad']='media'
             p = PreguntasLogic()
-            pregunta, correcta, incorrecta = p.getRandomQuestion(8)
-            contexto = {"pregunta": pregunta, "correcta": correcta, "incorrecta": incorrecta, }
-            return render_template('play/hardQ.html', **contexto)
-        if 3<nivel:
-            p = PreguntasLogic()
-            pregunta, correcta, incorrecta = p.getRandomQuestion(8)
-            contexto = {"pregunta": pregunta, "correcta": correcta, "incorrecta": incorrecta, }
+            pregunta, correcta, incorrecta, imagen = p.getRandomQuestion(8)
+            contexto = {"pregunta": pregunta, "correcta": correcta, "incorrecta": incorrecta, "imagen": imagen }
             return render_template('play/middQ.html', **contexto)
+        elif nivel>20:
+            session['dificultad']='dificil'
+            p = PreguntasLogic()
+            pregunta, correcta, incorrecta, imagen = p.getRandomQuestion(8)
+            contexto = {"pregunta": pregunta, "correcta": correcta, "incorrecta": incorrecta, "imagen": imagen }
+            return render_template('play/hardQ.html', **contexto)
     else:
         #"arreglar **"
         return 'Estas haciendo trampa'
@@ -200,3 +206,13 @@ def questions():
 @global_scope.route('/menuTools', methods=['POST', 'GET'])
 def menu_tools():
     return render_template('tools/menuTools.html')
+
+
+def suma_puntos(dificultad: str):
+     if dificultad == "facil":
+         session [ "puntuacion" ] += 10
+     elif dificultad == "media":
+         session [ "puntuacion" ] += 20
+     elif dificultad == "dificil" :
+         session [ "puntuacion" ] += 30
+
