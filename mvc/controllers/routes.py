@@ -2,8 +2,9 @@ import datetime
 
 from flask import request, url_for, Blueprint, session, render_template, redirect, json, g
 import requests
-from entities.models import Users
+from entities.models import Users,Score
 from bussiness.usuarios_logic import UserLogic
+from bussiness.puntuacion_logic import PuntuacionLogic
 from typing import Dict
 from keys import secret_key, public_key
 from flask_babel import gettext as _
@@ -170,10 +171,15 @@ def questions():
             session['puntuacion']=0
         
         if session['nivel']!=0 and request.form['formrespuesta']=='false':
-            #falta mostrar puntuacion y registrarla
-            contexto = {"username": session['user']}
+            pl=PuntuacionLogic()
+            s=Score(username=session['user'],score=session['puntuacion'])
+            pl.register(s)
+            contexto = {"username": session['user'], "puntuacion": session['puntuacion']}
+            session.pop("puntuacion")
+            session.pop("nivel")
             return render_template('play/results.html',**contexto)
-        suma_puntos(session['dificultad'])     
+        if 'dificultad' in session.keys():
+            suma_puntos(session['dificultad'],session['nivel'])
         nivel=session['nivel']+1
         session['nivel']=nivel
         #cambiar despues la cantidad de veces de cada nivel
@@ -208,8 +214,8 @@ def menu_tools():
     return render_template('tools/menuTools.html')
 
 
-def suma_puntos(dificultad: str):
-     if dificultad == "facil":
+def suma_puntos(dificultad: str, nivel: int):
+     if dificultad == "facil" and nivel>0:
          session [ "puntuacion" ] += 10
      elif dificultad == "media":
          session [ "puntuacion" ] += 20

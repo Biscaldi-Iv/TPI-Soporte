@@ -55,5 +55,10 @@
 <font size=30 class="text-center">FELICITACIONES {{ username }}!</font>
 <br><br><br>
 <h2 class="text-center">Tu puntuacion es: {{ puntuacion }} puntos</h2>
-<button>Volver a intentar</button>
+<br><br><br>
+<form method="get" id="frm">
+  <div class="form-group text-center">
+    <button id="btnHome" class="btn btn-primary btn-md center-block" type="submit" formaction="{{url_for('justintime.home')}}" >Home</button>
+  </div>
+  </form>
 {% endblock %}

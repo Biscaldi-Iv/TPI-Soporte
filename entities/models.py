@@ -1,5 +1,5 @@
 from datetime import datetime
-from typing import Tuple
+from typing import Tuple,List,Any
 from werkzeug.security import generate_password_hash, check_password_hash
 from datetime import  datetime
 
@@ -60,20 +60,19 @@ class Famous():
 
 
 class Score():
-    def __init__(self, idPuntuacion=0, score: int=0, fechaPuntuacion: datetime=datetime.today(), tiempoPuntuacion: datetime=0, username: str=''):
+    def __init__(self, idPuntuacion=0, score: int=0, fechaPuntuacion: datetime=datetime.today(), username: str=''):
         self.idPuntuacion = idPuntuacion
         self.score = score
         self.fechaPuntuacion = fechaPuntuacion
-        self.tiempoPuntuacion = tiempoPuntuacion
         self.username = username
-        return self
+
 
     def __repr__(self):
-        return f"Score({self.idPuntuacion},{self.score},{self.fechaPuntuacion},{self.tiempoPuntuacion},{self.username})"
+        return f"Score({self.idPuntuacion},{self.score},{self.fechaPuntuacion},{self.username})"
 
-    def lst(self) -> Tuple:
-        """returns ('score', 'fechapuntuacion', 'tiempopuntuacion', 'username')"""
-        return self.score, self.fechaPuntuacion, self.tiempoPuntuacion, self.username
+    def lst(self) -> List[Any]:
+        """returns ('score', 'fechapuntuacion', 'username')"""
+        return [self.score, self.fechaPuntuacion, self.username]
 
 
 class Question():
@@ -85,5 +84,5 @@ class Question():
         return f"Question({self.idPregunta},{self.descripcion})"
 
     def lst(self) -> Tuple:
-        """returns ('idpregunta', 'descripcion', 'idTipoFamoso')"""
-        return self.idPregunta, self.descripcion, self.idTipoFamoso
+        """returns ('idpregunta', 'descripcion')"""
+        return self.idPregunta, self.descripcion
