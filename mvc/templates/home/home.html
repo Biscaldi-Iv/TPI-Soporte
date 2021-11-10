@@ -13,7 +13,6 @@
             <a class="nav-link" href="#">{{ _('Usuario') }}</a>
           </li>
           <li>
-            <div class="btn-toolbar">
             <div class="dropdown">
               <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-translate" viewBox="0 0 16 16">
@@ -38,16 +37,16 @@
               </ul>
             </div>
           </li>
-          &nbsp;&nbsp;
           <li class="nav-item">
               <form method="get" id="frmplay">
               <button id="btnplay" class="btn btn-success btn-md center-block" type="submit" formaction="{{url_for('justintime.rules')}}">{{ _('Jugar') }}</button>
             </form>
           </li>
-          <li> <p> ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo, </p></li>
+
+        </ul>
           <li class="nav-item">
             <form method="get" id="logoutfrm">
-              <button id="btnLogOut" class="btn btn-danger btn-md" type="submit" formaction="{{url_for('justintime.logout')}}">{{ _('Cerrar Sesión') }}</button>
+              <button id="btnLogOut" class="btn btn-danger btn-md center-block" type="submit" formaction="{{url_for('justintime.logout')}}">{{ _('Cerrar Sesión') }}</button>
             </form>
           </li>
 {% endblock %}
