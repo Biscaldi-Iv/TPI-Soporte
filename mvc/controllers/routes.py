@@ -141,7 +141,7 @@ def register():
                     user_logic.register(newuser)
                     session['user'] = newuser.username
                     session['auth'] = 1
-                    return redirect('/home')
+                    return redirect("/")
                 else:
                     context.update(
                         {'error': 'No paso recaptcha', 'lastdata': newuser})

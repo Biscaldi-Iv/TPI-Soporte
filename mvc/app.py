@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 app.secret_key = 'www123456www'
 app.config['BABEL_DEFAULT_LOCALE'] = 'en'
-app.config['BABEL_TRANSLATION_DIRECTORIES'] = '/home/usuario/Documentos/Soporte 2021/TPI-Soporte/translations'
+app.config['BABEL_TRANSLATION_DIRECTORIES'] = 'C:/Users/Usuario/Desktop/TPI Soporte/translations'
 babel = Babel(app)
 
 
@@ -20,16 +20,16 @@ def get_locale():
         if not 'lang_code' in g:
             # use default
             g.lang_code = 'en'
-            request_lc = 'en_US'
+            request_lc = 'en'
         else:
             if g.lang_code == 'es':
-                request_lc = 'es_ES'
+                request_lc = 'es'
             elif g.lang_code == 'de':
-                request_lc = 'de_DE'
+                request_lc = 'de'
             elif g.lang_code == 'it':
-                request_lc = 'it_IT'
+                request_lc = 'it'
             else:
-                request_lc = 'en_US'
+                request_lc = 'en'
 
     else:
         # set g.lang_code to the requested language
@@ -53,8 +53,11 @@ def session_control():  # control de sesion -->ver
 
 
 @app.route('/', methods=['POST', 'GET'])
-def imagen():
-    return redirect('/es/logout')
+def redireccion():
+    langcode=get_locale()
+    if type(langcode) is None or len(langcode)<2:
+        langcode='en'
+    return redirect('/'+langcode+'/home')
 
 
 app.register_blueprint(global_scope, url_prefix='/<lang_code>')
