@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 app.secret_key = 'www123456www'
 app.config['BABEL_DEFAULT_LOCALE'] = 'en'
-app.config['BABEL_TRANSLATION_DIRECTORIES'] = 'C:/Users/Usuario/Desktop/TPI Soporte/translations'
+app.config['BABEL_TRANSLATION_DIRECTORIES'] = '/home/usuario/Documentos/Soporte 2021/TPI-Soporte/translations'
 babel = Babel(app)
 
 
@@ -57,7 +57,8 @@ def redireccion():
     langcode=get_locale()
     if type(langcode) is None or len(langcode)<2:
         langcode='en'
-    return redirect('/'+langcode+'/home')
+    return redirect(url_for('justintime.home'))
+    #return redirect('/'+langcode+'/home')
 
 
 app.register_blueprint(global_scope, url_prefix='/<lang_code>')

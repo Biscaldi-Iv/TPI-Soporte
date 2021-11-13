@@ -59,7 +59,7 @@ def SessionCheck():
             sincelast = (datetime.datetime.now() - lastinteraction).seconds/60
             # hay 10 minutos de sesion maximo hasta pedir login nuevamente
             if session['user'] is None or session['auth'] != 1 or sincelast > 10:
-                return redirect('/logout')
+                return redirect(url_for('justintime.logout'))
         except:
             return redirect('/logout')
         # se renueva la sesion
