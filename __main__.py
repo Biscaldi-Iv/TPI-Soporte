@@ -1,3 +1,3 @@
-from mvc.app import app
+from site.app import app
 
 app.run()

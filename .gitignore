@@ -6,13 +6,13 @@ Base_de_datos.connection.py
 .idea
 .idea/workspace.xml
 entities/__pycache__/models.cpython-39.pyc
-mvc/controllers/__pycache__/routes.cpython-39.pyc
+site/controllers/__pycache__/routes.cpython-39.pyc
 Base_de_datos/__pycache__/__init__.cpython-39.pyc
 Base_de_datos/__pycache__/connection.cpython-39.pyc
 Base_de_datos/__pycache__/dataUsuarios.cpython-39.pyc
 bussiness/__pycache__/usuarios_logic.cpython-39.pyc
 entities/__pycache__/__init__.cpython-39.pyc
-mvc/controllers/__pycache__/__init__.cpython-39.pyc
+site/controllers/__pycache__/__init__.cpython-39.pyc
 keys.py
 *__pycache__
 *.jpg
